@@ -13,7 +13,6 @@ These instructions will get you a copy of the project up and running on your loc
   
 NOTE - The code works best with a self deployed GETH because all the other providers will allow only limited number of hits per day.
 
-
 ## Installing
 
 1. Get the ssh key into your .ssh directory. Please note that this key should be the one uploaded to github so that you can access github without username and password.
