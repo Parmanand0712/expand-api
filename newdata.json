@@ -1,0 +1,40 @@
+{
+    "9c04WzEh912AAmGuNV76I62CcsRHhdPs8bTJIwBi": {
+      "costPerComputeUnit": 0.0006488888889,
+      "WAF": 0.00000691,
+      "planName": "Enterprise Plan",
+      "multiplicationFactor": 10
+    },
+    "cGMICzorjYpviahj2vtU5T3f8y1ivf81rdRByI70": {
+      "costPerComputeUnit": 0.0007851555556,
+      "WAF": 0.00000691,
+      "planName": "Growth Plan",
+      "multiplicationFactor": 10
+    },
+    "undefined": {},
+    "tK503cR23o8YTvXhNoDNo7kQf5sQdbXP8qbqkBeQ": {
+      "costPerComputeUnit": 0.0006488888889,
+      "WAF": 0.00000691,
+      "planName": "Internal Team Plan",
+      "multiplicationFactor": 10
+    },
+    "womQJlk67v5efj8dEovEZ56GsCWfNKQsaXsd9fZz": {
+      "costPerComputeUnit": 0.001045042044,
+      "WAF": 0.000005119,
+      "planName": "Free Plan",
+      "multiplicationFactor": 10
+    },
+    "xPo5kWWBIa3mEUmSrAUu067oZi3bf005657O2YmV": {},
+    "TytSO3SsIw98gr6x8ezpI9QFw2LGWVEr8CwUF9Kd": {
+      "costPerComputeUnit": 0.0006488888889,
+      "WAF": 0.00000691,
+      "planName": "Internal Team Plan",
+      "multiplicationFactor": 10
+    },
+    "q9kfozyMWG80FzIbJVyh07L38mypZdDH8fCeE3Mx": {
+      "costPerComputeUnit": 0.0009500382222,
+      "WAF": 0.000005119,
+      "planName": "Starter Plan",
+      "multiplicationFactor": 10
+    }
+  }

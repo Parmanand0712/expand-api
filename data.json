@@ -1,0 +1,781 @@
+{
+    "getTransaction()": {
+        "chainId": "1",
+        "transactionHash": "0xfff975e7f1b9c43c811b170c090bd7ecf770ab1c957deb89f0d21399b69e7415",
+        "chainSymbol": "ETH"
+    },
+    "getBlock()": {
+        "blockNumber": "16112345",
+        "chainId": "1",
+        "chainSymbol": "ETH"
+    },
+    "postGeneric()": {
+        "contractAddress": "0x7a250d5630B4cF539739dF2C5dAcb4c659F2488D",
+        "methodName": "getAmountsIn",
+        "parameters": [
+            "451541111",
+            [
+                "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
+                "0x6B175474E89094C44Da98b954EedeAC495271d0F"
+            ]
+        ],
+        "blockNumber": "17000000"
+    },
+    "getPublicRpc()": {
+        "chainId": "1"
+    },
+    "getBalance()": {
+        "address": "0x24BA1542F8a0a20e8251d096213384Cfb0eE3dbC",
+        "tokenAddress": "0x6B175474E89094C44Da98b954EedeAC495271d0F"
+    },
+    "getStorage()": {
+        "address": "0x7a250d5630B4cF539739dF2C5dAcb4c659F2488D",
+        "index": "0"
+    },
+    "getGasPrice()": {
+        "from": "0x6Fb447Ae94F5180254D436A693907a1f57696900",
+        "to": "0x7a250d5630B4cF539739dF2C5dAcb4c659F2488D",
+        "data": "0x38ed1739000000000000000000000000000000000000000000000000000000e8d4a5100000000000000000000000000000000000000000000000000000000000000186a000000000000000000000000000000000000000000000000000000000000000a00000000000000000000000006fb447ae94f5180254d436a693907a1f5769690000000000000000000000000000000000000000000000000000000000647136230000000000000000000000000000000000000000000000000000000000000002000000000000000000000000b4fbf271143f4fbf7b91a5ded31805e42b2208d6000000000000000000000000dc31ee1784292379fbb2964b3b9c4124d8f89c60",
+        "chainId": "1"
+    },
+    "getGasFees()": {
+        "endBlock": "17086669",
+        "startBlock": "16086669",
+        "address": "0x6Fb447Ae94F5180254D436A693907a1f57696900",
+        "chainId": "1"
+    },
+    "sendTransaction()": {
+        "rawTransaction": "0xf86f048433918fbe830493e0949b79d6dfe4650d70f35dbb80f7d1ec0cf7f823fd87038d7ea4c6800084022794382da0c9bd6b5c7e18a258b04039d524a3e1382ec0f522d160dc027428933f520b6868a07332736f1df297842299230820626f1fc5b8d4cdd602ade55e3ba02c63e756ce",
+        "chainId": "1"
+    },
+    "getTransactionSui()": {
+        "chainId": "101",
+        "transactionHash": "BrF191E586Xx4DnVgGrppShJjuij8oRw9D2uUbFEw4mg",
+        "chainSymbol": "Sui"
+    },
+    "getBlockSui()": {
+        "blockNumber": "4560363",
+        "chainId": "101",
+        "chainSymbol": "Sui"
+    },
+    "getPublicRpcSui()": {
+        "chainId": "101"
+    },
+    "getBalanceSui()": {
+        "chainId": "101",
+        "address": "0x94e4fe2fc9f1534f0eeb02a60e885e0a1342f8ccdfbf7bce30e12dc90020616d"
+    },
+    "getStorageSui()": {
+        "address": "0x94e4fe2fc9f1534f0eeb02a60e885e0a1342f8ccdfbf7bce30e12dc90020616d",
+        "chainId": "101"
+    },
+    "getGasPriceSui()": {
+        "chainId": "101"
+    },
+    "sendTransactionSui()": {
+        "rawTransaction": "AAACAAjoAwAAAAAAAAAgjoLsljoRhNzWIhv109/7Y5u+3rE+m3cIAS6+9fY1CV0CAgABAQAAAQEDAAAAAAEBAHU9KMxqJHko4cO7vudRc1fUWhlgTsWqhC49Sd/RqeJ3AaIVb/dXVkDYxQvhwkt4B/w6xjjjaz6UwUvD2hSRzuPiKxIAAAAAAAAgDaDRi5RQEPTYGwu9d/gfao4Rv4wqZZqPK75oWk/SJ4J1PSjMaiR5KOHDu77nUXNX1FoZYE7FqoQuPUnf0anid+gDAAAAAAAAEJAtAAAAAAAA",
+        "signature": "AO/fJ/R1h3Xf9kPAzVaE0P605jbhnhKRGIDqi8UBcZ6bo+SUkwVSO0BIbtg/RYjo5SIT2R17ZsCktFmYPquj+wxDii+a4T1FLWxQvLizpwhD6VXBW4qPG0vYYOJ2O0GuhQ==",
+        "chainId": "101"
+    },    
+    "getLiquidityUniswapV2()": {
+        "dexId": "1000",
+        "tokenA": "0x0ab87046fBb341D058F17CBC4c1133F25a20a52f",
+        "tokenB": "0x6B175474E89094C44Da98b954EedeAC495271d0F",
+        "address": "0x6Fb447Ae94F5180254D436A693907a1f57696900"
+    },
+    "getLiquidityUniswapV3()": {
+        "tokenId": "12341",
+        "dexId": "1300"
+    },
+    "getLiquiditySushiswapV2()": {
+        "dexId": "1100",
+        "tokenA": "0x0ab87046fBb341D058F17CBC4c1133F25a20a52f",
+        "tokenB": "0x6B175474E89094C44Da98b954EedeAC495271d0F",
+        "address": "0x6Fb447Ae94F5180254D436A693907a1f57696900"
+    },
+    "getLiquidityPancakeswapV2()": {
+        "dexId": "1200",
+        "tokenA": "0x0ab87046fBb341D058F17CBC4c1133F25a20a52f",
+        "tokenB": "0x6B175474E89094C44Da98b954EedeAC495271d0F",
+        "address": "0x6Fb447Ae94F5180254D436A693907a1f57696900"
+    },
+    "getLiquidityBalancerV2()": {
+        "dexId": "1400",
+        "tokenA": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
+        "tokenB": "0x6B175474E89094C44Da98b954EedeAC495271d0F",
+        "address": "0x6Fb447Ae94F5180254D436A693907a1f57696900"
+    },
+    "getLiquidityCurveV2()": {
+        "dexId": "1500",
+        "tokenA": "0x6b175474e89094c44da98b954eedeac495271d0f",
+        "tokenB": "0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48",
+        "tokenC": "0xdac17f958d2ee523a2206206994597c13d831ec7",
+        "address": "0x6Fb447Ae94F5180254D436A693907a1f57696900"
+    },
+    "getPoolDex()": {
+        "dexId": [
+            "1000",
+            "1100",
+            "1200",
+            "1300"
+        ],
+        "path": [
+            "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
+            "0x6B175474E89094C44Da98b954EedeAC495271d0F"
+        ],
+        "amountIn": "1000000"
+    },
+    "getPriceUniswapV2()": {
+        "path": [
+            "0x853d955aCEf822Db058eb8505911ED77F175b99e",
+            "0x1f9840a85d5aF5bf1D1762F925BDADdC4201F984"
+        ],
+        "amountIn": "1000000000000000000",
+        "dexId": "1000"
+    },
+    "getPriceUniswapV3()": {
+        "dexId": "1300",
+        "path": [
+            "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+            "0xdac17f958d2ee523a2206206994597c13d831ec7"
+        ],
+        "amountIn": "1000000000000000000"
+    },
+    "getPriceBalancerV2()": {
+        "dexId": "1400",
+        "path": [
+            "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+            "0xdac17f958d2ee523a2206206994597c13d831ec7"
+        ],
+        "amountIn": "1000000000000000000"
+    },
+    "addLiquidityBalancerV2()": {
+        "dexId": "1400",
+        "path": [
+            "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+            "0xdac17f958d2ee523a2206206994597c13d831ec7"
+        ],
+        "amountIn": [
+            "0",
+            "100000000"
+        ],
+        "amountOut": "2331262690208301876",
+        "fromInternalBalance": false,
+        "gas": "2307200",
+        "from": "0x63056E00436Da25BcF48A40dfBbDcc7089351006",
+        "to": "0x63056E00436Da25BcF48A40dfBbDcc7089351006"
+    },
+    "removeLiquidityBalancerV2()": {
+        "dexId": "1400",
+        "path": [
+            "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+            "0xdac17f958d2ee523a2206206994597c13d831ec7"
+        ],
+        "amountOut": [
+            "0",
+            "100000000"
+        ],
+        "amountIn": "2427326557218525461",
+        "toInternalBalance": false,
+        "gas": "2307200",
+        "from": "0x63056E00436Da25BcF48A40dfBbDcc7089351006",
+        "to": "0x63056E00436Da25BcF48A40dfBbDcc7089351006"
+    },
+    "swapBalancerV2()": {
+        "dexId": "1400",
+        "swapKind": "0",
+        "path": [
+            "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+            "0xdac17f958d2ee523a2206206994597c13d831ec7"
+        ],
+        "amountIn": "100000",
+        "gas": "800000",
+        "from": "0x63056E00436Da25BcF48A40dfBbDcc7089351006",
+        "deadline": "1668973383"
+    },
+    "addLiquidityCurveV2()": {
+        "dexId": "1500",
+        "path": [
+            "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+            "0xae7ab96520de3a18e5e111b5eaab095312d7fe84"
+        ],
+        "amountIn": [
+            "100000000000000000",
+            "100000000000000000"
+        ],
+        "amountOut": "100000000",
+        "gas": "2307200",
+        "from": "0xaC1c52434464378Ea160E49d86866b2Ad134B515"
+    },
+    "removeLiquidityCurveV2()": {
+        "dexId": "1500",
+        "path": [
+            "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+            "0xae7ab96520de3a18e5e111b5eaab095312d7fe84"
+        ],
+        "amountOut": [
+            "1000",
+            "10000"
+        ],
+        "amountIn": "10000000",
+        "gas": "2307200",
+        "from": "0xaC1c52434464378Ea160E49d86866b2Ad134B515"
+    },
+    "getPriceCurveV2()": {
+        "dexId": "1500",
+        "path": [
+            "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+            "0xae7ab96520de3a18e5e111b5eaab095312d7fe84"
+        ],
+        "amountIn": "1000000000000000000"
+    },
+    "swapCurveV2()": {
+        "dexId": "1500",
+        "path": [
+            "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+            "0xae7ab96520de3a18e5e111b5eaab095312d7fe84"
+        ],
+        "amountIn": "100000",
+        "amountOutMin": "100",
+        "gas": "800000",
+        "from": "0xaC1c52434464378Ea160E49d86866b2Ad134B515"
+    },
+    "swapUniswapV2()": {
+        "dexId": "1000",
+        "amountIn": "1000000000000000",
+        "amountOutMin": "0",
+        "path": [
+            "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
+            "0x6B175474E89094C44Da98b954EedeAC495271d0F"
+        ],
+        "to": "0x63056E00436Da25BcF48A40dfBbDcc7089351006",
+        "deadline": "1665990894",
+        "from": "0x63056E00436Da25BcF48A40dfBbDcc7089351006",
+        "gas": "173376"
+    },
+    "swapUniswapV3()": {
+        "dexId": "1300",
+        "amountIn": "1000000000000000",
+        "amountOutMin": "0",
+        "path": [
+            "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
+            "0x6B175474E89094C44Da98b954EedeAC495271d0F"
+        ],
+        "to": "0x63056E00436Da25BcF48A40dfBbDcc7089351006",
+        "poolFees": "2975",
+        "from": "0x63056E00436Da25BcF48A40dfBbDcc7089351006",
+        "gas": "173376"
+    },
+    "addLiquidityUniswapV2()": {
+        "dexId": "1000",
+        "tokenA": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
+        "tokenB": "0x6B175474E89094C44Da98b954EedeAC495271d0F",
+        "amountADesired": "1000000000000000",
+        "amountBDesired": "1332066335118442626",
+        "amountAMin": "0",
+        "amountBMin": "0",
+        "to": "0x63056E00436Da25BcF48A40dfBbDcc7089351006",
+        "deadline": "166978170",
+        "from": "0x63056E00436Da25BcF48A40dfBbDcc7089351006",
+        "gas": "230000"
+    },
+    "addLiquidityUniswapV3()": {
+        "dexId": "1300",
+        "tokenA": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
+        "tokenB": "0x6B175474E89094C44Da98b954EedeAC495271d0F",
+        "poolFees": "3000",
+        "amountADesired": "1000000000000000",
+        "amountBDesired": "1294471768449933344",
+        "amountAMin": "0",
+        "amountBMin": "0",
+        "deadline": "1666193668",
+        "to": "0x63056E00436Da25BcF48A40dfBbDcc7089351006",
+        "from": "0x63056E00436Da25BcF48A40dfBbDcc7089351006",
+        "gas": "5446762"
+    },
+    "removeLiquidityUniswapV2()": {
+        "dexId": "1000",
+        "tokenA": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
+        "tokenB": "0x6B175474E89094C44Da98b954EedeAC495271d0F",
+        "liquidity": "20759430672661383",
+        "amountAMin": "0",
+        "amountBMin": "0",
+        "to": "0x63056E00436Da25BcF48A40dfBbDcc7089351006",
+        "deadline": "1669720626",
+        "from": "0x63056E00436Da25BcF48A40dfBbDcc7089351006",
+        "gas": "420000"
+    },
+    "removeLiquidityUniswapV3()": {
+        "dexId": "1300",
+        "tokenId": "38177",
+        "tokenA": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
+        "liquidity": "499737032187727318211",
+        "amountAMin": "0",
+        "amountBMin": "0",
+        "deadline": "1763180052",
+        "recipient": "0x0000000000000000000000000000000000000000",
+        "amountAMax": "340282366920938463463374607431768211455",
+        "amountBMax": "340282366920938463463374607431768211455",
+        "tokenB": "0x6B175474E89094C44Da98b954EedeAC495271d0F",
+        "from": "0x63056E00436Da25BcF48A40dfBbDcc7089351006",
+        "gas": "2421200",
+        "poolFees": "3000"
+    },
+    "getPoolAave()": {
+        "lendborrowId": "1000",
+        "asset": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2"
+    },
+    "getPoolsAave()": {
+        "lendborrowId": "1000",
+        "assets": [
+            "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2"
+        ]
+    },
+    "getPoolsCompound()": {
+        "lendborrowId": "1100",
+        "assets": [
+            "DAI",
+            "USDC",
+            "WETH"
+        ]
+    },
+    "getPoolCompound()": {
+        "lendborrowId": "1100",
+        "asset": "DAI"
+    },
+    "enterMarketStatus()": {
+        "account": "0x63056E00436Da25BcF48A40dfBbDcc7089351006",
+        "lendborrowId": "1100"
+    },
+    "enterMarketAave()": {
+        "lendborrowId": "1000",
+        "asset": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
+        "from": "0x63056E00436Da25BcF48A40dfBbDcc7089351006",
+        "gas": "2307200"
+    },
+    "enterMarketCompound()": {
+        "lendborrowId": "1100",
+        "asset": "DAI",
+        "from": "0x63056E00436Da25BcF48A40dfBbDcc7089351006",
+        "gas": "2307200"
+    },
+    "exitMarketCompound()": {
+        "lendborrowId": "1100",
+        "asset": "DAI",
+        "from": "0x63056E00436Da25BcF48A40dfBbDcc7089351006",
+        "gas": "2307200"
+    },
+    "borrowAave()": {
+        "lendborrowId": "1000",
+        "asset": "0xC011a73ee8576Fb46F5E1c5751cA3B9Fe0af2a6F",
+        "amount": "100",
+        "from": "0x63056E00436Da25BcF48A40dfBbDcc7089351006",
+        "onBehalfOf": "0x63056E00436Da25BcF48A40dfBbDcc7089351006",
+        "interestRateMode": "2",
+        "gas": "408298"
+    },
+    "borrowCompound()": {
+        "lendborrowId": "1100",
+        "asset": "DAI",
+        "amount": "100000",
+        "from": "0x63056E00436Da25BcF48A40dfBbDcc7089351006",
+        "gas": "442020"
+    },
+    "depositAave()": {
+        "lendborrowId": "1000",
+        "asset": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
+        "amount": "10000000000000000",
+        "from": "0x63056E00436Da25BcF48A40dfBbDcc7089351006",
+        "onBehalfOf": "0x63056E00436Da25BcF48A40dfBbDcc7089351006",
+        "gas": "408298"
+    },
+    "depositCompound()": {
+        "lendborrowId": "1100",
+        "asset": "DAI",
+        "amount": "1000000000000000000",
+        "from": "0x63056E00436Da25BcF48A40dfBbDcc7089351006",
+        "gas": "192020"
+    },
+    "liquidateAave()": {
+        "collateralAsset": "0x6B175474E89094C44Da98b954EedeAC495271d0F",
+        "debtAsset": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
+        "user": "0x63056E00436Da25BcF48A40dfBbDcc7089351006",
+        "debtToCover": "12331",
+        "recieveAToken": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
+        "from": "0x63056E00436Da25BcF48A40dfBbDcc7089351006",
+        "gas": "230000"
+    },
+    "liquidateCompound()": {
+        "collateralAsset": "DAI",
+        "debtAsset": "WETH",
+        "user": "0x63056E00436Da25BcF48A40dfBbDcc7089351006",
+        "debtToCover": "12331",
+        "recieveAToken": "WETH",
+        "from": "0x63056E00436Da25BcF48A40dfBbDcc7089351006",
+        "gas": "230000",
+        "lendborrowId": "1100"
+    },
+    "repayAave()": {
+        "lendborrowId": "1000",
+        "asset": "0xdAC17F958D2ee523a2206206994597C13D831ec7",
+        "amount": "100000",
+        "from": "0x63056E00436Da25BcF48A40dfBbDcc7089351006",
+        "onBehalfOf": "0x63056E00436Da25BcF48A40dfBbDcc7089351006",
+        "interestRateMode": "2",
+        "gas": "408298"
+    },
+    "getRepayAmountAave()": {
+        "lendborrowId": "1000",
+        "asset": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
+        "user": "0x63056E00436Da25BcF48A40dfBbDcc7089351006"
+    },
+    "getUserAccountDataAaveV2()": {
+        "asset": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
+        "lendborrowId": "1000",
+        "user": "0x63056E00436Da25BcF48A40dfBbDcc7089351006",
+        "interestRateMode": "1"
+    },
+    "getUserAccountDataCompound()": {
+        "asset": "DAI",
+        "lendborrowId": "1100",
+        "user": "0x63056E00436Da25BcF48A40dfBbDcc7089351006"
+    },
+    "repayCompound()": {
+        "lendborrowId": "1100",
+        "asset": "DAI",
+        "amount": "100000",
+        "from": "0x63056E00436Da25BcF48A40dfBbDcc7089351006",
+        "gas": "152020"
+    },
+    "withdrawAave()": {
+        "lendborrowId": "1000",
+        "asset": "0x6B175474E89094C44Da98b954EedeAC495271d0F",
+        "amount": "1000000000000000000",
+        "from": "0x63056E00436Da25BcF48A40dfBbDcc7089351006",
+        "to": "0x63056E00436Da25BcF48A40dfBbDcc7089351006",
+        "gas": "408298"
+    },
+    "withdrawCompound()": {
+        "lendborrowId": "1100",
+        "asset": "DAI",
+        "amount": "1000000000000000000",
+        "from": "0x63056E00436Da25BcF48A40dfBbDcc7089351006",
+        "gas": "312020"
+    },
+    "getRepayAmountCompound()": {
+        "asset": "DAI",
+        "lendborrowId": "1100",
+        "user": "0x63056E00436Da25BcF48A40dfBbDcc7089351006"
+    },
+    "getBorrowAmountCompound()": {
+        "asset": "DAI",
+        "lendborrowId": "1100",
+        "user": "0x63056E00436Da25BcF48A40dfBbDcc7089351006"
+    },
+    "getPriceChainLink()": {
+        "oracleId": "1000",
+        "asset": "ETH"
+    },
+    "getPriceWinkLink()": {
+        "oracleId": "1100",
+        "asset": "ETH"
+    },
+    "getBalanceYearnFinance()": {
+        "address": "0x6Fb447Ae94F5180254D436A693907a1f57696900",
+        "tokenAddress": "0x6B175474E89094C44Da98b954EedeAC495271d0F",
+        "yieldAggregatorId": "5000"
+    },
+    "getVaultsYearnFinance()": {
+        "yieldAggregatorId": "5000",
+        "tokenAddress": "0x6B175474E89094C44Da98b954EedeAC495271d0F"
+    },
+    "getVaultsHarvestFinance()": {
+        "yieldAggregatorId": "5100",
+        "tokenAddress": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2"
+    },
+    "depositVaultYearnFinance()": {
+        "from": "0x63056E00436Da25BcF48A40dfBbDcc7089351006",
+        "tokenAddress": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+        "amount": "500000",
+        "vaultNumber": "1",
+        "yieldAggregatorId": "5000",
+        "gas": "2307200"
+    },
+    "withdrawVaultYearnFinance()": {
+        "from": "0x63056E00436Da25BcF48A40dfBbDcc7089351006",
+        "tokenAddress": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+        "amount": "4881310",
+        "gas": "2307200",
+        "vaultNumber": "1",
+        "yieldAggregatorId": "5000"
+    },
+    "withdrawVaultHarvestFinance()": {
+        "from": "0x63056E00436Da25BcF48A40dfBbDcc7089351006",
+        "tokenAddress": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+        "amount": "500000",
+        "gas": "2307200",
+        "yieldAggregatorId": "5100"
+    },
+    "withdrawPoolHarvestFinance()": {
+        "from": "0x63056E00436Da25BcF48A40dfBbDcc7089351006",
+        "amount": "4934226",
+        "gas": "2307200",
+        "tokenAddress": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+        "yieldAggregatorId": "5100"
+    },
+    "getBalanceHarvestFinance()": {
+        "address": "0x6Fb447Ae94F5180254D436A693907a1f57696900",
+        "tokenAddress": "0x6B175474E89094C44Da98b954EedeAC495271d0F",
+        "yieldAggregatorId": "5100"
+    },
+    "depositVaultHarvestFinance()": {
+        "from": "0x63056E00436Da25BcF48A40dfBbDcc7089351006",
+        "tokenAddress": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+        "amount": "500000",
+        "gas": "2307200",
+        "yieldAggregatorId": "5100"
+    },
+    "depositPoolHarvestFinance()": {
+        "from": "0x63056E00436Da25BcF48A40dfBbDcc7089351006",
+        "tokenAddress": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+        "amount": "4934226",
+        "gas": "2307200",
+        "yieldAggregatorId": "5100"
+    },
+    "approveEvm()": {
+        "from": "0x63056E00436Da25BcF48A40dfBbDcc7089351006",
+        "tokenAddress": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
+        "amount": "1000000000000000000000",
+        "to": "0x828b154032950c8ff7cf8085d841723db2696056",
+        "gas": "100000"
+    },
+    "transferFromEvm()": {
+        "from": "0x63056E00436Da25BcF48A40dfBbDcc7089351006",
+        "tokenAddress": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
+        "amount": "70",
+        "to": "0x63056E00436Da25BcF48A40dfBbDcc7089351006",
+        "gas": "2307200",
+        "reciever": "0x94a5E554DC172A472421291Ae6e6c0e3C150286F"
+    },
+    "transferEvm()": {
+        "from": "0x63056E00436Da25BcF48A40dfBbDcc7089351006",
+        "tokenAddress": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
+        "amount": "1",
+        "to": "0x3E1Ca9fe2FC3021408d0E869BD3AFb167F889F38",
+        "gas": "2307200"
+    },
+    "getNameEvm()": {
+        "tokenAddress": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2"
+    },
+    "getSymbolEvm()": {
+        "tokenAddress": "0x6B175474E89094C44Da98b954EedeAC495271d0F"
+    },
+    "getDecimalsEvm()": {
+        "tokenAddress": "0x6B175474E89094C44Da98b954EedeAC495271d0F"
+    },
+    "getTokenDetailsEvm()": {
+        "tokenAddress": "0x6B175474E89094C44Da98b954EedeAC495271d0F"
+    },
+    "getUserBalance()": {
+        "tokenAddress": "0x6B175474E89094C44Da98b954EedeAC495271d0F",
+        "address": "0x6Fb447Ae94F5180254D436A693907a1f57696900"
+    },
+    "getWethBalance()": {
+        "user": "0x63056E00436Da25BcF48A40dfBbDcc7089351006"
+    },
+    "getUserAllowanceEvm()": {
+        "tokenAddress": "0x6B175474E89094C44Da98b954EedeAC495271d0F",
+        "owner": "0x6Fb447Ae94F5180254D436A693907a1f57696900",
+        "spender": "0x63056E00436Da25BcF48A40dfBbDcc7089351006"
+    },
+    "convertBaseTokenToWrapTokenEvm()": {
+        "from": "0x63056E00436Da25BcF48A40dfBbDcc7089351006",
+        "tokenAddress": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
+        "gas": "2307200",
+        "amount": "10"
+    },
+    "convertWrapTokenToBaseTokenEvm()": {
+        "from": "0x63056E00436Da25BcF48A40dfBbDcc7089351006",
+        "tokenAddress": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
+        "amount": "5",
+        "gas": "2307200"
+    },
+    "getNameSolana()": {
+        "publickey":"kAtVAPfxVnCGYnYQoQkhPTeRFBgH7ebKfohufiMTGKq",
+        "token":"AoAH8NBws97Fn4QFt9wpThBPzaTZt6aYqFqepTji3yT6"
+    },
+    "getSymbolSolana()": {
+        "publickey":"kAtVAPfxVnCGYnYQoQkhPTeRFBgH7ebKfohufiMTGKq",
+        "token":"AoAH8NBws97Fn4QFt9wpThBPzaTZt6aYqFqepTji3yT6"
+    },
+    "getDecimalsSolana()": {
+        "token":"AoAH8NBws97Fn4QFt9wpThBPzaTZt6aYqFqepTji3yT6"
+    },
+    "approveSolana()": {
+        "owner":"kAtVAPfxVnCGYnYQoQkhPTeRFBgH7ebKfohufiMTGKq",
+        "token": "AoAH8NBws97Fn4QFt9wpThBPzaTZt6aYqFqepTji3yT6",
+        "delegate":"5NRcjdDkJ85r84DUhFtRZKJNiointMMk8xm9mtye5W7G"
+    },
+    "transferSolana()": {
+        "feePayer":"kAtVAPfxVnCGYnYQoQkhPTeRFBgH7ebKfohufiMTGKq",
+        "token":"AoAH8NBws97Fn4QFt9wpThBPzaTZt6aYqFqepTji3yT6",
+        "destination":"Dgq5B8i5NJJfPoUgpkFZDzRr84zd1BJrUBntJt1EBvgd",
+        "sender":"kAtVAPfxVnCGYnYQoQkhPTeRFBgH7ebKfohufiMTGKq",
+        "amount":100,
+        "decimals":"9"
+    },
+    "getPriceEvm()": {
+        "asset": "USDC"
+    },
+    "getPriceSynthetix()": {
+        "syntheticId": "6000",
+        "amount": "100000"
+    },
+    "convertBaseToPeggedToken()": {
+        "syntheticId": "6000",
+        "amount": "100000",
+        "from": "0x6Fb447Ae94F5180254D436A693907a1f57696900",
+        "gas": "230000"
+    },
+    "convertPeggedToBaseToken()": {
+        "syntheticId": "6000",
+        "amount": "100000",
+        "from": "0x6Fb447Ae94F5180254D436A693907a1f57696900",
+        "gas": "230000"
+    },
+    "convertPeggedToProtocolToken()": {
+        "syntheticId": "6000",
+        "amount": "100000",
+        "from": "0x6Fb447Ae94F5180254D436A693907a1f57696900",
+        "gas": "230000"
+    },
+    "convertProtocolToBaseToken()": {
+        "syntheticId": "6000",
+        "amount": "100000",
+        "from": "0x6Fb447Ae94F5180254D436A693907a1f57696900",
+        "gas": "230000"
+    },
+    "liquidateSynthetix()": {
+        "blockNumber": "16112345",
+        "chainId": "1",
+        "chainSymbol": "ETH"
+    },
+    "depositPeggedTokenSynthetix()": {
+        "syntheticId": "6000",
+        "amount": "100000",
+        "from": "0x6Fb447Ae94F5180254D436A693907a1f57696900",
+        "gas": "230000"
+    },
+    "withdrawPeggedTokenSynthetix()": {
+        "syntheticId": "6000",
+        "from": "0x6Fb447Ae94F5180254D436A693907a1f57696900",
+        "gas": "230000"
+    },
+    "getNFTNameSolana()": {
+        "publickey":"kAtVAPfxVnCGYnYQoQkhPTeRFBgH7ebKfohufiMTGKq",
+        "token": "AoAH8NBws97Fn4QFt9wpThBPzaTZt6aYqFqepTji3yT6",
+        "chainId": "901"
+    },
+    "getNFTSymbolSolana()": {
+        "publickey":"kAtVAPfxVnCGYnYQoQkhPTeRFBgH7ebKfohufiMTGKq",
+        "token": "AoAH8NBws97Fn4QFt9wpThBPzaTZt6aYqFqepTji3yT6",
+        "chainName": "Solana"
+    },
+    "getNFTOwnerSolana()": {
+        "token": "AoAH8NBws97Fn4QFt9wpThBPzaTZt6aYqFqepTji3yT6",
+        "chainName": "Solana"
+    },
+    "mintNFTSolana()": {
+        "publickey":"kAtVAPfxVnCGYnYQoQkhPTeRFBgH7ebKfohufiMTGKq",
+        "tokenAddress": "mintkey", 
+        "name": "Sumi",
+        "symbol": "SUM",
+        "chainName": "Solana"
+    },
+    "transferNFTSolana()": {
+        "feePayer":"kAtVAPfxVnCGYnYQoQkhPTeRFBgH7ebKfohufiMTGKq",
+        "token":"AoAH8NBws97Fn4QFt9wpThBPzaTZt6aYqFqepTji3yT6",
+        "destination":"Dgq5B8i5NJJfPoUgpkFZDzRr84zd1BJrUBntJt1EBvgd",
+        "sender":"kAtVAPfxVnCGYnYQoQkhPTeRFBgH7ebKfohufiMTGKq",
+        "amount":100
+    },
+    "burnNFTSolana()": {
+        "mint":"DZRqWxqW6qpJxABavpALYr2ECm9ivqDpdvdfeJDFD83V",
+        "account":"kAtVAPfxVnCGYnYQoQkhPTeRFBgH7ebKfohufiMTGKq",
+        "owner":"kAtVAPfxVnCGYnYQoQkhPTeRFBgH7ebKfohufiMTGKq"
+    },
+    "approveNFTSolana()": {
+        "owner":"kAtVAPfxVnCGYnYQoQkhPTeRFBgH7ebKfohufiMTGKq",
+        "token": "AoAH8NBws97Fn4QFt9wpThBPzaTZt6aYqFqepTji3yT6",
+        "delegate":"5NRcjdDkJ85r84DUhFtRZKJNiointMMk8xm9mtye5W7G",
+        "chainId": "901"
+    },
+    "getHistoricalTransactionsNFTEvm()": {
+        "nftCollection": "0xBC4CA0EdA7647A8aB7C2061c2E118A18a936f13D",
+        "address": "0x6Fb447Ae94F5180254D436A693907a1f57696900",
+        "page": "1",
+        "nftProtocolId": "721",
+        "sort": "desc"
+    },
+    "getHistoricalTransactionsEvm()": {
+        "tokenAddress": "0x6B175474E89094C44Da98b954EedeAC495271d0F",
+        "address": "0x6Fb447Ae94F5180254D436A693907a1f57696900",
+        "page": "1",
+        "sort": "desc"
+    },
+    "balanceOfEvm1155()": {
+        "nftCollection": "0x6d4bbC0387dD4759EEe30f6A482AC6dC2Df3Facf",
+        "address": "0x41e8BF3d9288EdDAcc3206f9aB21b61A1c59Df31",
+        "tokenId": "1"
+    },
+    "getHistoricalLogsEvm()": {
+        "tokenAddress": "0x6B175474E89094C44Da98b954EedeAC495271d0F",
+        "type": "Approval",
+        "page": "1"
+    },
+    "getHistoricalLogsWeth()": {
+        "type": "Deposit",
+        "page": "1"
+    },
+    "getHistoricalLogsNFT721Evm()": {
+        "nftCollection": "0x08D7C0242953446436F34b4C78Fe9da38c73668d",
+        "page": "1",
+        "type": "Transfer"
+    },
+    "getHistoricalLogsNFT1155Evm()": {
+        "nftCollection": "0x08D7C0242953446436F34b4C78Fe9da38c73668d",
+        "page": "1",
+        "type": "ApprovalForAll"
+    },
+    "ownerOfEvmNFT721()": {
+        "nftCollection": "0xBC4CA0EdA7647A8aB7C2061c2E118A18a936f13D",
+        "nftIndex": "1000"
+    },
+    "balanceOfEvm721()": {
+        "nftCollection": "0xBC4CA0EdA7647A8aB7C2061c2E118A18a936f13D",
+        "address": "0xc5c7b46843014B1591e9aF24de797156cde67f08"
+    },
+    "getTransactionAptos()": {
+        "chainId": "1400",
+        "transactionHash": "0xcb323417bf4942f9c6ff5b0bda02c51b0773c72381c24477743eff96b13b550e",
+        "chainSymbol": "APT"
+    },
+    "getBlockAptos()": {
+        "blockNumber": "59448635",
+        "chainId": "1400",
+        "chainSymbol": "APT"
+    },
+    "getPublicRpcAptos()": {
+        "chainId": "1400"
+    },
+    "getBalanceAptos()": {
+        "address": "0x3f6ccea006c76a8a272d7b93c12ca84c73dd66647adf74301067a70df4c917e9"
+    },
+    "getGasPriceAptos()": {
+        "chainId":"1400"
+    },
+    "sendTransactionAptos()": {
+        "rawTransaction": "gDjn3zwy3kvqbul7NgB81Ce5fZ9B1y3L508UwTV2ZVIWAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQRjb2luCHRyYW5zZmVyAQcAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQphcHRvc19jb2luCUFwdG9zQ29pbgACIM0mOLBts6prchQV2uykOl5NrjQrmdPLAJGO04eAMDw7CCKhBwAAAAAA6AMAAAAAAABkAAAAAAAAAKzShmQAAAAAAgAgjhPwSNdxs13Zr3j92aNnTHzkrsJJzIh51gi/xKNaUw9AdLbNzhhFMz9PlKhvXlJyesjTJOom1aB5pp6i7d+N8e/q+uuHOd29k6w3jBWx4YMKs8USQVcQgo6qoeJk2qKuBA==",
+        "chainId": "1400"
+    }
+}

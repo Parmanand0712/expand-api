@@ -1,0 +1,7 @@
+{
+    "host": "localhost",
+    "port": 5432,
+    "database": "price_discovery",
+    "user": "postgres",
+    "password": "FQt32z@1"
+}

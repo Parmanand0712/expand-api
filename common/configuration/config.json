@@ -1,0 +1,4216 @@
+{
+    "oldApiPlanKeys": {
+        "DieFXpNSBl6AhJpHq9hnb3M4vhF52bp87hb0xIam": {
+            "planName": "Growth Plan",
+            "costPerComputeUnit": 0.00001622222222,
+            "WAF": 0.00000529
+        },
+        "PcCWOYfJsw5GM4n3V9pX78SJyahyHFH44Kaza1De": {
+            "planName": "Growth Plan",
+            "costPerComputeUnit": 0.00001622222222,
+            "WAF": 0.00000529
+        },
+        "6r2FgdzYQK42bFba3y3rH55cNpCWcczE3VBOZYb8": {
+            "planName": "Growth Plan",
+            "costPerComputeUnit": 0.00001622222222,
+            "WAF": 0.00000529
+        },
+        "KFnerfZEmS456adLrHc3a22sHCTgSbB68iYLWMYs": {
+            "planName": "Enterprise Plan",
+            "costPerComputeUnit": 0.00001622222222,
+            "WAF": 0.00000691
+        },
+        "DgJTFcKxtA30mFcb2N1Bq7FTIlcsX7Hu678vQoOX": {
+            "planName": "Starter Plan",
+            "costPerComputeUnit": 0.0000004055555556,
+            "WAF": 0.000005119
+        },
+        "KcKUuHXKKJ2iHuKzRgWrM65xSOzaabro8RQ4hWDQ": {
+            "planName": "Starter Plan",
+            "costPerComputeUnit": 0.0000004055555556,
+            "WAF": 0.000005119
+        }
+    },
+    "usagePlans": {
+        "Free Plan": {
+            "costPerComputeUnit": 0.001045042044,
+            "WAF": 0.000005119
+        },
+        "Starter Plan":{
+            "costPerComputeUnit": 0.0009500382222,
+            "WAF": 0.000005119
+        },
+        "Starter-bloXroute-100":{
+            "costPerComputeUnit": 0.0009500382222,
+            "WAF": 0.000005119
+        },
+        "Starter-bloXroute-200":{
+            "costPerComputeUnit": 0.0009500382222,
+            "WAF": 0.000005119
+        },
+        "Starter-bloXroute-300":{
+            "costPerComputeUnit": 0.0009500382222,
+            "WAF": 0.000005119
+        },
+        "Starter-bloXroute-400":{
+            "costPerComputeUnit": 0.0009500382222,
+            "WAF": 0.000005119
+        },
+        "Pro Plan": {
+            "costPerComputeUnit": 0.0008636711111,
+            "WAF": 0.00000529
+        },
+        "Pro-bloXroute-100":{
+            "costPerComputeUnit": 0.0008636711111,
+            "WAF": 0.00000529
+        },
+        "Pro-bloXroute-200":{
+            "costPerComputeUnit": 0.0008636711111,
+            "WAF": 0.00000529
+        },
+        "Pro-bloXroute-300":{
+            "costPerComputeUnit": 0.0008636711111,
+            "WAF": 0.00000529
+        },
+        "Pro-bloXroute-400":{
+            "costPerComputeUnit": 0.0008636711111,
+            "WAF": 0.00000529
+        },
+        "Growth Plan": {
+            "costPerComputeUnit": 0.0007851555556,
+            "WAF": 0.00000691
+        },
+        "Growth-bloXroute-100":{
+            "costPerComputeUnit": 0.0007851555556,
+            "WAF": 0.00000691
+        },
+        "Growth-bloXroute-200":{
+            "costPerComputeUnit": 0.0007851555556,
+            "WAF": 0.00000691
+        },
+        "Growth-bloXroute-300":{
+            "costPerComputeUnit": 0.0007851555556,
+            "WAF": 0.00000691
+        },
+        "Growth-bloXroute-400":{
+            "costPerComputeUnit": 0.0007851555556,
+            "WAF": 0.00000691
+        },
+        "Scale Plan": {
+            "costPerComputeUnit": 0.0007137777778,
+            "WAF": 0.00000691
+        },
+        "Scale-bloXroute-100":{
+            "costPerComputeUnit": 0.0007137777778,
+            "WAF": 0.00000691
+        },
+        "Scale-bloXroute-200":{
+            "costPerComputeUnit": 0.0007137777778,
+            "WAF": 0.00000691
+        },
+        "Scale-bloXroute-300":{
+            "costPerComputeUnit": 0.0007137777778,
+            "WAF": 0.00000691
+        },
+        "Scale-bloXroute-400":{
+            "costPerComputeUnit": 0.0007137777778,
+            "WAF": 0.00000691
+        },
+        "Enterprise Plan": {
+            "costPerComputeUnit": 0.0006488888889,
+            "WAF": 0.00000691
+        },
+        "Enterprise-bloXroute-100":{
+            "costPerComputeUnit": 0.0006488888889,
+            "WAF": 0.00000691
+        },
+        "Enterprise-bloXroute-200":{
+            "costPerComputeUnit": 0.0006488888889,
+            "WAF": 0.00000691
+        },
+        "Enterprise-bloXroute-300":{
+            "costPerComputeUnit": 0.0006488888889,
+            "WAF": 0.00000691
+        },
+        "Enterprise-bloXroute-400":{
+            "costPerComputeUnit": 0.0006488888889,
+            "WAF": 0.00000691
+        },
+        "Custom Plan": {
+            "costPerComputeUnit": 0.0006488888889,
+            "WAF": 0.00000691
+        },
+        "Internal Team Plan":{
+            "costPerComputeUnit": 0.0006488888889,
+            "WAF": 0.00000691
+        }
+    },
+    "ctLogs": {
+        "sslmateKey": "k48670_ACsyZakVCtYqPZc9pKQ9",
+        "enabled": true
+    },
+    "paramValidation": {
+        "enabled": true
+    },
+    "requestValidation": {
+        "enabled": true
+    },
+    "ellipticSteps": {
+        "batchSize": "100000",
+        "stepV2Like": "10000",
+        "stepV3Like": "50000"
+    },
+    "default": {
+        "dex": "UniswapV2",
+        "lendborrow": "AaveV2",
+        "evmNftProtocolId": "721",
+        "solanaNftProtocolId": "Metaplex",
+        "bridge": "Stargate",
+        "ttl": 1000,
+        "derivative": "DYDXV4",
+        "liquidStakingProtocol": "Lido",
+        "chaindId": "1"
+    },
+    "privateTransaction": {
+        "chains": {
+            "1": "https://relay.flashbots.net",
+            "5": "https://relay-goerli.flashbots.net"
+        },
+        "baseUrl": "https://blocks.flashbots.net/v1/"
+    },
+    "decodeTransactions": {
+        "proxies": {
+            "0x1231DEB6f5749EF6cE6943a275A1D3E7486F4EaE": "0xC0c42d148241c5b5BB38e974d40Fc9087f7F9ecD"
+        },
+        "baseUrl": {
+            "1": "https://api.etherscan.io/",
+            "10": "https://api-optimistic.etherscan.io/",
+            "42161": "https://api.arbiscan.io/",
+            "137": "https://api.polygonscan.com/",
+            "25": "https://api.cronoscan.com/",
+            "43114": "https://api.routescan.io/v2/network/mainnet/evm/43114/etherscan/",
+            "250": "https://api.ftmscan.com/",
+            "8453": "https://api.basescan.org/",
+            "324": "https://block-explorer-api.mainnet.zksync.io/"
+        },
+        "apiKey": {
+            "1": "N5CXTBZ868DPSMD4JMI9J9QSI5SGJDIZC9",
+            "10": "XM2P89N64R76QXSTZDQZ6QH4AJHMZK8U8P"
+        }
+    },
+    "wethAddress": {
+        "1": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
+        "5": "0xB4FBF271143F4FBf7B91A5ded31805e42b2208d6",
+        "11155111": "0xb16F35c0Ae2912430DAc15764477E179D9B9EbEa",
+        "56": "0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c",
+        "97": "0x094616F0BdFB0b526bD735Bf66Eca0Ad254ca81F",
+        "43114": "0xB31f66AA3C1e785363F0875A1B74E27b85FD66c7",
+        "43113": "0xd00ae08403B9bbb9124bB305C09058E32C39A48c",
+        "137": "0x0d500B1d8E8eF31E21C99d1Db9A6444d3ADf1270",
+        "80001": "0x9c3C9283D3e44854697Cd22D3Faa240Cfb032889",
+        "80002": "0x52eF3d68BaB452a294342DC3e5f464d7f610f72E",
+        "25": "0x5C7F8A570d578ED84E63fdFA7b1eE72dEae1AE23",
+        "338": "0x6a3173618859c7cd40faf6921b5e9eb6a76f1fd4",
+        "42161": "0x82aF49447D8a07e3bd95BD0d56f35241523fBab1",
+        "421614": "0x0091f4e75a03C11cB9be8E3717219005eb780D89",
+        "250": "0x21be370D5312f44cB42ce377BC9b8a0cEF1A4C83",
+        "4002": "0xf1277d1Ed8AD466beddF92ef448A132661956621",
+        "10": "0x4200000000000000000000000000000000000006",
+        "11155420": "0x74A4A85C611679B73F402B36c0F84A7D2CcdFDa3",
+        "8453": "0x4200000000000000000000000000000000000006",
+        "84532": "0x4200000000000000000000000000000000000006",
+        "324": "0x5AEa5775959fBC2557Cc8789bC1bf90A239D9a91",
+        "300": "0x701f3B10b5Cc30CA731fb97459175f45E0ac1247"
+    },
+    "nonFungibleToken": {
+        "meta": "metaqbxxUerdq28cj1RbAWkYQm3ybzjb6a8bt518x1s"
+    },
+    "solanaDefaultAddress": "HsHgasEkAHGVtFkgvFBx8gEDAAhS9e9aBJdd2WHbfeER",
+    "etherscan": {
+        "apiKey": "N5CXTBZ868DPSMD4JMI9J9QSI5SGJDIZC9",
+        "bscKey": "21GC2WKMYFQEGJSWE88DAQWC5RJAVKCENS",
+        "baseUrl": {
+            "1": "https://api.etherscan.io/api",
+            "5": "https://api-goerli.etherscan.io/api",
+            "56": "https://api.bscscan.com/api",
+            "137": "https://api.polygonscan.com/api",
+            "43114": "https://api.routescan.io/v2/network/mainnet/evm/43114/etherscan/api"
+        },
+        "keys": {
+            "1": "N5CXTBZ868DPSMD4JMI9J9QSI5SGJDIZC9",
+            "5": "N5CXTBZ868DPSMD4JMI9J9QSI5SGJDIZC9",
+            "56": "21GC2WKMYFQEGJSWE88DAQWC5RJAVKCENS",
+            "137": "ZH3H6WJGU49SRJP9F41TBQ41UV7SRN3X4S",
+            "43114": ""
+        },
+        "tokenAction": "tokentx",
+        "tokenModule": "account",
+        "offset": "30",
+        "defaultBlockRange": "100",
+        "moduleGeneric": "contract",
+        "actionGeneric": "getabi",
+        "moduleBlock":"block",
+        "actionBlock":"getblocknobytime",
+        "action": "txlist",
+        "actionContract": "getcontractcreation"
+    },
+    "covalent": {
+        "baseUrl": "https://api.covalenthq.com/v1/",
+        "apiKeyDexWalletPosition": "cqt_rQ6gcc4qGt9xCjrRTdwhTdPYD7JD",
+        "apiKeyUserTransactions": "cqt_rQXrWcQG3y7b8Cw6JmgqygQhbmxR",
+        "defaultSort": false
+    },
+
+    "referrer": "0x558D7be6092Ca91DA26521Ac25b982D883218E2d",
+    "stonfi": {
+        "baseUrl": "https://api.ston.fi/v1/assets"
+    },
+    "byteDirectory": {
+        "baseUrl": "https://www.4byte.directory/api/v1/signatures/"
+    },
+    "cherryServerURL": "http://188.214.130.116:8545",
+    "glacier": {
+        "baseUrl": {
+            "43115": "https://glacier-api.avax.network/v1/networks/mainnet/blockchains/p-chain",
+            "43116": "https://glacier-api.avax.network/v1/networks/mainnet/blockchains/x-chain",
+            "43114": "https://glacier-api.avax.network/v1/chains/43114/addresses"
+        },
+        "rewardsUrl": "https://glacier-api.avax.network/v1/networks/mainnet/rewards",
+        "pageSize": 100,
+        "startTimestamp": 0,
+        "sortOrder": "desc"
+    },
+    "heliusRPC": {
+        "rpc": {
+            "900": "https://mainnet.helius-rpc.com",
+            "901": "https://devnet.helius-rpc.com/"
+        },
+        "DAS": {
+            "900": "https://api.helius.xyz",
+            "901": "https://api-devnet.helius.xyz"
+        },
+        "limit": 1000,
+        "apiKey": "5277048f-34df-4c4d-a739-06f6ee52529e"
+    },
+    "coingecko": {
+        "tokenHistoryUrl": "https://api.coingecko.com/api/v3/coins/ethereum/history?date="
+    },
+    "coinMarketCap": {
+        "priceConversionUrl": "https://pro-api.coinmarketcap.com/v2/tools/price-conversion",
+        "circulatingSupply":"https://pro-api.coinmarketcap.com/v1/cryptocurrency/quotes/latest"
+    },
+    "bitquery":{
+        "baseQuery":"https://graphql.bitquery.io",
+        "burn":"query ($token: String!) {\n  initialSupply: ethereum(network: ethereum) {\n    burn: transfers(\n      currency: {is: $token}\n      receiver: {is: \"0x0000000000000000000000000000000000000000\"}\n    ) {\n      amount(calculate: sum)\n    }\n  }\n}\n",
+        "fiscalLow":"query ($tokenAddress:String! , $date:[ISO8601DateTime!]) {\n  ethereum(network: ethereum) {\n    dexTrades(\n      options: {asc: \"priceInUsd\", limit: 1}\n      buyCurrency: {is: $tokenAddress}\n      sellCurrency: {in: [\"0xdac17f958d2ee523a2206206994597c13d831ec7\", \"0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48\"]}\n      date: {in: $date}\n    ) {\n      block {\n        height\n      }\n      timeInterval {\n        day\n      }\n      transaction {\n        hash\n      }\n      buyAmount\n      buy_amount_usd: buyAmount(in: USD)\n      priceInUsd: expression(get: \"buy_amount_usd/buyAmount\")\n    }\n  }\n}\n"
+    },
+    "tokenHolder": {
+        "methodName": "token_holders_v2",
+        "covalentKey": "cqt_rQwCrKRY9c84Q4bmB7CBt6Qcbvxd",
+        "tokenHolderEthereumUrl": "https://api.covalenthq.com/v1/eth-mainnet/tokens",
+        "tokenHolderBinanceUrl": "https://api.covalenthq.com/v1/bsc-mainnet/tokens"
+    },
+    "accountAbstraction": {
+        "entryPoint": {
+            "contractAddress": "0x5FF137D4b0FDCD49DcA30c7CF57E578a026d2789"
+        }
+    },
+    "shyft": {
+        "endpoint": "https://programs.shyft.to/v0/graphql",
+        "apiKey": "ASjEB5ubd6F8kLx8"
+    },
+    "excludedDefaultV3Abi": [
+        "1305",
+        "1306"
+    ],
+    "tokenHoldersRpcDexes": [
+        "1300",
+        "1305",
+        "1306",
+        "1307"
+    ],
+    "extraParamatersSchemaFunctions": [
+        "getPoolIndividualLiquidity",
+        "getHistoricalTransactions",
+        "getHistoricalTimeSeries",
+        "getPoolTradeData",
+        "getPoolChartData"
+    ],
+    "historicalBlocks": {
+        "defaultBlockRange": "10",
+        "chunkSize": "10",
+        "chains": [
+            "1",
+            "10",
+            "56",
+            "137",
+            "250",
+            "8453",
+            "42161",
+            "43114"
+        ]
+    },
+    "walletPositions": {
+        "curveApiForPools": "https://api.curve.fi/api/getPools/ethereum/",
+        "dexesSupport": [
+            "1000",
+            "1100",
+            "1300",
+            "1400",
+            "1500"
+        ]
+    },
+    "getRoute": {
+        "dexesSupport": [
+            "2600"
+        ]
+    },
+
+    "rwaSupportedChains": ["1500", "1501"],
+    "simulateTxSupportedChains": ["1500", "1501"],
+    "getEventSupportedChains": ["1500", "1501"],
+    "createAccountSupportedChains": ["1500", "1501"],
+    "getLatestLedgerSupportedChains": ["1500", "1501"],
+    
+    "moralisAPI": {
+        "baseUrl": "https://deep-index.moralis.io/api/v2.2/",
+        "chains": {
+            "1": "eth",
+            "137": "polygon",
+            "56": "bsc",
+            "25": "cronos",
+            "10": "optimism",
+            "250": "fantom",
+            "43114": "avalanche",
+            "42161": "arbitrum",
+            "8453": "base"
+        },
+        "apiKeys": [
+            "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJub25jZSI6IjAxZDM1OGRhLTMxZmYtNDIyZC05MTIyLWM0NWY2Mzg5YjVlMCIsIm9yZ0lkIjoiMzc5MTg4IiwidXNlcklkIjoiMzg5NjQ3IiwidHlwZUlkIjoiMjlmMzU1YTItNjhmNC00MzY1LWFlNTctMmM1NGI3ODE5MTcyIiwidHlwZSI6IlBST0pFQ1QiLCJpYXQiOjE3MDg2NzI5MDcsImV4cCI6NDg2NDQzMjkwN30.6GnxMFtPbryXtKJ08_KXho3Wd9FeS6e5kf7ePwol5kA",
+            "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJub25jZSI6IjEyZWMxMWQ4LTM2NTEtNDA4Yy1iZTY4LWY3OGE5ZTMyMTFkNCIsIm9yZ0lkIjoiMzgxMzA5IiwidXNlcklkIjoiMzkxODA3IiwidHlwZUlkIjoiMWIxMjk5MGQtNjQ2Ni00YjUyLTgwZjMtZDgyZjQwMGE5ZmE0IiwidHlwZSI6IlBST0pFQ1QiLCJpYXQiOjE3MDk2MjEyMDIsImV4cCI6NDg2NTM4MTIwMn0._luoZlPwlyYLDnF8EeV5_9JMFjcV6-PiRWGUCqvDDsE",
+            "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJub25jZSI6IjczZDkyYTliLWE0YjUtNDE3YS05YmVhLTZlZDY0Yzg4NmU1NyIsIm9yZ0lkIjoiMzgxMzIyIiwidXNlcklkIjoiMzkxODIwIiwidHlwZUlkIjoiNGQ4Nzc0ODAtNzc1Mi00NDVmLWJjNGQtZDRlNTI5MzYyOWMzIiwidHlwZSI6IlBST0pFQ1QiLCJpYXQiOjE3MDk2MjUzNTgsImV4cCI6NDg2NTM4NTM1OH0.zxm4OnQnFA2TwfUvLl66BU_FDnEBLNTBHkYFcl_PeAg",
+            "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJub25jZSI6Ijc2Y2E2YjcxLTBjNmQtNDM0MS04MzkyLWYyZmVhYjAzZTZlYiIsIm9yZ0lkIjoiMzgxMzE1IiwidXNlcklkIjoiMzkxODEzIiwidHlwZUlkIjoiZTJiN2E1MzctYTc3YS00ZTMzLWJkNjctNGEzYjY4OTE3MjUzIiwidHlwZSI6IlBST0pFQ1QiLCJpYXQiOjE3MDk2MjM0NDAsImV4cCI6NDg2NTM4MzQ0MH0.It-S63joul79QQb7NxNRNnLM8NNt2r-I19qHX5QoL-M",
+            "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJub25jZSI6IjNhODZmMmFhLWQ4NzctNDBiYS04MjUwLTdmMmU1ZTBkM2U5NyIsIm9yZ0lkIjoiMzgxMzEyIiwidXNlcklkIjoiMzkxODEwIiwidHlwZUlkIjoiM2JlYmMxOTEtMzRjZC00N2VmLThhNWQtN2M1MDY2MWYyNGQwIiwidHlwZSI6IlBST0pFQ1QiLCJpYXQiOjE3MDk2MjMzMDAsImV4cCI6NDg2NTM4MzMwMH0.v-2t81J5DOxakV1GqFhcjiwcxpBGMgnYoKKj1rdUqwo"
+        ]
+    },
+
+    "tokenMarketData":{
+        "coinlorebase":"https://api.coinlore.net/api/ticker/",
+        "ethpolrer":"https://api.ethplorer.io/getTokenInfo/",
+        "coingeckoprice":"https://api.coingecko.com/api/v3/simple/price?ids=",
+        "coingeckocoins":"https://api.coingecko.com/api/v3/coins/",
+        "coingeckopricelast":"&vs_currencies=USD&include_market_cap=true",
+        "coingeckocoinslast":"?tickers=false&market_data=true&community_data=false",
+        "coinrankingurl":"https://api.coinranking.com/v2/coin"
+        
+    },
+    "chains": {
+        "1": {
+            "localName": "Ethereum",
+            "chainName": "Evm",
+            "chainSymbol": "ETH",
+            "rpc": "https://ethereum.expand.network/",
+            "publicRpc": "https://aged-bold-general.quiknode.pro/aca755115e18fb7c58c55a9e7c1af78e55e9cde2/",
+            "socketRpc": "wss://mainnet.infura.io/ws/v3/fc5d23096e754d64a5f261f5f07170d5",
+            "getVaultYearnRpc": "https://mainnet.infura.io/v3/9aa3d95b3bc440fa88ea12eaa4456161",
+            "mevProtection": "https://relay.flashbots.net",
+            "domain": "quiknode.pro",
+            "sslMateId": "6449283457"
+        },
+        "5": {
+            "localName": "EthereumTestnetGoerli",
+            "chainName": "Evm",
+            "chainSymbol": "TETHGRL",
+            "rpc": "https://goerli.infura.io/v3/9aa3d95b3bc440fa88ea12eaa4456161",
+            "publicRpc": "https://goerli.infura.io/v3/9aa3d95b3bc440fa88ea12eaa4456161",
+            "mevProtection": "https://relay-goerli.flashbots.net",
+            "domain": "infura.io",
+            "sslMateId": "5518664966"
+        },
+        "11155111": {
+            "localName": "EthereumTestnetSepolia",
+            "chainName": "Evm",
+            "chainSymbol": "TETHSPL",
+            "rpc": "https://sepolia.infura.io/v3/9aa3d95b3bc440fa88ea12eaa4456161",
+            "publicRpc": "https://sepolia.infura.io/v3/9aa3d95b3bc440fa88ea12eaa4456161",
+            "domain": "infura.io",
+            "sslMateId": "4054117900"
+        },
+        "17000": {
+            "localName": "EthereumTestnetHolesky",
+            "chainName": "Evm",
+            "chainSymbol": "TETHHSKY",
+            "rpc": "https://ethereum-holesky-rpc.publicnode.com/",
+            "publicRpc": "https://ethereum-holesky-rpc.publicnode.com/",
+            "domain": "infura.io",
+            "sslMateId": "4054117900"
+        },
+        "56": {
+            "localName": "BinanceSmartChain",
+            "chainName": "Evm",
+            "chainSymbol": "BSC",
+            "rpc": "https://burned-responsive-choice.bsc.quiknode.pro/c1ce9530e6603a2be9851cd5080ff424c69d432e/",
+            "publicRpc": "https://burned-responsive-choice.bsc.quiknode.pro/c1ce9530e6603a2be9851cd5080ff424c69d432e/",
+            "getVaultYearnRpc": "https://bsc-mainnet.nodereal.io/v1/2f273e1f24564d5b93e866bce1e1637a",
+            "domain": "quiknode.pro",
+            "sslMateId": "6449283457"
+        },
+        "97": {
+            "localName": "BinanceSmartChainTestnet",
+            "chainName": "Evm",
+            "chainSymbol": "TBSC",
+            "rpc": "https://data-seed-prebsc-1-s1.binance.org:8545/",
+            "publicRpc": "https://data-seed-prebsc-1-s1.binance.org:8545/",
+            "domain": "binance.org",
+            "sslMateId": "5407439710"
+        },
+        "43114": {
+            "localName": "Avalanche",
+            "chainName": "Evm",
+            "chainSymbol": "C-AVAX",
+            "rpc": "https://avalanche.expand.network/",
+            "publicRpc": "https://special-autumn-general.avalanche-mainnet.quiknode.pro/110ebd1f29b6f22d94d513e1ca30b89a988f7d70/ext/bc/C/rpc/",
+            "thirdPartyRpc": "https://special-autumn-general.avalanche-mainnet.quiknode.pro/110ebd1f29b6f22d94d513e1ca30b89a988f7d70/ext/bc/C/rpc/",
+            "getVaultYearnRpc": "https://avalanche-mainnet.infura.io/v3/99200c22cbdb49a5b4c1487b4d1a4396",
+            "domain": "quiknode.pro",
+            "sslMateId": "6449283457"
+        },
+        "43113": {
+            "localName": "AvalancheTesnet",
+            "chainName": "Evm",
+            "chainSymbol": "TAVAX",
+            "rpc": "https://api.avax-test.network/ext/bc/C/rpc",
+            "publicRpc": "https://api.avax-test.network/ext/bc/C/rpc",
+            "domain": "avax-test.network",
+            "sslMateId": "5388880186"
+        },
+        "43115": {
+            "localName": "Avalanche",
+            "chainName": "AVAX",
+            "chainSymbol": "P-AVAX",
+            "rpc": "https://special-autumn-general.avalanche-mainnet.quiknode.pro/110ebd1f29b6f22d94d513e1ca30b89a988f7d70/ext/bc/P",
+            "publicRpc": "https://special-autumn-general.avalanche-mainnet.quiknode.pro/110ebd1f29b6f22d94d513e1ca30b89a988f7d70/ext/bc/P"
+        },
+        "43116": {
+            "localName": "Avalanche",
+            "chainName": "AVAX",
+            "chainSymbol": "X-AVAX",
+            "rpc": "https://special-autumn-general.avalanche-mainnet.quiknode.pro/110ebd1f29b6f22d94d513e1ca30b89a988f7d70/ext/bc/X",
+            "publicRpc": "https://special-autumn-general.avalanche-mainnet.quiknode.pro/110ebd1f29b6f22d94d513e1ca30b89a988f7d70/ext/bc/X"
+        },
+        "137": {
+            "localName": "Polygon",
+            "chainName": "Evm",
+            "chainSymbol": "MATIC",
+            "rpc": "https://polygon-rpc.com",
+            "publicRpc": "https://flashy-virulent-waterfall.matic.quiknode.pro/8f0fbe1b2fc4fbb5741cab731c562edce6b2f796/",
+            "thirdPartyRpc": "https://flashy-virulent-waterfall.matic.quiknode.pro/8f0fbe1b2fc4fbb5741cab731c562edce6b2f796/",
+            "getVaultYearnRpc": "https://polygon-mainnet.infura.io/v3/99200c22cbdb49a5b4c1487b4d1a4396",
+            "domain": "quiknode.pro",
+            "sslMateId": "6449283457"
+        },
+        "80001": {
+            "localName": "PolygonTestnet",
+            "chainName": "Evm",
+            "chainSymbol": "TMATIC",
+            "rpc": "https://falling-flashy-model.matic-testnet.quiknode.pro/0ca19fa91bc0a9615ecd0d38f614cc0109f556ee/",
+            "publicRpc": "https://falling-flashy-model.matic-testnet.quiknode.pro/0ca19fa91bc0a9615ecd0d38f614cc0109f556ee/",
+            "domain": "quiknode.pro",
+            "sslMateId": "6449283457"
+        },
+        "80002": {
+            "localName": "PolygonTestnetAmoy",
+            "chainName": "Evm",
+            "chainSymbol": "AMATIC",
+            "rpc": "https://hidden-black-frost.matic-amoy.quiknode.pro/add273ab18cc1168e3b2831078bfcc2eb4e00965/",
+            "publicRpc": "https://hidden-black-frost.matic-amoy.quiknode.pro/add273ab18cc1168e3b2831078bfcc2eb4e00965/",
+            "domain": "quiknode.pro",
+            "sslMateId": "6449283457"
+        },
+        "25": {
+            "localName": "Cronos",
+            "chainName": "Evm",
+            "chainSymbol": "CRO",
+            "rpc": "https://cro.getblock.io/6b64e823-844b-45a2-b2a7-9c241e1b5076/mainnet/",
+            "publicRpc": "https://evm-cronos.crypto.org",
+            "domain": "getblock.io",
+            "sslMateId": "6917029428"
+        },
+        "338": {
+            "localName": "CronosTestnet",
+            "chainName": "Evm",
+            "chainSymbol": "TCRO",
+            "rpc": "https://evm-t3.cronos.org",
+            "publicRpc": "https://evm-t3.cronos.org",
+            "domain": "cronos.org",
+            "sslMateId": "5867628570"
+        },
+        "42161": {
+            "localName": "Arbitrum",
+            "chainName": "Evm",
+            "chainSymbol": "AETH",
+            "rpc": "https://rpc.ankr.com/arbitrum",
+            "publicRpc": "https://powerful-maximum-patina.arbitrum-mainnet.quiknode.pro/a571a663cc509f76235dce48426e5404d4fb7d21/",
+            "domain": "quiknode.pro",
+            "sslMateId": "6449283457"
+        },
+        "421613": {
+            "localName": "ArbitrumGoerliTestnet",
+            "chainName": "Evm",
+            "chainSymbol": "TAETH",
+            "rpc": "https://goerli-rollup.arbitrum.io/rpc",
+            "publicRpc": "https://goerli-rollup.arbitrum.io/rpc",
+            "domain": "arbitrum.io",
+            "sslMateId": "4805061367"
+        },
+        "421614": {
+            "localName": "ArbitrumSepoliaTestnet",
+            "chainName": "Evm",
+            "chainSymbol": "TASPL",
+            "rpc": "https://sepolia-rollup.arbitrum.io/rpc",
+            "publicRpc": "https://sepolia-rollup.arbitrum.io/rpc",
+            "domain": "arbitrum.io",
+            "sslMateId": "4805061367"
+        },
+        "250": {
+            "localName": "Fantom",
+            "chainName": "Evm",
+            "chainSymbol": "FTM",
+            "rpc": "https://rpc.ftm.tools/",
+            "publicRpc": "https://ultra-wandering-theorem.fantom.quiknode.pro/eb7f6dd061898deade24d7e92f5dd5c1fe6076f2/",
+            "domain": "quiknode.pro",
+            "sslMateId": "6449283457"
+        },
+        "4002": {
+            "localName": "FantomTestnet",
+            "chainName": "Evm",
+            "chainSymbol": "TFTM",
+            "rpc": "https://rpc.ankr.com/fantom_testnet/",
+            "publicRpc": "https://rpc.ankr.com/fantom_testnet/",
+            "domain": "ankr.com",
+            "sslMateId": "5618400616"
+        },
+        "10": {
+            "localName": "Optimism",
+            "chainName": "Evm",
+            "chainSymbol": "OPT",
+            "rpc": "https://mainnet.optimism.io",
+            "publicRpc": "https://cosmopolitan-compatible-frost.optimism.quiknode.pro/a788750a33cd545f3029791566aa1a5b81eb089d/",
+            "domain": "quiknode.pro",
+            "sslMateId": "6449283457"
+        },
+        "11155420": {
+            "localName": "OptimismSepoliaTestnet",
+            "chainName": "Evm",
+            "chainSymbol": "TSPL",
+            "rpc": "https://sepolia.optimism.io",
+            "publicRpc": "https://sepolia.optimism.io",
+            "domain": "optimism.io",
+            "sslMateId": "6935618652"
+        },
+        "8453": {
+            "localName": "Base",
+            "chainName": "Evm",
+            "chainSymbol": "BASE",
+            "rpc": "https://mainnet.base.org",
+            "publicRpc": "https://serene-broken-shape.base-mainnet.quiknode.pro/a0a73c0058e66a90ed625fc791485afa6cefade6/",
+            "domain": "base.org",
+            "sslMateId": "5673622167"
+        },
+        "84532": {
+            "localName": "BaseTestnet2",
+            "chainName": "Evm",
+            "chainSymbol": "TBASE2",
+            "rpc": "https://sepolia.base.org",
+            "publicRpc": "https://sepolia.base.org",
+            "domain": "base.org",
+            "sslMateId": "5673622167"
+        },
+        "324": {
+            "localName": "zkSync",
+            "chainName": "Evm",
+            "chainSymbol": "ZKS",
+            "rpc": "https://mainnet.era.zksync.io",
+            "publicRpc": "https://mainnet.era.zksync.io",
+            "domain": "zksync.io",
+            "sslMateId": "6195194123"
+        },
+        "300": {
+            "localName": "zkSyncTestnet",
+            "chainName": "Evm",
+            "chainSymbol": "TZKS",
+            "rpc": "https://sepolia.era.zksync.dev",
+            "publicRpc": "https://sepolia.era.zksync.dev",
+            "domain": "zksync.io",
+            "sslMateId": "6195194123"
+        },
+        "900": {
+            "localName": "Solana",
+            "chainName": "Solana",
+            "chainSymbol": "SOL",
+            "rpc": "https://solana-mainnet.g.alchemy.com/v2/sE1Q9n5glXZCIp7onDmsLRMCF96wBK6W",
+            "publicRpc": "https://dry-radial-borough.solana-mainnet.quiknode.pro/f92947cdde74a26c33ef8a29101e5274804627f0/",
+            "domain": "quiknode.pro",
+            "sslMateId": "6449283457"
+        },
+        "901": {
+            "localName": "SolanaDevnet",
+            "chainName": "Solana",
+            "chainSymbol": "DSOL",
+            "rpc": "https://young-methodical-asphalt.solana-devnet.quiknode.pro/8d330f62fc6e0ed8c86ec8cb89b0b2f869cdac10/",
+            "publicRpc": "https://api.devnet.solana.com",
+            "domain": "solana.com",
+            "sslMateId": "6715139894"
+        },
+        "1000": {
+            "localName": "Tron",
+            "chainName": "Tron",
+            "chainSymbol": "TRON",
+            "rpc": "https://trx.getblock.io/6b64e823-844b-45a2-b2a7-9c241e1b5076/mainnet/",
+            "publicRpc": "https://api.trongrid.io",
+            "defaultPrivateKey": "67b01356cdc7c959fa63fc158960c4abe781b95366b97699bb203bce2596a823",
+            "domain": "trongrid.io",
+            "sslMateId": "5421737753"
+        },
+        "1001": {
+            "localName": "TronTestnet",
+            "chainName": "Tron",
+            "chainSymbol": "TTRON",
+            "rpc": "https://nile.trongrid.io",
+            "publicRpc": "https://nile.trongrid.io",
+            "domain": "trongrid.io",
+            "sslMateId": "5421737753"
+        },
+        "1200": {
+            "localName": "Near",
+            "chainName": "Near",
+            "chainSymbol": "NEAR",
+            "rpc": "https://near.expand.network/",
+            "publicRpc": "https://wispy-cold-patina.near-mainnet.quiknode.pro/23f67d301174654699efbbdb34d0c31a33c796d7/",
+            "defaultAccount": "f469fa0d3f80414e53e972a81f940294d30ef49bcacd5a9a93b9d13bdd4e2022",
+            "domain": "ankr.com",
+            "sslMateId": "5618400616"
+        },
+        "1201": {
+            "localName": "NearTestnet",
+            "chainName": "Near",
+            "chainSymbol": "TNEAR",
+            "rpc": "https://rpc.testnet.near.org",
+            "publicRpc": "https://quaint-intensive-forest.near-testnet.quiknode.pro/be08ad1e6f6c7504feee724a066e65428686d147/",
+            "defaultAccount": "expandnetwork.testnet",
+            "domain": "near.org",
+            "sslMateId": "7095816038"
+        },
+        "1300": {
+            "localName": "Algorand",
+            "chainName": "Algorand",
+            "chainSymbol": "ALGO",
+            "idx_rpc": "https://mainnet-algorand.api.purestake.io/ps2",
+            "rpc": "https://svc.blockdaemon.com/universal/v1/algorand/mainnet/",
+            "key": "zpka_b17897b15c4a4cb4a8d550bc181b3507_4aea75b6",
+            "publicRpc": "https://go.getblock.io/30e0ce2a9c844fc2bb251b4f6d2a85c8",
+            "domain": "purestake.io",
+            "sslMateId": "5118590797"
+        },
+        "1301": {
+            "localName": "AlgorandTestnet",
+            "chainName": "Algorand",
+            "chainSymbol": "TALGO",
+            "idx_rpc": "https://testnet-algorand.api.purestake.io/ps2",
+            "rpc": "https://testnet-algorand.api.purestake.io/idx2",
+            "key": "ZRJLa44Mxr7ZDfpvB0VcN6SxcUaMRLEjaxadc1w9",
+            "publicRpc": "https://radial-divine-theorem.algorand-testnet.quiknode.pro/ae0b575254811a58119991b3b8b5337b471d630b/algod/",
+            "domain": "purestake.io",
+            "sslMateId": "5118590797"
+        },
+        "101": {
+            "localName": "Sui",
+            "chainName": "Sui",
+            "chainSymbol": "SUI",
+            "coinType": "0x2::sui::SUI",
+            "rpc": "https://fullnode.mainnet.sui.io:443",
+            "publicRpc": "https://sui-mainnet-rpc.allthatnode.com/yxC1v7TVFt4JO5887chnLs2nI3x5sYtm",
+            "domain": "sui.io",
+            "sslMateId": "5451070007"
+        },
+        "102": {
+            "localName": "SuiDevnet",
+            "chainName": "Sui",
+            "chainSymbol": "DSUI",
+            "coinType": "0x2::sui::SUI",
+            "rpc": "https://fullnode.devnet.sui.io:443",
+            "publicRpc": "https://fullnode.devnet.sui.io:443",
+            "domain": "sui.io",
+            "sslMateId": "5451070007"
+        },
+        "103": {
+            "localName": "SuiTestnet",
+            "chainName": "Sui",
+            "chainSymbol": "TSUI",
+            "coinType": "0x2::sui::SUI",
+            "rpc": "https://fullnode.testnet.sui.io:443",
+            "publicRpc": "https://rpc.ankr.com/sui_testnet",
+            "domain": "sui.io",
+            "sslMateId": "5451070007"
+        },
+        "1400": {
+            "localName": "Aptos",
+            "chainName": "Aptos",
+            "chainSymbol": "APT",
+            "rpc": "https://fullnode.mainnet.aptoslabs.com",
+            "publicRpc": "https://wispy-flashy-darkness.aptos-mainnet.quiknode.pro/c5ff32e8d497ac597375f9c0b25f15dc3b6ddf28/",
+            "domain": "aptoslabs.com",
+            "sslMateId": "7052879545"
+        },
+        "1401": {
+            "localName": "AptosTestnet",
+            "chainName": "Aptos",
+            "chainSymbol": "TAPT",
+            "rpc": "https://fullnode.testnet.aptoslabs.com",
+            "publicRpc": "https://rpc.ankr.com/http/aptos_testnet/v1",
+            "domain": "aptoslabs.com",
+            "sslMateId": "7052879545"
+        },
+        "400": {
+            "localName": "StarkNet",
+            "chainName": "StarkNet",
+            "chainSymbol": "STRK",
+            "starkNetInvocationMethod": "starknet_addInvokeTransaction",
+            "invokeRpc": "https://starknet-mainnet.blastapi.io/efc44012-502c-4b57-a7b2-f7e7a44535f5",
+            "rpc": "https://starknet-mainnet.infura.io/v3/99200c22cbdb49a5b4c1487b4d1a4396",
+            "publicRpc": "https://starknet-mainnet.infura.io/v3/99200c22cbdb49a5b4c1487b4d1a4396",
+            "domain": "blastapi.io",
+            "sslMateId": "4069582461"
+        },
+        "401": {
+            "localName": "StarkNetTestnet",
+            "chainName": "StarkNet",
+            "chainSymbol": "TSTRK",
+            "starkNetInvocationMethod": "starknet_addInvokeTransaction",
+            "invokeRpc": "https://starknet-testnet.blastapi.io/efc44012-502c-4b57-a7b2-f7e7a44535f5",
+            "rpc": "https://starknet-goerli.infura.io/v3/99200c22cbdb49a5b4c1487b4d1a4396",
+            "publicRpc": "https://starknet-goerli.infura.io/v3/99200c22cbdb49a5b4c1487b4d1a4396",
+            "domain": "blastapi.io",
+            "sslMateId": "4069582461"
+        },
+        "1100": {
+            "localName": "Ton",
+            "chainName": "Ton",
+            "chainSymbol": "TON",
+            "network": "mainnet",
+            "gasPrice": "3308000",
+            "rpc": "https://toncenter.com/api/v2/jsonRPC",
+            "publicRpc": "https://toncenter.com/api/v2/jsonRPC",
+            "stonFiExtraGas": "0.02",
+            "domain": "toncenter.com",
+            "sslMateId": "4992282708"
+        },
+        "1101": {
+            "localName": "TonTestnet",
+            "chainName": "Ton",
+            "chainSymbol": "TTON",
+            "network": "testnet",
+            "gasPrice": "3308000",
+            "rpc": "https://testnet.toncenter.com/api/v2/jsonRPC",
+            "publicRpc": "https://testnet.toncenter.com/api/v2/jsonRPC",
+            "domain": "toncenter.com",
+            "sslMateId": "4992282708"
+        },
+        "1500": {
+            "localName": "Stellar",
+            "chainName": "Stellar",
+            "chainSymbol": "XLM",
+            "networkPassphrase": "Public Global Stellar Network ; September 2015",
+            "network": "mainnet",
+            "gasPrice": "3308000",
+            "decimals": 10000000,
+            "rpc": "https://horizon.stellar.org/",
+            "publicRpc": "https://wiser-light-hexagon.stellar-mainnet.quiknode.pro/e192229031804df050381edb40c96ee381e61c95/",
+            "sorobanRpc": "https://wiser-light-hexagon.stellar-mainnet.quiknode.pro/e192229031804df050381edb40c96ee381e61c95/",
+            "domain" : "quiknode.pro",
+            "sslMateId" : "6449283457"
+        },
+        "1501": {
+            "localName": "StellarTestnet",
+            "chainName": "Stellar",
+            "chainSymbol": "TXLM",
+            "networkPassphrase": "Test SDF Network ; September 2015",
+            "network": "testnet",
+            "gasPrice": "3308000",
+            "decimals": 10000000,
+            "rpc": "https://horizon-testnet.stellar.org",
+            "publicRpc": "https://horizon-testnet.stellar.org",
+            "sorobanRpc": "https://soroban-testnet.stellar.org",
+            "domain" : "stellar.org",
+            "sslMateId" : "5241417261"
+        }
+    },
+    "SuiTokens": {
+        "native": "0x2::sui::SUI"
+    },
+    "StarkNetTokens": {
+        "native": "0x049d36570d4e46f48e99674bd3fcc84644ddd6b96f7c741b1562b82f9e004dc7"
+    },
+    "weth": {
+        "1": {
+            "offset": "30",
+            "defaultBlockRange": "100",
+            "logAction": "getLogs",
+            "logModule": "logs",
+            "eventDeposit": "0xe1fffcc4923d04b559f4d29a8bfc6cda04eb5b0d3c460751c2402c5c5cc9109c",
+            "eventWithdrawal": "0x7fcf532c15f0a6db0bd6d0e038bea71d30d808c7d98cb3bf7268a95bf5081b65"
+        }
+    },
+    "supportedGasFees": {
+        "1": {
+            "action": "txlist",
+            "module": "account"
+        }
+    },
+    "historicalUserTxSupportedChains": [
+        "43115",
+        "43116",
+        "43114",
+        "1",
+        "5",
+        "56",
+        "137",
+        "250",
+        "10",
+        "11155420",
+        "42161",
+        "421613",
+        "421614",
+        "25",
+        "338",
+        "84532",
+        "8453",
+        "43113",
+        "97",
+        "80001",
+        "1100",
+        "1101",
+        "1500",
+        "1501"
+    ],
+    "getHistoricalRewards": {
+        "43115": true
+    },
+    "fungibleToken": {
+        "1": {
+            "action": "tokentx",
+            "module": "account",
+            "offset": "30",
+            "defaultBlockRange": "100",
+            "logAction": "getLogs",
+            "logModule": "logs",
+            "eventApproval": "0x8c5be1e5ebec7d5bd14f71427d1e84f3dd0314c0f7b2291e5b200ac8c7c3b925",
+            "eventTransfer": "0xddf252ad1be2c89b69c2b068fc378daa952ba7f163c4a11628f55a4df523b3ef"
+        }
+    },
+    "nft": {
+        "1": {
+            "721": {
+                "action": "tokennfttx",
+                "chainName": "EVM",
+                "module": "account",
+                "offset": "30",
+                "defaultBlockRange": "100",
+                "logAction": "getLogs",
+                "logModule": "logs",
+                "eventApproval": "0x8c5be1e5ebec7d5bd14f71427d1e84f3dd0314c0f7b2291e5b200ac8c7c3b925",
+                "eventTransfer": "0xddf252ad1be2c89b69c2b068fc378daa952ba7f163c4a11628f55a4df523b3ef"
+            },
+            "1155": {
+                "action": "token1155tx",
+                "chainName": "EVM",
+                "module": "account",
+                "offset": "30",
+                "defaultBlockRange": "100",
+                "logAction": "getLogs",
+                "logModule": "logs",
+                "eventApprovalForAll": "0x17307eab39ab6107e8899845ad3d59bd9653f200f220920489ca2b5937696c31",
+                "eventTransferSingle": "0xc3d58168c5ae7397731d063d5bbf3d657854427343f4c083240f7aacaa2d0f62"
+            }
+        }
+    },
+    "nftChainSupported": [
+        "1",
+        "5",
+        "56",
+        "43114",
+        "137",
+        "900",
+        "901",
+        "250",
+        "10",
+        "11155420",
+        "42161",
+        "421613",
+        "421614",
+        "25",
+        "338",
+        "84532",
+        "8453",
+        "43113",
+        "97",
+        "80001",
+        "80002",
+        "300",
+        "324"
+    ],
+    "nftProtocolSupported": [
+        "721",
+        "1155",
+        "Metaplex"
+    ],
+    "nftMetadataSupportedProtocol": [
+        "721",
+        "Metaplex"
+    ],
+    "addLiquiditySupportedBridge": [
+        "100"
+    ],
+    "removeLiquiditySupportedBridge": [
+        "100"
+    ],
+    "defaultNativeToken": "0xeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee",
+    "swapAggregatorSupportedDexs": {
+        "1": [
+            {
+                "dexName": "UniswapV2",
+                "dexId": "1000",
+                "nativeToken": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2"
+            },
+            {
+                "dexName": "SushiswapV2",
+                "dexId": "1100",
+                "nativeToken": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2"
+            },
+            {
+                "dexName": "UniswapV3",
+                "dexId": "1300",
+                "nativeToken": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2"
+            },
+            {
+                "dexName": "BalancerV2",
+                "dexId": "1400",
+                "nativeToken": "0x0000000000000000000000000000000000000000"
+            },
+            {
+                "dexName": "CurveV2",
+                "dexId": "1500",
+                "nativeToken": "0xeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+            },
+            {
+                "dexName": "0x",
+                "dexId": "1600",
+                "nativeToken": "0xeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+            },
+            {
+                "dexName": "1inch",
+                "dexId": "1700",
+                "nativeToken": "0xeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+            }
+        ],
+        "56": [
+            {
+                "dexName": "PancakeV2",
+                "dexId": "1200",
+                "nativeToken": "0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c"
+            }
+        ]
+    },
+    "dex": {
+        "1000": {
+            "localName": "UniswapV2",
+            "dexName": "UniswapV2",
+            "chainName": "Ethereum",
+            "chainId": "1",
+            "chainSymbol": "EVM",
+            "routerAddress": "0x7a250d5630B4cF539739dF2C5dAcb4c659F2488D",
+            "factoryAddress": "0x5C69bEe701ef814a2B6a3EDD4B1652CB9cc5aA6f"
+        },
+        "1001": {
+            "localName": "UniswapV2Testnet",
+            "dexName": "UniswapV2",
+            "chainName": "Ethereum",
+            "chainId": "3",
+            "chainSymbol": "EVM",
+            "routerAddress": "0x7a250d5630B4cF539739dF2C5dAcb4c659F2488D"
+        },
+        "1002": {
+            "localName": "UniswapV2Testnet",
+            "dexName": "UniswapV2",
+            "chainName": "Ethereum",
+            "chainId": "5",
+            "chainSymbol": "EVM",
+            "routerAddress": "0x7a250d5630B4cF539739dF2C5dAcb4c659F2488D",
+            "factoryAddress": "0x5C69bEe701ef814a2B6a3EDD4B1652CB9cc5aA6f"
+        },
+        "1100": {
+            "localName": "SushiswapV2",
+            "dexName": "SushiswapV2",
+            "chainName": "Ethereum",
+            "chainId": "1",
+            "chainSymbol": "EVM",
+            "routerAddress": "0xd9e1cE17f2641f24aE83637ab66a2cca9C378B9F",
+            "factoryAddress": "0xC0AEe478e3658e2610c5F7A4A2E1777cE9e4f2Ac"
+        },
+        "1101": {
+            "localName": "SushiswapV2Testnet",
+            "dexName": "SushiswapV2",
+            "chainName": "Ethereum",
+            "chainId": "3",
+            "chainSymbol": "EVM",
+            "routerAddress": "0x1b02dA8Cb0d097eB8D57A175b88c7D8b47997506"
+        },
+        "1102": {
+            "localName": "SushiswapV2Testnet",
+            "dexName": "SushiswapV2",
+            "chainName": "Ethereum",
+            "chainId": "5",
+            "chainSymbol": "EVM",
+            "routerAddress": "0x1b02dA8Cb0d097eB8D57A175b88c7D8b47997506",
+            "factoryAddress": "0xc35DADB65012eC5796536bD9864eD8773aBc74C4"
+        },
+        "1200": {
+            "localName": "PancakeV2",
+            "dexName": "PancakeV2",
+            "chainName": "BSC",
+            "chainId": "56",
+            "chainSymbol": "EVM",
+            "routerAddress": "0x10ED43C718714eb63d5aA57B78B54704E256024E",
+            "factoryAddress": "0xcA143Ce32Fe78f1f7019d7d551a6402fC5350c73"
+        },
+        "1201": {
+            "localName": "PancakeV2Testnet",
+            "dexName": "PancakeV2",
+            "chainName": "BSC",
+            "chainId": "97",
+            "chainSymbol": "EVM",
+            "routerAddress": "0xD99D1c33F9fC3444f8101754aBC46c52416550D1",
+            "factoryAddress": "0x6725F303b657a9451d8BA641348b6761A6CC7a17"
+        },
+        "1300": {
+            "localName": "UniswapV3",
+            "dexName": "UniswapV3",
+            "chainName": "Ethereum",
+            "chainId": "1",
+            "chainSymbol": "EVM",
+            "swapAddress": "0x68b3465833fb72a70ecdf485e0e4c7bd8665fc45",
+            "routerAddress": "0xb27308f9F90D607463bb33eA1BeBb41C27CE5AB6",
+            "positionManager": "0xc36442b4a4522e871399cd717abdd847ab11fe88",
+            "factoryAddress": "0x1F98431c8aD98523631AE4a59f267346ea31F984"
+        },
+        "1301": {
+            "localName": "UniswapV3Testnet",
+            "dexName": "UniswapV3",
+            "chainName": "Ethereum",
+            "chainId": "3",
+            "chainSymbol": "EVM",
+            "swapAddress": "0x68b3465833fb72a70ecdf485e0e4c7bd8665fc45",
+            "routerAddress": "0xb27308f9F90D607463bb33eA1BeBb41C27CE5AB6",
+            "positionManager": "0xc36442b4a4522e871399cd717abdd847ab11fe88",
+            "factoryAddress": "0x1F98431c8aD98523631AE4a59f267346ea31F984"
+        },
+        "1302": {
+            "localName": "UniswapV3Testnet",
+            "dexName": "UniswapV3",
+            "chainName": "Ethereum",
+            "chainId": "5",
+            "chainSymbol": "EVM",
+            "swapAddress": "0x68b3465833fb72a70ecdf485e0e4c7bd8665fc45",
+            "routerAddress": "0xb27308f9F90D607463bb33eA1BeBb41C27CE5AB6",
+            "positionManager": "0xc36442b4a4522e871399cd717abdd847ab11fe88",
+            "factoryAddress": "0x1F98431c8aD98523631AE4a59f267346ea31F984"
+        },
+        "1305": {
+            "localName": "UniswapV3",
+            "dexName": "UniswapV3",
+            "chainName": "Avalanche",
+            "chainId": "43114",
+            "chainSymbol": "AVAX",
+            "swapAddress": "0xbb00FF08d01D300023C629E8fFfFcb65A5a578cE",
+            "routerAddress": "0xbe0F5544EC67e9B3b2D979aaA43f18Fd87E6257F",
+            "positionManager": "0x655C406EBFa14EE2006250925e54ec43AD184f8B",
+            "factoryAddress": "0x740b1c1de25031C31FF4fC9A62f554A55cdC1baD"
+        },
+        "1306": {
+            "localName": "UniswapV3Binance",
+            "dexName": "UniswapV3",
+            "chainName": "Binance",
+            "chainId": "56",
+            "chainSymbol": "BSC",
+            "swapAddress": "0xB971eF87ede563556b2ED4b1C0b0019111Dd85d2",
+            "routerAddress": "0x78D78E420Da98ad378D7799bE8f4AF69033EB077",
+            "positionManager": "0x7b8A01B39D58278b5DE7e48c8449c9f4F5170613",
+            "factoryAddress": "0xdB1d10011AD0Ff90774D0C6Bb92e5C5c8b4461F7"
+        },
+        "1307": {
+            "localName": "UniswapV3",
+            "dexName": "UniswapV3",
+            "chainName": "Polygon",
+            "chainId": "137",
+            "chainSymbol": "MATIC",
+            "swapAddress": "0x68b3465833fb72a70ecdf485e0e4c7bd8665fc45",
+            "routerAddress": "0xb27308f9F90D607463bb33eA1BeBb41C27CE5AB6",
+            "positionManager": "0xc36442b4a4522e871399cd717abdd847ab11fe88",
+            "factoryAddress": "0x1F98431c8aD98523631AE4a59f267346ea31F984"
+        },
+        "1400": {
+            "localName": "BalancerV2",
+            "dexName": "BalancerV2",
+            "chainName": "Ethereum",
+            "chainId": "1",
+            "chainSymbol": "EVM",
+            "vaultAddress": "0xBA12222222228d8Ba445958a75a0704d566BF2C8",
+            "balConfigUrl": "https://api.cow.fi/mainnet/api/v1/quote",
+            "defaultSwapKind": "0",
+            "balConfig": {
+                "network": 1,
+                "rpcUrl": "https://mainnet.infura.io/v3/fc5d23096e754d64a5f261f5f07170d5"
+            },
+            "balPools": [
+                {
+                    "tokens": [
+                        "0x596192bb6e41802428ac943d2f1476c1af25cc0e",
+                        "0xbf5495efe5db9ce00f80364c8b423567e58d2110",
+                        "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2"
+                    ],
+                    "poolId": "0x596192bb6e41802428ac943d2f1476c1af25cc0e000000000000000000000659",
+                    "poolType": "ComposableStable"
+                },
+                {
+                    "tokens": [
+                        "0x7f39c581f595b53c5cb19bd0b3f8da6c935e2ca0",
+                        "0x93d199263632a4ef4bb438f1feb99e57b4b5f0bd",
+                        "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2"
+                    ],
+                    "poolId": "0x93d199263632a4ef4bb438f1feb99e57b4b5f0bd0000000000000000000005c2",
+                    "poolType": "ComposableStable"
+                },
+                {
+                    "tokens": [
+                        "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
+                        "0x6B175474E89094C44Da98b954EedeAC495271d0F"
+                    ],
+                    "poolId": "0x0b09dea16768f0799065c475be02919503cb2a3500020000000000000000001a",
+                    "poolType": "Weighted"
+                },
+                {
+                    "tokens": [
+                        "0x7f39C581F595B53c5cb19bD0b3f8dA6c935E2Ca0",
+                        "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2"
+                    ],
+                    "poolId": "0x32296969ef14eb0c6d29669c550d4a0449130230000200000000000000000080",
+                    "poolType": "Stable"
+                },
+                {
+                    "tokens": [
+                        "0x7f39c581f595b53c5cb19bd0b3f8da6c935e2ca0",
+                        "0x7fc66500c84a76ad7e9c93437bfc5ac33e2ddae9"
+                    ],
+                    "poolId": "0x3de27efa2f1aa663ae5d458857e731c129069f29000200000000000000000588",
+                    "poolType": "Weighted"
+                },
+                {
+                    "tokens": [
+                        "0xae78736cd615f374d3085123a210448e74fc6393",
+                        "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2"
+                    ],
+                    "poolId": "0x1e19cf2d73a72ef1332c882f20534b6519be0276000200000000000000000112",
+                    "poolType": "MetaStable"
+                },
+                {
+                    "tokens": [
+                        "0x848a5564158d84b8a8fb68ab5d004fae11619a54",
+                        "0xbf5495efe5db9ce00f80364c8b423567e58d2110",
+                        "0xcd5fe23c85820f7b72d0926fc9b05b43e359b7ee",
+                        "0xfae103dc9cf190ed75350761e95403b7b8afa6c0"
+                    ],
+                    "poolId": "0x848a5564158d84b8a8fb68ab5d004fae11619a5400000000000000000000066a",
+                    "poolType": "ComposableStable"
+                },
+                {
+                    "tokens": [
+                        "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+                        "0xdacf5fa19b1f720111609043ac67a9818262850c",
+                        "0xf1c9acdc66974dfb6decb12aa385b9cd01190e38"
+                    ],
+                    "poolId": "0xdacf5fa19b1f720111609043ac67a9818262850c000000000000000000000635",
+                    "poolType": "ComposableStable"
+                },
+                {
+                    "tokens": [
+                        "0x83f20f44975d03b1b09e64809b757c47f942beea",
+                        "0xe07f9d810a48ab5c3c914ba3ca53af14e4491e8a"
+                    ],
+                    "poolId": "0x2191df821c198600499aa1f0031b1a7514d7a7d9000200000000000000000639",
+                    "poolType": "GyroE"
+                },
+                {
+                    "tokens": [
+                        "0x05ff47afada98a98982113758878f9a8b9fdda0a",
+                        "0xae78736cd615f374d3085123a210448e74fc6393",
+                        "0xcd5fe23c85820f7b72d0926fc9b05b43e359b7ee"
+                    ],
+                    "poolId": "0x05ff47afada98a98982113758878f9a8b9fdda0a000000000000000000000645",
+                    "poolType": "ComposableStable"
+                },
+                {
+                    "tokens": [
+                        "0x42ed016f826165c2e5976fe5bc3df540c5ad0af7",
+                        "0x7f39c581f595b53c5cb19bd0b3f8da6c935e2ca0",
+                        "0xac3e018457b222d93114458476f3e3416abbe38f",
+                        "0xae78736cd615f374d3085123a210448e74fc6393"
+                    ],
+                    "poolId": "0x42ed016f826165c2e5976fe5bc3df540c5ad0af700000000000000000000058b",
+                    "poolType": "ComposableStable"
+                },
+                {
+                    "tokens": [
+                        "0x137ddb47ee24eaa998a535ab00378d6bfa84f893",
+                        "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2"
+                    ],
+                    "poolId": "0xcf7b51ce5755513d4be016b0e28d6edeffa1d52a000200000000000000000617",
+                    "poolType": "Weighted"
+                },
+                {
+                    "tokens": [
+                        "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+                        "0xcafe001067cdef266afb7eb5a286dcfd277f3de5"
+                    ],
+                    "poolId": "0xcb0e14e96f2cefa8550ad8e4aea344f211e5061d00020000000000000000011a",
+                    "poolType": "Weighted"
+                },
+                {
+                    "tokens": [
+                        "0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48",
+                        "0xaf5191b0de278c7286d6c7cc6ab6bb8a73ba2cd6"
+                    ],
+                    "poolId": "0x3ff3a210e57cfe679d9ad1e9ba6453a716c56a2e0002000000000000000005d5",
+                    "poolType": "Weighted"
+                },
+                {
+                    "tokens": [
+                        "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+                        "0xdbdb4d16eda451d0503b854cf79d55697f90c8df"
+                    ],
+                    "poolId": "0xf16aee6a71af1a9bc8f56975a4c2705ca7a782bc0002000000000000000004bb",
+                    "poolType": "Weighted"
+                },
+                {
+                    "tokens": [
+                        "0x40d16fc0246ad3160ccc09b8d0d3a2cd28ae6c2f",
+                        "0x8353157092ed8be69a9df8f95af097bbf33cb2af",
+                        "0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48",
+                        "0xdac17f958d2ee523a2206206994597c13d831ec7"
+                    ],
+                    "poolId": "0x8353157092ed8be69a9df8f95af097bbf33cb2af0000000000000000000005d9",
+                    "poolType": "ComposableStable"
+                },
+                {
+                    "tokens": [
+                        "0x6810e776880c02933d47db1b9fc05908e5386b96",
+                        "0xdef1ca1fb7fbcdc777520aa7f396b4e015f497ab"
+                    ],
+                    "poolId": "0x92762b42a06dcdddc5b7362cfb01e631c4d44b40000200000000000000000182",
+                    "poolType": "Weighted"
+                },
+                {
+                    "tokens": [
+                        "0x7f39c581f595b53c5cb19bd0b3f8da6c935e2ca0",
+                        "0xdfe6e7e18f6cc65fa13c8d8966013d4fda74b6ba",
+                        "0xe95a203b1a91a908f9b9ce46459d101078c2c3cb"
+                    ],
+                    "poolId": "0xdfe6e7e18f6cc65fa13c8d8966013d4fda74b6ba000000000000000000000558",
+                    "poolType": "ComposableStable"
+                },
+                {
+                    "tokens": [
+                        "0x44108f0223a3c3028f5fe7aec7f9bb2e66bef82f",
+                        "0x7f39c581f595b53c5cb19bd0b3f8da6c935e2ca0"
+                    ],
+                    "poolId": "0x36be1e97ea98ab43b4debf92742517266f5731a3000200000000000000000466",
+                    "poolType": "Weighted"
+                },
+                {
+                    "tokens": [
+                        "0x7761b6e0daa04e70637d81f1da7d186c205c2ade",
+                        "0xa1290d69c65a6fe4df752f95823fae25cb99e5a7",
+                        "0xa35b1b31ce002fbf2058d22f30f95d405200a15b"
+                    ],
+                    "poolId": "0x7761b6e0daa04e70637d81f1da7d186c205c2ade00000000000000000000065d",
+                    "poolType": "ComposableStable"
+                },
+                {
+                    "tokens": [
+                        "0x7f39c581f595b53c5cb19bd0b3f8da6c935e2ca0",
+                        "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2"
+                    ],
+                    "poolId": "0xf01b0684c98cd7ada480bfdf6e43876422fa1fc10002000000000000000005de",
+                    "poolType": "GyroE"
+                },
+                {
+                    "tokens": [
+                        "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+                        "0xfd0205066521550d7d7ab19da8f72bb004b4c341"
+                    ],
+                    "poolId": "0x9232a548dd9e81bac65500b5e0d918f8ba93675c000200000000000000000423",
+                    "poolType": "Weighted"
+                },
+                {
+                    "tokens": [
+                        "0xae78736cd615f374d3085123a210448e74fc6393",
+                        "0xd33526068d116ce69f19a9ee46f0bd304f21a51f"
+                    ],
+                    "poolId": "0x9f9d900462492d4c21e9523ca95a7cd86142f298000200000000000000000462",
+                    "poolType": "Weighted"
+                },
+                {
+                    "tokens": [
+                        "0x5aee1e99fe86960377de9f88689616916d5dcabe",
+                        "0x7f39c581f595b53c5cb19bd0b3f8da6c935e2ca0",
+                        "0xac3e018457b222d93114458476f3e3416abbe38f",
+                        "0xae78736cd615f374d3085123a210448e74fc6393"
+                    ],
+                    "poolId": "0x5aee1e99fe86960377de9f88689616916d5dcabe000000000000000000000467",
+                    "poolType": "ComposableStable"
+                },
+                {
+                    "tokens": [
+                        "0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48",
+                        "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+                        "0xdefa4e8a7bcba345f687a2f1456f5edd9ce97202"
+                    ],
+                    "poolId": "0x6f0ed6f346007563d3266de350d174a831bde0ca0001000000000000000005db",
+                    "poolType": "Weighted"
+                }
+            ]
+        },
+        "1401": {
+            "localName": "BalancerV2Testnet",
+            "dexName": "BalancerV2",
+            "chainName": "Ethereum",
+            "chainId": "5",
+            "chainSymbol": "EVM",
+            "vaultAddress": "0xBA12222222228d8Ba445958a75a0704d566BF2C8",
+            "defaultSwapKind": "0",
+            "balConfig": {
+                "network": 5,
+                "rpcUrl": "https://goerli.infura.io/v3/fc5d23096e754d64a5f261f5f07170d5"
+            },
+            "balPools": [
+                {
+                    "tokens": [
+                        "0xe0C9275E44Ea80eF17579d33c55136b7DA269aEb",
+                        "0xdFCeA9088c8A88A76FF74892C1457C17dfeef9C1"
+                    ],
+                    "poolId": "0x9f1f16b025f703ee985b58ced48daf93dad2f7ef000200000000000000000063",
+                    "poolType": "Weighted"
+                },
+                {
+                    "tokens": [
+                        "0x6320cD32aA674d2898A68ec82e869385Fc5f7E2f",
+                        "0xdFCeA9088c8A88A76FF74892C1457C17dfeef9C1"
+                    ],
+                    "poolId": "0xb60e46d90f2de35f7062a27d3a98749414036d5d000200000000000000000061",
+                    "poolType": "Stable"
+                }
+            ]
+        },
+        "1402": {
+            "localName": "BalancerV2Testnet",
+            "dexName": "BalancerV2",
+            "chainName": "Ethereum",
+            "chainId": "11155111",
+            "chainSymbol": "EVM",
+            "vaultAddress": "0xBA12222222228d8Ba445958a75a0704d566BF2C8",
+            "balConfig": {
+                "network": 5,
+                "rpcUrl": "https://sepolia.infura.io/v3/fc5d23096e754d64a5f261f5f07170d5"
+            },
+            "balPools": [
+                {
+                    "tokens": [
+                        "0xe5118E47e061ab15Ca972D045b35193F673bcc36",
+                        "0xEbCC972B6B3eB15C0592BE1871838963d0B94278"
+                    ],
+                    "poolId": "0x62a402c5435479f3dae2733fadef92e83fa9c502000200000000000000000026",
+                    "poolType": "Weighted"
+                },
+                {
+                    "tokens": [
+                        "0x7b79995e5f793a07bc00c21412e50ecae098e7f9",
+                        "0xf864f011c5a97fd8da79baed78ba77b47112935a"
+                    ],
+                    "poolId": "0x2fab78d8239b0fbcee6ad09a85bc0f9efbac4066000200000000000000000018",
+                    "poolType": "Weighted"
+                }
+            ]
+        },
+        "1500": {
+            "localName": "CurveV2",
+            "dexName": "CurveV2",
+            "chainName": "Ethereum",
+            "chainId": "1",
+            "chainSymbol": "EVM",
+            "curvePoolInfoContract": "0xe64608E223433E8a03a1DaaeFD8Cb638C14B552C",
+            "ethAddress": "0xeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee",
+            "curvePools": [
+                {
+                    "tokenAddresses": [
+                        "0xeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee",
+                        "0xae7ab96520de3a18e5e111b5eaab095312d7fe84"
+                    ],
+                    "poolAddress": "0xdc24316b9ae028f1497c275eb9192a3ea0f67022",
+                    "poolName": "steth",
+                    "factory": false,
+                    "tokenAddress": "0x06325440d014e39736583c165c2963ba99faf14e"
+                },
+                {
+                    "tokenAddresses": [
+                        "0x6b175474e89094c44da98b954eedeac495271d0f",
+                        "0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48",
+                        "0xdac17f958d2ee523a2206206994597c13d831ec7"
+                    ],
+                    "poolAddress": "0xbebc44782c7db0a1a60cb6fe97d0b483032ff1c7",
+                    "poolName": "threepool",
+                    "factory": false,
+                    "tokenAddress": "0x6c3f90f043a72fa612cbac8115ee7e52bde6e490"
+                },
+                {
+                    "tokenAddresses": [
+                        "0x853d955acef822db058eb8505911ed77f175b99e",
+                        "0x83f20f44975d03b1b09e64809b757c47f942beea"
+                    ],
+                    "poolAddress": "0xce6431d21e3fb1036ce9973a3312368ed96f5ce7",
+                    "poolName": "FRAXsDAI",
+                    "factory": true,
+                    "tokenAddress": "0xce6431d21e3fb1036ce9973a3312368ed96f5ce7"
+                },
+                {
+                    "tokenAddresses": [
+                        "0x853d955acef822db058eb8505911ed77f175b99e",
+                        "0x6c3ea9036406852006290770bedfcaba0e23a0e8"
+                    ],
+                    "poolAddress": "0xa5588f7cdf560811710a2d82d3c9c99769db1dcb",
+                    "poolName": "FRAXPYUSD",
+                    "factory": true,
+                    "tokenAddress": "0xa5588f7cdf560811710a2d82d3c9c99769db1dcb"
+                },
+                {
+                    "tokenAddresses": [
+                        "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+                        "0x5e8422345238f34275888049021821e8e08caa1f"
+                    ],
+                    "poolAddress": "0x9c3b46c0ceb5b9e304fcd6d88fc50f7dd24b31bc",
+                    "poolName": "frxETHWETH",
+                    "factory": true,
+                    "tokenAddress": "0x9c3b46c0ceb5b9e304fcd6d88fc50f7dd24b31bc"
+                },
+                {
+                    "tokenAddresses": [
+                        "0xeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee",
+                        "0xae7ab96520de3a18e5e111b5eaab095312d7fe84"
+                    ],
+                    "poolAddress": "0x21e27a5e5513d6e65c4f830167390997aa84843a",
+                    "poolName": "stETHng",
+                    "factory": true,
+                    "tokenAddress": "0x21e27a5e5513d6e65c4f830167390997aa84843a"
+                },
+                {
+                    "tokenAddresses": [
+                        "0x853d955acef822db058eb8505911ed77f175b99e",
+                        "0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48"
+                    ],
+                    "poolAddress": "0xdcef968d416a41cdac0ed8702fac8128a64241a2",
+                    "poolName": "fraxusdc",
+                    "factory": false,
+                    "tokenAddress": "0x3175df0976dfa876431c2e9ee6bc45b65d3473cc"
+                },
+                {
+                    "tokenAddresses": [
+                        "0xdac17f958d2ee523a2206206994597c13d831ec7",
+                        "0x2260fac5e5542a773aa44fbcfedf7c193bc2c599",
+                        "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2"
+                    ],
+                    "poolAddress": "0xd51a44d3fae010294c616388b506acda1bfaae46",
+                    "poolName": "tricrypto2",
+                    "factory": false,
+                    "tokenAddress": "0xc4ad29ba4b3c580e6d59105fff484999997675ff"
+                },
+                {
+                    "tokenAddresses": [
+                        "0xdac17f958d2ee523a2206206994597c13d831ec7",
+                        "0x2260fac5e5542a773aa44fbcfedf7c193bc2c599",
+                        "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2"
+                    ],
+                    "poolAddress": "0xf5f5b97624542d72a9e06f04804bf81baa15e2b4",
+                    "poolName": "TricryptoUSDT",
+                    "factory": true,
+                    "tokenAddress": "0xf5f5b97624542d72a9e06f04804bf81baa15e2b4"
+                },
+                {
+                    "tokenAddresses": [
+                        "0xae7ab96520de3a18e5e111b5eaab095312d7fe84",
+                        "0x5e8422345238f34275888049021821e8e08caa1f"
+                    ],
+                    "poolAddress": "0x4d9f9d15101eec665f77210cb999639f760f831e",
+                    "poolName": "stETHfrxETH",
+                    "factory": true,
+                    "tokenAddress": "0x4d9f9d15101eec665f77210cb999639f760f831e"
+                },
+                {
+                    "tokenAddresses": [
+                        "0xbc6da0fe9ad5f3b0d58160288917aa56653660e9",
+                        "0x3175df0976dfa876431c2e9ee6bc45b65d3473cc"
+                    ],
+                    "poolAddress": "0xb30da2376f63de30b42dc055c93fa474f31330a5",
+                    "poolName": "alUSDFRAXBP",
+                    "factory": true,
+                    "tokenAddress": "0xb30da2376f63de30b42dc055c93fa474f31330a5"
+                },
+                {
+                    "tokenAddresses": [
+                        "0x6c3ea9036406852006290770bedfcaba0e23a0e8",
+                        "0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48"
+                    ],
+                    "poolAddress": "0x383e6b4437b59fff47b619cba855ca29342a8559",
+                    "poolName": "PayPool",
+                    "factory": true,
+                    "tokenAddress": "0x383e6b4437b59fff47b619cba855ca29342a8559"
+                },
+                {
+                    "tokenAddresses": [
+                        "0x4591dbff62656e7859afe5e45f6f47d3669fbb28",
+                        "0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48"
+                    ],
+                    "poolAddress": "0xf980b4a4194694913af231de69ab4593f5e0fcdc",
+                    "poolName": "mkUSDUSDC",
+                    "factory": false,
+                    "tokenAddress": "0xf980b4a4194694913af231de69ab4593f5e0fcdc"
+                },
+                {
+                    "tokenAddresses": [
+                        "0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48",
+                        "0x2260fac5e5542a773aa44fbcfedf7c193bc2c599",
+                        "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2"
+                    ],
+                    "poolAddress": "0x7f86bf177dd4f3494b841a37e810a34dd56c829b",
+                    "poolName": "TricryptoUSDC",
+                    "factory": true,
+                    "tokenAddress": "0x7f86bf177dd4f3494b841a37e810a34dd56c829b"
+                },
+                {
+                    "tokenAddresses": [
+                        "0xeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee",
+                        "0x5e8422345238f34275888049021821e8e08caa1f"
+                    ],
+                    "poolAddress": "0xa1f8a6807c402e4a15ef4eba36528a3fed24e577",
+                    "poolName": "frxeth",
+                    "factory": false,
+                    "tokenAddress": "0xf43211935c781d5ca1a41d2041f397b8a7366c7a"
+                },
+                {
+                    "tokenAddresses": [
+                        "0xeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee",
+                        "0x856c4efb76c1d1ae02e20ceb03a2a6a08b0b8dc3"
+                    ],
+                    "poolAddress": "0x94b17476a93b3262d87b9a326965d1e91f9c13e7",
+                    "poolName": "OETH",
+                    "factory": true,
+                    "tokenAddress": "0x94b17476a93b3262d87b9a326965d1e91f9c13e7"
+                },
+                {
+                    "tokenAddresses": [
+                        "0xd533a949740bb3306d119cc777fa900ba034cd52",
+                        "0x62b9c7356a2dc64a1969e19c23e4f579f9810aa7"
+                    ],
+                    "poolAddress": "0x971add32ea87f10bd192671630be3be8a11b8623",
+                    "poolName": "cvxCrvCrv",
+                    "factory": true,
+                    "tokenAddress": "0x971add32ea87f10bd192671630be3be8a11b8623"
+                },
+                {
+                    "tokenAddresses": [
+                        "0x7f39c581f595b53c5cb19bd0b3f8da6c935e2ca0",
+                        "0xa35b1b31ce002fbf2058d22f30f95d405200a15b"
+                    ],
+                    "poolAddress": "0x14756a5ed229265f86990e749285bdd39fe0334f",
+                    "poolName": "ETHxwstETH",
+                    "factory": false,
+                    "tokenAddress": "0xfffae954601cff1195a8e20342db7ee66d56436b"
+                },
+                {
+                    "tokenAddresses": [
+                        "0x3432b6a60d23ca0dfca7761b7ab56459d9c964d0",
+                        "0xfeef77d3f69374f66429c91d732a244f074bdf74"
+                    ],
+                    "poolAddress": "0x6a9014fb802dcc5efe3b97fd40aaa632585636d0",
+                    "poolName": "cvxFxsFxs",
+                    "factory": true,
+                    "tokenAddress": "0x6a9014fb802dcc5efe3b97fd40aaa632585636d0"
+                },
+                {
+                    "tokenAddresses": [
+                        "0x853d955acef822db058eb8505911ed77f175b99e",
+                        "0x5ca135cb8527d76e932f34b5145575f9d8cbe08e"
+                    ],
+                    "poolAddress": "0x2cf99a343e4ecf49623e82f2ec6a9b62e16ff3fe",
+                    "poolName": "FRAXFPI",
+                    "factory": true,
+                    "tokenAddress": "0x2cf99a343e4ecf49623e82f2ec6a9b62e16ff3fe"
+                },
+                {
+                    "tokenAddresses": [
+                        "0x99d8a9c45b2eca8864373a26d1459e3dff1e17f3",
+                        "0x6c3f90f043a72fa612cbac8115ee7e52bde6e490"
+                    ],
+                    "poolAddress": "0x5a6a4d54456819380173272a5e8e9b9904bdf41b",
+                    "poolName": "mim",
+                    "factory": true,
+                    "tokenAddress": "0x5a6a4d54456819380173272a5e8e9b9904bdf41b"
+                },
+                {
+                    "tokenAddresses": [
+                        "0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48",
+                        "0xf939e0a03fb07f59a73314e73794be0e57ac1b4e"
+                    ],
+                    "poolAddress": "0x4dece678ceceb27446b35c672dc7d61f30bad69e",
+                    "poolName": "crvUSDUSDC",
+                    "factory": true,
+                    "tokenAddress": "0x4dece678ceceb27446b35c672dc7d61f30bad69e"
+                },
+                {
+                    "tokenAddresses": [
+                        "0x0100546f2cd4c9d97f798ffc9755e47865ff7ee6",
+                        "0x5e8422345238f34275888049021821e8e08caa1f"
+                    ],
+                    "poolAddress": "0xb657b895b265c38c53fff00166cf7f6a3c70587d",
+                    "poolName": "alETHfrxETH",
+                    "factory": true,
+                    "tokenAddress": "0xb657b895b265c38c53fff00166cf7f6a3c70587d"
+                },
+                {
+                    "tokenAddresses": [
+                        "0x028171bca77440897b824ca71d1c56cac55b68a3",
+                        "0xbcca60bb61934080951369a648fb03df4f96263c",
+                        "0x3ed3b47dd13ec9a98b44e6204a523e766b225811"
+                    ],
+                    "poolAddress": "0xdebf20617708857ebe4f679508e7b7863a8a8eee",
+                    "poolName": "aave",
+                    "factory": false,
+                    "tokenAddress": "0xfd2a8fa60abd58efe3eee34dd494cd491dc14900"
+                },
+                {
+                    "tokenAddresses": [
+                        "0xdac17f958d2ee523a2206206994597c13d831ec7",
+                        "0xf939e0a03fb07f59a73314e73794be0e57ac1b4e"
+                    ],
+                    "poolAddress": "0x390f3595bca2df7d23783dfd126427cceb997bf4",
+                    "poolName": "crvUSDUSDT",
+                    "factory": true,
+                    "tokenAddress": "0x390f3595bca2df7d23783dfd126427cceb997bf4"
+                }
+            ]
+        },
+        "1700": {
+            "localName": "1inch",
+            "dexName": "1inch",
+            "chainId": "1",
+            "baseUrl": "https://api.1inch.dev/swap/v5.2/1/",
+            "invalidRequest": [
+                "getuserliquidity",
+                "getpoolliquidity",
+                "gettokenliquidity",
+                "getliquidityholders",
+                "getindividualposition",
+                "addliquidity",
+                "removeliquidity"
+            ]
+        },
+        "1701": {
+            "localName": "1inchPolygon",
+            "dexName": "1inch",
+            "chainId": "137",
+            "baseUrl": "https://api.1inch.dev/swap/v5.2/137/",
+            "invalidRequest": [
+                "getuserliquidity",
+                "getpoolliquidity",
+                "gettokenliquidity",
+                "getliquidityholders",
+                "getindividualposition",
+                "addliquidity",
+                "removeliquidity"
+            ]
+        },
+        "1702": {
+            "localName": "1inchAvalanche",
+            "dexName": "1inch",
+            "chainId": "43114",
+            "baseUrl": "https://api.1inch.dev/swap/v5.2/43114/",
+            "invalidRequest": [
+                "getuserliquidity",
+                "getpoolliquidity",
+                "gettokenliquidity",
+                "getliquidityholders",
+                "getindividualposition",
+                "addliquidity",
+                "removeliquidity"
+            ]
+        },
+        "1703": {
+            "localName": "1inchBinance",
+            "dexName": "1inch",
+            "chainId": "56",
+            "baseUrl": "https://api.1inch.dev/swap/v5.2/56/",
+            "invalidRequest": [
+                "getuserliquidity",
+                "getpoolliquidity",
+                "gettokenliquidity",
+                "getliquidityholders",
+                "getindividualposition",
+                "addliquidity",
+                "removeliquidity"
+            ]
+        },
+        "1704": {
+            "localName": "1inchArbitrum",
+            "dexName": "1inch",
+            "chainId": "42161",
+            "baseUrl": "https://api.1inch.dev/swap/v5.2/42161/",
+            "invalidRequest": [
+                "getuserliquidity",
+                "getpoolliquidity",
+                "gettokenliquidity",
+                "getliquidityholders",
+                "getindividualposition",
+                "addliquidity",
+                "removeliquidity"
+            ]
+        },
+        "1705": {
+            "localName": "1inchFantom",
+            "dexName": "1inch",
+            "chainId": "250",
+            "baseUrl": "https://api.1inch.dev/swap/v5.2/250/",
+            "invalidRequest": [
+                "getuserliquidity",
+                "getpoolliquidity",
+                "gettokenliquidity",
+                "getliquidityholders",
+                "getindividualposition",
+                "addliquidity",
+                "removeliquidity"
+            ]
+        },
+        "1706": {
+            "localName": "1inchOptimism",
+            "dexName": "1inch",
+            "chainId": "10",
+            "baseUrl": "https://api.1inch.dev/swap/v5.2/10/",
+            "invalidRequest": [
+                "getuserliquidity",
+                "getpoolliquidity",
+                "gettokenliquidity",
+                "getliquidityholders",
+                "getindividualposition",
+                "addliquidity",
+                "removeliquidity"
+            ]
+        },
+        "1707": {
+            "localName": "1inchBase",
+            "dexName": "1inch",
+            "chainId": "8453",
+            "baseUrl": "https://api.1inch.dev/swap/v5.2/8453/",
+            "invalidRequest": [
+                "getuserliquidity",
+                "getpoolliquidity",
+                "gettokenliquidity",
+                "getliquidityholders",
+                "getindividualposition",
+                "addliquidity",
+                "removeliquidity"
+            ]
+        },
+        "1800": {
+            "localName": "1inchFusion",
+            "dexName": "1inchFusion",
+            "chainName": "Ethereum",
+            "chainId": "1",
+            "chainSymbol": "EVM",
+            "invalidRequest": [
+                "getuserliquidity",
+                "getpoolliquidity",
+                "gettokenliquidity",
+                "getliquidityholders",
+                "getindividualposition",
+                "addliquidity",
+                "removeliquidity"
+            ]
+        },
+        "1900": {
+            "localName": "UniswapX",
+            "dexName": "UniswapX",
+            "chainName": "Ethereum",
+            "chainId": "1",
+            "chainSymbol": "EVM",
+            "reactorAddress": "0x6000da47483062A0D734Ba3dc7576Ce6A0B645C4",
+            "permit2Address": "0x000000000022D473030F116dDEE9F6B43aC78BA3",
+            "ordersApi": "https://api.uniswap.org/v2/orders",
+            "ordersOffset": "50",
+            "invalidRequest": [
+                "getprice",
+                "getuserliquidity",
+                "getpoolliquidity",
+                "gettokenliquidity",
+                "getliquidityholders",
+                "getindividualposition",
+                "addliquidity",
+                "removeliquidity"
+            ]
+        },
+        "1901": {
+            "localName": "UniswapXTestnet",
+            "dexName": "UniswapX",
+            "chainName": "Ethereum",
+            "chainId": "5",
+            "chainSymbol": "EVM",
+            "reactorAddress": "0x6000da47483062A0D734Ba3dc7576Ce6A0B645C4",
+            "permit2Address": "0x000000000022D473030F116dDEE9F6B43aC78BA3",
+            "invalidRequest": [
+                "getprice",
+                "getuserliquidity",
+                "getpoolliquidity",
+                "gettokenliquidity",
+                "getliquidityholders",
+                "getindividualposition",
+                "addliquidity",
+                "removeliquidity"
+            ]
+        },
+        "1600": {
+            "dexName": "0x",
+            "localDexName": "0x",
+            "chainId": "1",
+            "apiBaseUrl": "https://api.0x.org/swap/v1/"
+        },
+        "1602": {
+            "dexName": "0x",
+            "localDexName": "0xPolygon",
+            "chainId": "137",
+            "apiBaseUrl": "https://polygon.api.0x.org/swap/v1/"
+        },
+        "1604": {
+            "dexName": "0x",
+            "localDexName": "0xBinance",
+            "chainId": "56",
+            "apiBaseUrl": "https://bsc.api.0x.org/swap/v1/"
+        },
+        "1605": {
+            "dexName": "0x",
+            "localDexName": "0xOptimism",
+            "chainId": "10",
+            "apiBaseUrl": "https://optimism.api.0x.org/swap/v1/"
+        },
+        "1606": {
+            "dexName": "0x",
+            "localDexName": "0xFantom",
+            "chainId": "250",
+            "apiBaseUrl": "https://fantom.api.0x.org/swap/v1/"
+        },
+        "1607": {
+            "dexName": "0x",
+            "localDexName": "0xAvalanche",
+            "chainId": "43114",
+            "apiBaseUrl": "https://avalanche.api.0x.org/swap/v1/"
+        },
+        "1608": {
+            "dexName": "0x",
+            "localDexName": "0xArbitrum",
+            "chainId": "42161",
+            "apiBaseUrl": "https://arbitrum.api.0x.org/swap/v1/"
+        },
+        "2200": {
+            "dexName": "Kyberswap",
+            "localDexName": "Kyberswap",
+            "chainId": "1",
+            "apiBaseUrl": "https://aggregator-api.kyberswap.com/ethereum/api/v1/",
+            "sources": [
+                "KyberSwap Classic",
+                "KyberSwap Elastic",
+                "KyberSwap Limit Order",
+                "KyberSwap Limit Order V2",
+                "KyberSwap Professional Market Maker",
+                "Balancer Weighted",
+                "Balancer Composable",
+                "Curve (3pool, aave, saave, hbtc, ren, sbtc, eurs, link)",
+                "DefiSwap",
+                "DODO (v2)",
+                "Fraxswap",
+                "Lido stETH",
+                "Lido wstETH",
+                "Maker PSM",
+                "Maverick",
+                "PancakeSwap V2",
+                "PancakeSwap V3",
+                "POL",
+                "Saddle",
+                "ShibaSwap",
+                "SushiSwap",
+                "SushiSwap V3",
+                "Synapse",
+                "TraderJoe V21",
+                "Uniswap (v2)",
+                "Uniswap (v3)",
+                "Verse",
+                "Wombat"
+            ]
+        },
+        "2201": {
+            "dexName": "Kyberswap",
+            "localDexName": "KyberswapBsc",
+            "chainId": "56",
+            "apiBaseUrl": "https://aggregator-api.kyberswap.com/bsc/api/v1/",
+            "sources": [
+                "KyberSwap Classic",
+                "KyberSwap Elastic",
+                "KyberSwap Limit Order",
+                "KyberSwap Limit Order V2",
+                "ApeSwap",
+                "Biswap",
+                "Curve",
+                "DODO (v2)",
+                "Ellipsis",
+                "Firebird",
+                "Fraxswap",
+                "iZiSwap",
+                "JetSwap",
+                "Maverick",
+                "MDEX",
+                "Nerve",
+                "Nomiswap",
+                "OneSwap",
+                "PancakeSwap V2",
+                "PancakeSwap V3",
+                "PancakeSwap Stable",
+                "PancakeSwap (legacy) ",
+                "SushiSwap",
+                "SushiSwap V3",
+                "Synapse",
+                "Thena",
+                "Thena Fusion",
+                "TraderJoe V21",
+                "USDFI",
+                "Uniswap V3",
+                "Wombat",
+                "WOOFi V2"
+            ]
+        },
+        "2202": {
+            "dexName": "Kyberswap",
+            "localDexName": "KyberswapPolygon",
+            "chainId": "137",
+            "apiBaseUrl": "https://aggregator-api.kyberswap.com/polygon/api/v1/",
+            "sources": [
+                "KyberSwap Classic",
+                "KyberSwap Elastic",
+                "KyberSwap Limit Order",
+                "KyberSwap Limit Order V2",
+                "ApeSwap",
+                "Balancer Weighted",
+                "Balancer Composable",
+                "ComethSwap",
+                "Curve",
+                "DFYN",
+                "DinoSwap",
+                "DODO (v2)",
+                "Dystopia",
+                "Firebird",
+                "Fraxswap",
+                "Gravity",
+                "iZiSwap",
+                "JetSwap",
+                "MadMex",
+                "MantisSwap",
+                "MMF",
+                "MetaVault",
+                "OneSwap",
+                "Pearl",
+                "Pearl V2",
+                "Polycat",
+                "PolyDex",
+                "QuickSwap",
+                "Retro",
+                "Retro (v3)",
+                "SushiSwap",
+                "SushiSwap V3",
+                "Synapse",
+                "Uniswap V3 ",
+                "WOOFi V2"
+            ]
+        },
+        "2203": {
+            "dexName": "Kyberswap",
+            "localDexName": "KyberswapArbitrum",
+            "chainId": "42161",
+            "apiBaseUrl": "https://aggregator-api.kyberswap.com/arbitrum/api/v1/",
+            "sources": [
+                "KyberSwap Classic",
+                "KyberSwap Elastic",
+                "KyberSwap Limit Order",
+                "KyberSwap Limit Order V2",
+                "ArbiDEX",
+                "ArbiDEX V3",
+                "Arbswap",
+                "Balancer Weighted",
+                "Camelot",
+                "Camelot V3",
+                "Chronos",
+                "Chronos V3",
+                "Curve",
+                "DODO V2",
+                "Fraxswap",
+                "GMX",
+                "Horiza",
+                "iZiSwap",
+                "MMF",
+                "MMF V3",
+                "PancakeSwap V3",
+                "Ramses",
+                "Ramses CL",
+                "Saddle",
+                "Sparta Dex",
+                "SushiSwap",
+                "SushiSwap V3",
+                "Swapr",
+                "Synapse",
+                "TraderJoe V20",
+                "TraderJoe V21",
+                "Uniswap V3 ",
+                "Wombat",
+                "WOOFi V2",
+                "ZyberSwap V3"
+            ]
+        },
+        "2204": {
+            "dexName": "Kyberswap",
+            "localDexName": "KyberswapAvalanche",
+            "chainId": "43114",
+            "apiBaseUrl": "https://aggregator-api.kyberswap.com/avalanche/api/v1/",
+            "sources": [
+                "KyberSwap Classic",
+                "KyberSwap Elastic",
+                "KyberSwap Limit Order",
+                "KyberSwap Limit Order V2",
+                "Balancer Weighted",
+                "Balancer Composable ",
+                "Curve",
+                "DODO (v2)",
+                "Fraxswap",
+                "GMX",
+                "Lydia",
+                "Pangolin",
+                "Platypus",
+                "SushiSwap",
+                "SushiSwap V3",
+                "Synapse",
+                "TraderJoe",
+                "TraderJoe V20",
+                "TraderJoe V21",
+                "Uniswap (v3)",
+                "WOOFi V2",
+                "YetiSwap"
+            ]
+        },
+        "2205": {
+            "dexName": "Kyberswap",
+            "localDexName": "KyberswapOptimism",
+            "chainId": "10",
+            "apiBaseUrl": "https://aggregator-api.kyberswap.com/optimism/api/v1/",
+            "sources": [
+                "KyberSwap Elastic",
+                "KyberSwap Limit Order",
+                "KyberSwap Limit Order V2",
+                "Beethoven X ",
+                "Curve",
+                "Fraxswap",
+                "FXDX",
+                "iZiSwap",
+                "Synapse",
+                "Synthetix",
+                "SushiSwap V3",
+                "Uniswap (v3)",
+                "Velodrome ",
+                "Velodrome V2",
+                "WOOFi V2",
+                "ZipSwap",
+                "ZyberSwap V3"
+            ]
+        },
+        "2206": {
+            "dexName": "Kyberswap",
+            "localDexName": "KyberswapBase",
+            "chainId": "8453",
+            "apiBaseUrl": "https://aggregator-api.kyberswap.com/base/api/v1/",
+            "sources": [
+                "KyberSwap Elastic",
+                "KyberSwap Limit Order",
+                "KyberSwap Limit Order V2",
+                "Aerodrome",
+                "Alien Base",
+                "Alien Base Stableswap",
+                "Balancer Weighted",
+                "Balancer Composable",
+                "Baldex",
+                "BaseSwap",
+                "BaseSwap V3",
+                "BasoFinance",
+                "BMX",
+                "BMX GMX-Liquidity Pool",
+                "BVM",
+                "Curve",
+                "DackieSwap V2",
+                "DackieSwap V3",
+                "Equalizer",
+                "FXDX",
+                "HorizonDEX",
+                "iZiSwap",
+                "Kokonut Swap Crypto Pools",
+                "Kokonut Swap CPMM",
+                "Maverick",
+                "MoonBase",
+                "PancakeSwap V2",
+                "PancakeSwap V3",
+                "RocketSwap V2",
+                "SushiSwap",
+                "SushiSwap V3",
+                "SwapBased",
+                "SwapBased V3",
+                "SwapBased Perps",
+                "Synapse",
+                "SynthSwap Perp",
+                "SynthSwap V2",
+                "SynthSwap V3",
+                "Uniswap V3",
+                "WOOFi V2"
+            ]
+        },
+        "2207": {
+            "dexName": "Kyberswap",
+            "localDexName": "KyberswapFantom",
+            "chainId": "250",
+            "apiBaseUrl": "https://aggregator-api.kyberswap.com/fantom/api/v1/",
+            "sources": [
+                "KyberSwap Classic",
+                "KyberSwap Elastic",
+                "KyberSwap Limit Order",
+                "KyberSwap Limit Order V2",
+                "Beethoven X ",
+                "Curve",
+                "Fraxswap",
+                "FVM",
+                "JetSwap",
+                "MorpheusSwap",
+                "PaintSwap",
+                "Saddle",
+                "SpiritSwap",
+                "SpookySwap",
+                "SushiSwap",
+                "SushiSwap V3",
+                "Synapse",
+                "WOOFi V2"
+            ]
+        },
+        "2208": {
+            "dexName": "Kyberswap",
+            "localDexName": "KyberswapCronos",
+            "chainId": "25",
+            "apiBaseUrl": "https://aggregator-api.kyberswap.com/cronos/api/v1/",
+            "sources": [
+                "KyberSwap Classic",
+                "KyberSwap Elastic",
+                "Crodex",
+                "CronaSwap",
+                "EmpireDex",
+                "KryptoDex",
+                "MMF",
+                "PhotonSwap",
+                "VVS Finance"
+            ]
+        },
+        "2100": {
+            "localName": "TraderJoe",
+            "dexName": "TraderJoe",
+            "chainName": "Avalanche",
+            "chainId": "43114",
+            "chainSymbol": "AVAX",
+            "quoterAddress": "0xd76019A16606FDa4651f636D9751f500Ed776250",
+            "routerAddress": "0xb4315e873dBcf96Ffd0acd8EA43f689D8c20fB30",
+            "factoryAddress": "0x8e42f2F4101563bF679975178e880FD87d3eFd4e",
+            "strategy": {
+                "spotUniform": {
+                    "deltaIds": [
+                        "-5",
+                        "-4",
+                        "-3",
+                        "-2",
+                        "-1",
+                        "0",
+                        "1",
+                        "2",
+                        "3",
+                        "4",
+                        "5"
+                    ],
+                    "distributionX": [
+                        "0",
+                        "0",
+                        "0",
+                        "0",
+                        "0",
+                        "90909090909090909",
+                        "181818181818181818",
+                        "181818181818181818",
+                        "181818181818181818",
+                        "181818181818181818",
+                        "181818181818181818"
+                    ],
+                    "distributionY": [
+                        "181818181818181818",
+                        "181818181818181818",
+                        "181818181818181818",
+                        "181818181818181818",
+                        "181818181818181818",
+                        "90909090909090909",
+                        "0",
+                        "0",
+                        "0",
+                        "0",
+                        "0"
+                    ]
+                },
+                "curve": {
+                    "deltaIds": [
+                        "-5",
+                        "-4",
+                        "-3",
+                        "-2",
+                        "-1",
+                        "0",
+                        "1",
+                        "2",
+                        "3",
+                        "4",
+                        "5"
+                    ],
+                    "distributionX": [
+                        "0",
+                        "0",
+                        "0",
+                        "0",
+                        "0",
+                        "180000000000000000",
+                        "300000000000000000",
+                        "240000000000000000",
+                        "160000000000000000",
+                        "80000000000000000",
+                        "40000000000000000"
+                    ],
+                    "distributionY": [
+                        "40000000000000000",
+                        "80000000000000000",
+                        "160000000000000000",
+                        "240000000000000000",
+                        "300000000000000000",
+                        "180000000000000000",
+                        "0",
+                        "0",
+                        "0",
+                        "0",
+                        "0"
+                    ]
+                },
+                "bidask": {
+                    "deltaIds": [
+                        "-5",
+                        "-4",
+                        "-3",
+                        "-2",
+                        "-1",
+                        "0",
+                        "1",
+                        "2",
+                        "3",
+                        "4",
+                        "5"
+                    ],
+                    "distributionX": [
+                        "0",
+                        "0",
+                        "0",
+                        "0",
+                        "0",
+                        "40000000000000000",
+                        "120000000000000000",
+                        "160000000000000000",
+                        "200000000000000000",
+                        "240000000000000000",
+                        "240000000000000000"
+                    ],
+                    "distributionY": [
+                        "240000000000000000",
+                        "240000000000000000",
+                        "200000000000000000",
+                        "160000000000000000",
+                        "120000000000000000",
+                        "40000000000000000",
+                        "0",
+                        "0",
+                        "0",
+                        "0",
+                        "0"
+                    ]
+                }
+            }
+        },
+        "2101": {
+            "localName": "TraderJoeTestNet",
+            "dexName": "TraderJoe",
+            "chainName": "Avalanche",
+            "chainId": "43113",
+            "chainSymbol": "TAVAX",
+            "quoterAddress": "0xd76019A16606FDa4651f636D9751f500Ed776250",
+            "routerAddress": "0xb4315e873dBcf96Ffd0acd8EA43f689D8c20fB30",
+            "factoryAddress": "0x8e42f2F4101563bF679975178e880FD87d3eFd4e",
+            "strategy": {
+                "spotUniform": {
+                    "deltaIds": [
+                        "-5",
+                        "-4",
+                        "-3",
+                        "-2",
+                        "-1",
+                        "0",
+                        "1",
+                        "2",
+                        "3",
+                        "4",
+                        "5"
+                    ],
+                    "distributionX": [
+                        "0",
+                        "0",
+                        "0",
+                        "0",
+                        "0",
+                        "90909090909090909",
+                        "181818181818181818",
+                        "181818181818181818",
+                        "181818181818181818",
+                        "181818181818181818",
+                        "181818181818181818"
+                    ],
+                    "distributionY": [
+                        "181818181818181818",
+                        "181818181818181818",
+                        "181818181818181818",
+                        "181818181818181818",
+                        "181818181818181818",
+                        "90909090909090909",
+                        "0",
+                        "0",
+                        "0",
+                        "0",
+                        "0"
+                    ]
+                },
+                "curve": {
+                    "deltaIds": [
+                        "-5",
+                        "-4",
+                        "-3",
+                        "-2",
+                        "-1",
+                        "0",
+                        "1",
+                        "2",
+                        "3",
+                        "4",
+                        "5"
+                    ],
+                    "distributionX": [
+                        "0",
+                        "0",
+                        "0",
+                        "0",
+                        "0",
+                        "180000000000000000",
+                        "300000000000000000",
+                        "240000000000000000",
+                        "160000000000000000",
+                        "80000000000000000",
+                        "40000000000000000"
+                    ],
+                    "distributionY": [
+                        "40000000000000000",
+                        "80000000000000000",
+                        "160000000000000000",
+                        "240000000000000000",
+                        "300000000000000000",
+                        "180000000000000000",
+                        "0",
+                        "0",
+                        "0",
+                        "0",
+                        "0"
+                    ]
+                },
+                "bidask": {
+                    "deltaIds": [
+                        "-5",
+                        "-4",
+                        "-3",
+                        "-2",
+                        "-1",
+                        "0",
+                        "1",
+                        "2",
+                        "3",
+                        "4",
+                        "5"
+                    ],
+                    "distributionX": [
+                        "0",
+                        "0",
+                        "0",
+                        "0",
+                        "0",
+                        "40000000000000000",
+                        "120000000000000000",
+                        "160000000000000000",
+                        "200000000000000000",
+                        "240000000000000000",
+                        "240000000000000000"
+                    ],
+                    "distributionY": [
+                        "240000000000000000",
+                        "240000000000000000",
+                        "200000000000000000",
+                        "160000000000000000",
+                        "120000000000000000",
+                        "40000000000000000",
+                        "0",
+                        "0",
+                        "0",
+                        "0",
+                        "0"
+                    ]
+                }
+            }
+        },
+        "2300": {
+            "localName": "StonFi",
+            "dexName": "StonFi",
+            "chainName": "Ton",
+            "chainId": "1100",
+            "chainSymbol": "TON",
+            "routerAddress": "EQB3ncyBUTjZUA5EnFKR5_EnOMI9V1tTEAAPaiU71gc4TiUt",
+            "tokenHoldersRpc": "https://tonapi.io/v2/jettons/"
+        },
+        "2400": {
+            "dexName": "SDEX",
+            "localName": "SDEX",
+            "chainName": "Stellar",
+            "chainId": "1500",
+            "chainSymbol": "XLM"
+        },
+        "2401": {
+            "dexName": "SDEX",
+            "localName": "SDEXTestnet",
+            "chainName": "Stellar",
+            "chainId": "1501",
+            "chainSymbol": "TXLM"
+        },
+        "2500": {
+            "localName": "Orca",
+            "dexName": "Orca",
+            "chainName": "SOL",
+            "chainId": "900",
+            "chainSymbol": "SOL",
+            "programId": "whirLbMiicVdio4qvUfM5KAg6Ct8VwpYzGff3uctyCc",
+            "nebula": "2LecshUwdy9xi7meFgHtFJQNSKk4KdTrcpvaB56dP2NQ"
+        },
+        "2501": {
+            "localName": "Orca",
+            "dexName": "OrcaDevnet",
+            "chainName": "DSOL",
+            "chainId": "901",
+            "chainSymbol": "DSOL",
+            "programId": "whirLbMiicVdio4qvUfM5KAg6Ct8VwpYzGff3uctyCc",
+            "nebula": "FcrweFY1G9HJAHG5inkGB6pKg1HZ6x9UC2WioAfWrGkR"
+        },
+        "2600": {
+            "localName": "Jupiter",
+            "dexName": "Jupiter",
+            "chainName": "SOL",
+            "chainId": "900",
+            "chainSymbol": "SOL",
+            "jupV6": "JUP6LkbZbjS1jKKwapdHNy74zcZ3tLUZoi5QNyVTaV4",
+            "jupEndpoint": "https://quote-api.jup.ag/v6/",
+            "statsUrl": "https://cache.jup.ag/stats/day"
+        }
+
+    },
+    "bridge": {
+        "100": {
+            "localName": "Stargate",
+            "bridgeName": "Stargate",
+            "bridgeId": "100",
+            "routerAddress": {
+                "1": "0x8731d54E9D02c286767d56ac03e8037C07e01e98",
+                "56": "0x4a364f8c717cAAD9A442737Eb7b8A55cc6cf18D8",
+                "43114": "0x45A01E4e04F14f7A4a6702c74187c5F6222033cd",
+                "137": "0x45A01E4e04F14f7A4a6702c74187c5F6222033cd",
+                "42161": "0x53Bf833A5d6c4ddA888F69c22C88C9f356a41614",
+                "10": "0xB0D502E938ed5f4df2E681fE6E419ff29631d62b",
+                "250": "0xAf5191B0De278C7286d6C7CC6ab6BB8A73bA2Cd6",
+                "5": "0x7612aE2a34E5A363E137De748801FB4c86499152",
+                "80001": "0x817436a076060D158204d955E5403b6Ed0A5fac0",
+                "421611": "0xb850873f4c993Ac2405A1AdD71F6ca5D4d4d6b4f"
+            },
+            "chainId": {
+                "1": 101,
+                "56": 102,
+                "43114": 106,
+                "137": 109,
+                "42161": 110,
+                "10": 111,
+                "250": 112,
+                "5": 10121,
+                "80001": 10109
+            },
+            "poolId": {
+                "1": {
+                    "1": 1,
+                    "2": 2,
+                    "3": 3,
+                    "7": 7,
+                    "11": 11,
+                    "14": 14,
+                    "15": 15,
+                    "16": 16,
+                    "17": 17,
+                    "19": 19
+                },
+                "56": {
+                    "2": 2,
+                    "5": 5,
+                    "11": 11,
+                    "16": 16,
+                    "17": 17,
+                    "19": 19
+                },
+                "43114": {
+                    "1": 1,
+                    "2": 2,
+                    "7": 7,
+                    "16": 16,
+                    "19": 19
+                },
+                "137": {
+                    "1": 1,
+                    "2": 2,
+                    "3": 3,
+                    "16": 16
+                },
+                "42161": {
+                    "1": 1,
+                    "2": 2,
+                    "7": 7,
+                    "15": 15,
+                    "16": 16
+                },
+                "10": {
+                    "1": 1,
+                    "3": 3,
+                    "7": 7,
+                    "14": 14,
+                    "15": 15,
+                    "16": 16
+                },
+                "250": {
+                    "1": 1
+                },
+                "80001": {
+                    "1": 1
+                },
+                "5": {
+                    "1": 1,
+                    "2": 2
+                }
+            },
+            "pools": {
+                "USDC": 1,
+                "USDT": 2,
+                "DAI": 3,
+                "BUSD": 5,
+                "FRAX": 7,
+                "USDD": 11,
+                "sUSD": 14,
+                "LUSD": 15,
+                "MAI": 16,
+                "METIS": 17,
+                "metis.USDT": 19
+            },
+            "swaps": {
+                "USDCUSDT": true,
+                "USDCUSDD": true,
+                "USDTBUSD": true,
+                "USDCBUSD": true
+            }
+        },
+        "200": {
+            "localName": "SquidRouter",
+            "bridgeName": "SquidRouter",
+            "bridgeId": "200",
+            "apiBaseUri": "https://api.0xsquid.com/v1/",
+            "slippage": "1",
+            "toAddress": "0x6Fb447Ae94F5180254D436A693907a1f57696900",
+            "supportedSrcChains": [
+                {
+                    "chainName": "Ethereum",
+                    "chainId": "1"
+                },
+                {
+                    "chainName": "Arbitrum",
+                    "chainId": "42161"
+                },
+                {
+                    "chainName": "optimism",
+                    "chainId": "10"
+                },
+                {
+                    "chainName": "Avalanche",
+                    "chainId": "43114"
+                },
+                {
+                    "chainName": "Polygon",
+                    "chainId": "137"
+                },
+                {
+                    "chainName": "binance",
+                    "chainId": "56"
+                },
+                {
+                    "chainName": "Fantom",
+                    "chainId": "250"
+                }
+            ],
+            "supportedDstChains": [
+                {
+                    "chainName": "Ethereum",
+                    "chainId": "1"
+                },
+                {
+                    "chainName": "Arbitrum",
+                    "chainId": "42161"
+                },
+                {
+                    "chainName": "optimism",
+                    "chainId": "10"
+                },
+                {
+                    "chainName": "linea",
+                    "chainId": "59144"
+                },
+                {
+                    "chainName": "base",
+                    "chainId": "8453"
+                },
+                {
+                    "chainName": "Avalanche",
+                    "chainId": "43114"
+                },
+                {
+                    "chainName": "Polygon",
+                    "chainId": "137"
+                },
+                {
+                    "chainName": "binance",
+                    "chainId": "56"
+                },
+                {
+                    "chainName": "Fantom",
+                    "chainId": "250"
+                },
+                {
+                    "chainName": "Moonbeam",
+                    "chainId": "1284"
+                },
+                {
+                    "chainName": "mantle",
+                    "chainId": "5000"
+                },
+                {
+                    "chainName": "celo",
+                    "chainId": "42220"
+                },
+                {
+                    "chainName": "kava",
+                    "chainId": "2222"
+                },
+                {
+                    "chainName": "filecoin",
+                    "chainId": "314"
+                },
+                {
+                    "chainName": "osmosis",
+                    "chainId": "osmosis-1"
+                },
+                {
+                    "chainName": "cosmoshub",
+                    "chainId": "cosmoshub-4"
+                },
+                {
+                    "chainName": "kujira",
+                    "chainId": "kaiyo-1"
+                },
+                {
+                    "chainName": "neutron",
+                    "chainId": "neutron-1"
+                },
+                {
+                    "chainName": "stargaze",
+                    "chainId": "stargaze-1"
+                },
+                {
+                    "chainName": "axelarnet",
+                    "chainId": "axelar-dojo-1"
+                },
+                {
+                    "chainName": "umee",
+                    "chainId": "umee-1"
+                },
+                {
+                    "chainName": "persistence",
+                    "chainId": "core-1"
+                },
+                {
+                    "chainName": "sommelier",
+                    "chainId": "sommelier-3"
+                },
+                {
+                    "chainName": "stride",
+                    "chainId": "stride-1"
+                },
+                {
+                    "chainName": "crescent",
+                    "chainId": "crescent-1"
+                },
+                {
+                    "chainName": "juno",
+                    "chainId": "juno-1"
+                },
+                {
+                    "chainName": "carbon",
+                    "chainId": "carbon-1"
+                },
+                {
+                    "chainName": "regen",
+                    "chainId": "regen-1"
+                },
+                {
+                    "chainName": "agoric",
+                    "chainId": "agoric-3"
+                },
+                {
+                    "chainName": "chihuahua",
+                    "chainId": "chihuahua-1"
+                },
+                {
+                    "chainName": "akash",
+                    "chainId": "akashnet-2"
+                },
+                {
+                    "chainName": "comdex",
+                    "chainId": "comdex-1"
+                },
+                {
+                    "chainName": "archway",
+                    "chainId": "archway-1"
+                },
+                {
+                    "chainName": "quicksilver",
+                    "chainId": "quicksilver-2"
+                },
+                {
+                    "chainName": "omniflixhub",
+                    "chainId": "omniflixhub-1"
+                },
+                {
+                    "chainName": "migaloo",
+                    "chainId": "migaloo-1"
+                },
+                {
+                    "chainName": "mars",
+                    "chainId": "mars-1"
+                },
+                {
+                    "chainName": "terra",
+                    "chainId": "columbus-5"
+                },
+                {
+                    "chainName": "assetmantle",
+                    "chainId": "mantle-1"
+                },
+                {
+                    "chainName": "gravitybridge",
+                    "chainId": "gravity-bridge-3"
+                },
+                {
+                    "chainName": "bitcanna",
+                    "chainId": "bitcanna-1"
+                },
+                {
+                    "chainName": "bitsong",
+                    "chainId": "bitsong-2b"
+                },
+                {
+                    "chainName": "cheqd",
+                    "chainId": "cheqd-mainnet-1"
+                },
+                {
+                    "chainName": "decentr",
+                    "chainId": "mainnet-3"
+                },
+                {
+                    "chainName": "desmos",
+                    "chainId": "desmos-mainnet"
+                },
+                {
+                    "chainName": "irisnet",
+                    "chainId": "irishub-1"
+                },
+                {
+                    "chainName": "impacthub",
+                    "chainId": "ixo-5"
+                },
+                {
+                    "chainName": "jackal",
+                    "chainId": "jackal-1"
+                },
+                {
+                    "chainName": "likecoin",
+                    "chainId": "likecoin-mainnet-2"
+                },
+                {
+                    "chainName": "lumnetwork",
+                    "chainId": "lum-network-1"
+                },
+                {
+                    "chainName": "sentinel",
+                    "chainId": "sentinelhub-2"
+                }
+            ]
+        },
+        "201": {
+            "localName": "SquidRouterTestnet",
+            "bridgeName": "SquidRouter",
+            "bridgeId": "201",
+            "apiBaseUri": "https://testnet.api.0xsquid.com/v1/",
+            "slippage": "1",
+            "toAddress": "0x6Fb447Ae94F5180254D436A693907a1f57696900",
+            "supportedSrcChains": [
+                {
+                    "chainName": "Ethereum-2",
+                    "chainId": "5"
+                },
+                {
+                    "chainName": "arbitrum",
+                    "chainId": "421613"
+                },
+                {
+                    "chainName": "Avalanche",
+                    "chainId": "43113"
+                },
+                {
+                    "chainName": "Polygon",
+                    "chainId": "80001"
+                },
+                {
+                    "chainName": "binance",
+                    "chainId": "97"
+                },
+                {
+                    "chainName": "Fantom",
+                    "chainId": "4002"
+                }
+            ],
+            "supportedDstChains": [
+                {
+                    "chainName": "Ethereum-2",
+                    "chainId": "5"
+                },
+                {
+                    "chainName": "arbitrum",
+                    "chainId": "421613"
+                },
+                {
+                    "chainName": "linea",
+                    "chainId": "59140"
+                },
+                {
+                    "chainName": "Avalanche",
+                    "chainId": "43113"
+                },
+                {
+                    "chainName": "mantle",
+                    "chainId": "5001"
+                },
+                {
+                    "chainName": "Moonbeam",
+                    "chainId": "1287"
+                },
+                {
+                    "chainName": "filecoin",
+                    "chainId": "3141"
+                },
+                {
+                    "chainName": "Polygon",
+                    "chainId": "80001"
+                },
+                {
+                    "chainName": "binance",
+                    "chainId": "97"
+                },
+                {
+                    "chainName": "Fantom",
+                    "chainId": "4002"
+                },
+                {
+                    "chainName": "celo",
+                    "chainId": "44787"
+                },
+                {
+                    "chainName": "osmosis-6",
+                    "chainId": "osmo-test-5"
+                },
+                {
+                    "chainName": "axelarnet",
+                    "chainId": "axelar-testnet-lisbon-3"
+                },
+                {
+                    "chainName": "kujira",
+                    "chainId": "harpoon-4"
+                },
+                {
+                    "chainName": "sei",
+                    "chainId": "atlantic-1"
+                },
+                {
+                    "chainName": "fetch",
+                    "chainId": "dorado-1"
+                },
+                {
+                    "chainName": "evmos",
+                    "chainId": "evmos_9000-4"
+                },
+                {
+                    "chainName": "comdex",
+                    "chainId": "meteor-test"
+                },
+                {
+                    "chainName": "aura",
+                    "chainId": "euphoria-1"
+                }
+            ]
+        }
+    },
+    "lendborrow": {
+        "1000": {
+            "localName": "AaveV2",
+            "lendborrowName": "AaveV2",
+            "chainName": "Ethereum",
+            "chainId": "1",
+            "chainSymbol": "EVM",
+            "poolAddress": "0x7d2768dE32b0b80b7a3454c06BdAc94A69DDc7A9",
+            "poolAddressBaseToken": "0xeffc18fc3b7eb8e676dac549e0c693ad50d1ce31",
+            "lendingPoolAddressProvider": "0xB53C1a33016B2DC2fF3653530bfF1848a515c8c5",
+            "dataPoolProvider": "0x00e50FAB64eBB37b87df06Aa46b8B35d5f1A4e1A",
+            "dataProvider": "0x057835Ad21a177dbdd3090bB1CAE03EaCF78Fc6d",
+            "tokens": {
+                "0x4fabb145d64652a948d72533023f6e7a623c7c53": {
+                    "symbol": "BUSD"
+                },
+                "0x6b175474e89094c44da98b954eedeac495271d0f": {
+                    "symbol": "DAI"
+                },
+                "0x853d955acef822db058eb8505911ed77f175b99e": {
+                    "symbol": "FRAX"
+                },
+                "0x056fd409e1d7a124bd7017459dfea2f387b6d5cd": {
+                    "symbol": "GUSD"
+                },
+                "0x5f98805a4e8be255a32880fdec7f6728c6568ba0": {
+                    "symbol": "LUSD"
+                },
+                "0x57ab1ec28d129707052df4df418d58a2d46d5f51": {
+                    "symbol": "sUSD"
+                },
+                "0x0000000000085d4780b73119b644ae5ecd22b376": {
+                    "symbol": "TUSD"
+                },
+                "0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48": {
+                    "symbol": "USDC"
+                },
+                "0x8e870d67f660d95d5be530380d0ec0bd388289e1": {
+                    "symbol": "USDP"
+                },
+                "0xdac17f958d2ee523a2206206994597c13d831ec7": {
+                    "symbol": "USDT"
+                },
+                "0x111111111117dc0aa78b770fa6a738034120c302": {
+                    "symbol": "1INCH"
+                },
+                "0x7fc66500c84a76ad7e9c93437bfc5ac33e2ddae9": {
+                    "symbol": "AAVE"
+                },
+                "0xd533a949740bb3306d119cc777fa900ba034cd52": {
+                    "symbol": "CRV"
+                },
+                "0x1494ca1f11d487c2bbe4543e90080aeba4ba3c2b": {
+                    "symbol": "DPI"
+                },
+                "0xc18360217d8f7ab5e7c516566761ea12ce7f9d72": {
+                    "symbol": "ENS"
+                },
+                "0x514910771af9ca656af840dff83e8264ecf986ca": {
+                    "symbol": "LINK"
+                },
+                "0x9f8f72aa9304c8b593d555f12ef6589cc3a579a2": {
+                    "symbol": "MKR"
+                },
+                "0xc011a73ee8576fb46f5e1c5751ca3b9fe0af2a6f": {
+                    "symbol": "SNX"
+                },
+                "0xae7ab96520de3a18e5e111b5eaab095312d7fe84": {
+                    "symbol": "stETH"
+                },
+                "0x1f9840a85d5af5bf1d1762f925bdaddc4201f984": {
+                    "symbol": "UNI"
+                },
+                "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2": {
+                    "symbol": "WETH"
+                },
+                "0x2260fac5e5542a773aa44fbcfedf7c193bc2c599": {
+                    "symbol": "WBTC"
+                }
+            }
+        },
+        "1001": {
+            "localName": "AaveV2Testnet",
+            "lendborrowName": "AaveV2",
+            "chainName": "Ethereum",
+            "chainId": "5",
+            "chainSymbol": "EVM",
+            "poolAddress": "0x4bd5643ac6f66a5237E18bfA7d47cF22f1c9F210",
+            "poolAddressBaseToken": "0x3bd3a20Ac9Ff1dda1D99C0dFCE6D65C4960B3627",
+            "dataProvider": "0x927F584d4321C1dCcBf5e2902368124b02419a1E",
+            "lendingPoolAddressProvider": "0x5E52dEc931FFb32f609681B8438A51c675cc232d",
+            "dataPoolProvider": "0xcCb7a1B6B5D72c4AA633B114537cD20612fDccbB",
+            "tokens": {
+                "0xa7c3bf25ffea8605b516cf878b7435fe1768c89b": {
+                    "symbol": "BUSD"
+                },
+                "0x75ab5ab1eef154c0352fc31d2428cef80c7f8b33": {
+                    "symbol": "DAI"
+                },
+                "0x4e62eb262948671590b8d967bde048557bdd03ed": {
+                    "symbol": "sUSD"
+                },
+                "0xc048c1b6ac47393f073da2b3d5d1cc43b94891fd": {
+                    "symbol": "TUSD"
+                },
+                "0x9fd21be27a2b059a288229361e2fa632d8d2d074": {
+                    "symbol": "USDC"
+                },
+                "0x65e2fe35c30ec218b46266f89847c63c2eda7dc7": {
+                    "symbol": "USDT"
+                },
+                "0x0b7a69d978dda361db5356d4bd0206496afbdd96": {
+                    "symbol": "AAVE"
+                },
+                "0x853d955acef822db058eb8505911ed77f175b99e": {
+                    "symbol": "FRAX"
+                },
+                "0x056fd409e1d7a124bd7017459dfea2f387b6d5cd": {
+                    "symbol": "GUSD"
+                },
+                "0x5f98805a4e8be255a32880fdec7f6728c6568ba0": {
+                    "symbol": "LUSD"
+                },
+                "0x515614aa3d8f09152b1289848383a260c7d053ff": {
+                    "symbol": "BAT"
+                },
+                "0x1057dcaa0b66dfbcec5241fd51f4326c210f201f": {
+                    "symbol": "ENJ"
+                },
+                "0x54bc1d59873a5abde98cf76b6ecf4075ff65d685": {
+                    "symbol": "KNC"
+                },
+                "0x7337e7ff9abc45c0e43f130c136a072f4794d40b": {
+                    "symbol": "LINK"
+                },
+                "0x8d9eac6f25470effd68f0ad22993cb2813c0c9b9": {
+                    "symbol": "MANA"
+                },
+                "0x90be02599452fbc1a3d47e9eb62895330cfa05ed": {
+                    "symbol": "MKR"
+                },
+                "0xfc1ab0379db4b6ad8bf5bc1382e108a341e2eabb": {
+                    "symbol": "SNX"
+                },
+                "0x981d8acaf6af3a46785e7741d22fbe81b25ebf1e": {
+                    "symbol": "UNI"
+                },
+                "0xf4423f4152966ebb106261740da907662a3569c5": {
+                    "symbol": "WBTC"
+                },
+                "0xcca7d1416518d095e729904aaea087dba749a4dc": {
+                    "symbol": "WETH"
+                }
+            }
+        },
+        "1100": {
+            "localName": "Compound",
+            "lendborrowName": "Compound",
+            "chainName": "Ethereum",
+            "chainId": "1",
+            "chainSymbol": "EVM",
+            "Comptroller": "0x3d9819210a31b4961b30ef54be2aed79b9c9cd3b",
+            "ctokens": {
+                "cAAVE": "0xe65cdb6479bac1e22340e4e755fae7e509ecd06c",
+                "cBAT": "0x6c8c6b02e7b2be14d4fa6022dfd6d75921d90e4e",
+                "cCOMP": "0x70e36f6bf80a52b3b46b3af8e106cc0ed743e8e4",
+                "cDAI": "0x5d3a536e4d6dbd6114cc1ead35777bab948e3643",
+                "cETH": "0x4Ddc2D193948926D02f9B1fE9e1daa0718270ED5",
+                "cLINK": "0xface851a4921ce59e912d19329929ce6da6eb0c7",
+                "cMKR": "0x95b4ef2869ebd94beb4eee400a99824bf5dc325b",
+                "cREP": "0x158079ee67fce2f58472a96584a73c7ab9ac95c1",
+                "cSUSHI": "0x4b0181102a0112a2ef11abee5563bb4a3176c9d7",
+                "cTUSD": "0x12392f67bdf24fae0af363c24ac620a2f67dad86",
+                "cUNI": "0x35a18000230da775cac24873d00ff85bccded550",
+                "cUSDC": "0x39aa39c021dfbae8fac545936693ac917d5e7563",
+                "cUSDP": "0x041171993284df560249b57358f931d9eb7b925d",
+                "cUSDT": "0xf650c3d88d12db855b8bf7d11be6c55a4e07dcc9",
+                "cWBTC": "0xc11b1268c1a384e55c48c2391d8d480264a3a7f4",
+                "cWBTC2": "0xccf4429db6322d5c611ee964527d42e5d685dd6a",
+                "cYFI": "0x80a2ae356fc9ef4305676f7a3e2ed04e12c33946",
+                "cZRX": "0xb3319f5d18bc0d84dd1b4825dcde5d5f7266d407"
+            }
+        },
+        "1101": {
+            "localName": "CompoundTestnet",
+            "lendborrowName": "Compound",
+            "chainName": "Ethereum",
+            "chainId": "5",
+            "chainSymbol": "EVM",
+            "Comptroller2": "0x3cBe63aAcF6A064D32072a630A3eab7545C54d78",
+            "Comptroller": "0x627ea49279fd0de89186a58b8758ad02b6be2867",
+            "ctokens": {
+                "cDAI": "0x0545a8eaf7ff6bb6f708cbb544ea55dbc2ad7b2a",
+                "cUSDC": "0x73506770799eb04befb5aae4734e58c2c624f493"
+            }
+        },
+        "1200": {
+            "localName": "AaveV3",
+            "lendborrowName": "AaveV3",
+            "chainName": "Ethereum",
+            "chainId": "1",
+            "chainSymbol": "EVM",
+            "poolAddress": "0x87870Bca3F3fD6335C3F4ce8392D69350B4fA4E2",
+            "poolAddressBaseToken": "0xD322A49006FC828F9B5B37Ab215F99B4E5caB19C",
+            "lendingPoolAddressProvider": "0x2f39d218133AFaB8F2B819B1066c7E434Ad94E9e",
+            "dataPoolProvider": "0x91c0eA31b49B69Ea18607702c5d9aC360bf3dE7d",
+            "dataProvider": "0x7B4EB56E7CD4b454BA8ff71E4518426369a138a3",
+            "migrationContract": "0xb748952c7bc638f31775245964707bcc5ddfabfc",
+            "tokens": {
+                "0x7f39c581f595b53c5cb19bd0b3f8da6c935e2ca0": {
+                    "symbol": "wstETH"
+                },
+                "0xae78736cd615f374d3085123a210448e74fc6393": {
+                    "symbol": "rETH"
+                },
+                "0x83f20f44975d03b1b09e64809b757c47f942beea": {
+                    "symbol": "sDAI"
+                },
+                "0xbe9895146f7af43049ca1c1ae358b0541ea49704": {
+                    "symbol": "cbETH"
+                },
+                "0xd33526068d116ce69f19a9ee46f0bd304f21a51f": {
+                    "symbol": "RPL"
+                },
+                "0x5a98fcbea516cf06857215779fd812ca3bef1b32": {
+                    "symbol": "LDO"
+                },
+                "0xba100000625a3754423978a60c9317c58a424e3d": {
+                    "symbol": "BAL"
+                },
+                "0x4fabb145d64652a948d72533023f6e7a623c7c53": {
+                    "symbol": "BUSD"
+                },
+                "0x6b175474e89094c44da98b954eedeac495271d0f": {
+                    "symbol": "DAI"
+                },
+                "0x853d955acef822db058eb8505911ed77f175b99e": {
+                    "symbol": "FRAX"
+                },
+                "0x056fd409e1d7a124bd7017459dfea2f387b6d5cd": {
+                    "symbol": "GUSD"
+                },
+                "0x5f98805a4e8be255a32880fdec7f6728c6568ba0": {
+                    "symbol": "LUSD"
+                },
+                "0x57ab1ec28d129707052df4df418d58a2d46d5f51": {
+                    "symbol": "sUSD"
+                },
+                "0x0000000000085d4780b73119b644ae5ecd22b376": {
+                    "symbol": "TUSD"
+                },
+                "0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48": {
+                    "symbol": "USDC"
+                },
+                "0x8e870d67f660d95d5be530380d0ec0bd388289e1": {
+                    "symbol": "USDP"
+                },
+                "0xdac17f958d2ee523a2206206994597c13d831ec7": {
+                    "symbol": "USDT"
+                },
+                "0x111111111117dc0aa78b770fa6a738034120c302": {
+                    "symbol": "1INCH"
+                },
+                "0x7fc66500c84a76ad7e9c93437bfc5ac33e2ddae9": {
+                    "symbol": "AAVE"
+                },
+                "0xd533a949740bb3306d119cc777fa900ba034cd52": {
+                    "symbol": "CRV"
+                },
+                "0x1494ca1f11d487c2bbe4543e90080aeba4ba3c2b": {
+                    "symbol": "DPI"
+                },
+                "0xc18360217d8f7ab5e7c516566761ea12ce7f9d72": {
+                    "symbol": "ENS"
+                },
+                "0x514910771af9ca656af840dff83e8264ecf986ca": {
+                    "symbol": "LINK"
+                },
+                "0x9f8f72aa9304c8b593d555f12ef6589cc3a579a2": {
+                    "symbol": "MKR"
+                },
+                "0xc011a73ee8576fb46f5e1c5751ca3b9fe0af2a6f": {
+                    "symbol": "SNX"
+                },
+                "0xae7ab96520de3a18e5e111b5eaab095312d7fe84": {
+                    "symbol": "stETH"
+                },
+                "0x1f9840a85d5af5bf1d1762f925bdaddc4201f984": {
+                    "symbol": "UNI"
+                },
+                "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2": {
+                    "symbol": "WETH"
+                },
+                "0x2260fac5e5542a773aa44fbcfedf7c193bc2c599": {
+                    "symbol": "WBTC"
+                }
+            },
+            "isolatedTokens": [
+                "0x853d955acef822db058eb8505911ed77f175b99e",
+                "0x111111111117dc0aa78b770fa6a738034120c302",
+                "0x1f9840a85d5af5bf1d1762f925bdaddc4201f984",
+                "0xba100000625a3754423978a60c9317c58a424e3d",
+                "0xc011a73ee8576fb46f5e1c5751ca3b9fe0af2a6f",
+                "0xd533a949740bb3306d119cc777fa900ba034cd52",
+                "0xc18360217d8f7ab5e7c516566761ea12ce7f9d72",
+                "0x5a98fcbea516cf06857215779fd812ca3bef1b32",
+                "0x9f8f72aa9304c8b593d555f12ef6589cc3a579a2"
+            ]
+        },
+        "1201": {
+            "localName": "AaveV3TestnetGoerli",
+            "lendborrowName": "AaveV3",
+            "chainName": "Ethereum",
+            "chainId": "5",
+            "chainSymbol": "EVM",
+            "poolAddress": "0x7b5C526B7F8dfdff278b4a3e045083FBA4028790",
+            "poolAddressBaseToken": "0x2A498323aCaD2971a8b1936fD7540596dC9BBacD",
+            "lendingPoolAddressProvider": "0xC911B590248d127aD18546B186cC6B324e99F02c",
+            "dataPoolProvider": "0xb00A75686293Fea5DA122E8361f6815A0B0AF48E",
+            "dataProvider": "0xa41E284482F9923E265832bE59627d91432da76C",
+            "migrationContract": "0xb748952c7bc638f31775245964707bcc5ddfabfc",
+            "tokens": {
+                "0xbc33cfbd55ea6e5b97c6da26f11160ae82216e2b": {
+                    "symbol": "EURS"
+                },
+                "0xba8dced3512925e52fe67b1b5329187589072a55": {
+                    "symbol": "DAI"
+                },
+                "0x65afadd39029741b3b8f0756952c74678c9cec93": {
+                    "symbol": "USDC"
+                },
+                "0x2e8d98fd126a32362f2bd8aa427e59a1ec63f780": {
+                    "symbol": "USDT"
+                },
+                "0x8153a21dfeb1f67024aa6c6e611432900ff3dcb9": {
+                    "symbol": "AAVE"
+                },
+                "0xe9c4393a23246293a8d31bf7ab68c17d4cf90a29": {
+                    "symbol": "LINK"
+                },
+                "0x45ac379f019e48ca5dac02e54f406f99f5088099": {
+                    "symbol": "WBTC"
+                },
+                "0xccb14936c2e000ed8393a571d15a2672537838ad": {
+                    "symbol": "WETH"
+                }
+            },
+            "isolatedTokens": [
+                "0xbc33cfbd55ea6e5b97c6da26f11160ae82216e2b",
+                "0x2e8d98fd126a32362f2bd8aa427e59a1ec63f780"
+            ]
+        },
+        "1202": {
+            "localName": "AaveV3Testnet",
+            "lendborrowName": "AaveV3",
+            "chainName": "Ethereum",
+            "chainId": "11155111",
+            "chainSymbol": "EVM",
+            "poolAddress": "0x6Ae43d3271ff6888e7Fc43Fd7321a503ff738951",
+            "poolAddressBaseToken": "0x387d311e47e80b498169e6fb51d3193167d89F7D",
+            "lendingPoolAddressProvider": "0x012bAC54348C0E635dCAc9D5FB99f06F24136C9A",
+            "dataPoolProvider": "0x69529987FA4A075D0C00B0128fa848dc9ebbE9CE",
+            "dataProvider": "0x3e9708d80f7B3e43118013075F7e95CE3AB31F31",
+            "tokens": {
+                "0x6d906e526a4e2ca02097ba9d0caa3c382f52278e": {
+                    "symbol": "EURS"
+                },
+                "0xff34b3d4aee8ddcd6f9afffb6fe49bd371b8a357": {
+                    "symbol": "DAI"
+                },
+                "0x94a9d9ac8a22534e3faca9f4e7f2e2cf85d5e4c8": {
+                    "symbol": "USDC"
+                },
+                "0xaa8e23fb1079ea71e0a56f48a2aa51851d8433d0": {
+                    "symbol": "USDT"
+                },
+                "0x88541670e55cc00beefd87eb59edd1b7c511ac9a": {
+                    "symbol": "AAVE"
+                },
+                "0xf8fb3713d459d7c1018bd0a49d19b4c44290ebe5": {
+                    "symbol": "LINK"
+                },
+                "0x29f2d40b0605204364af54ec677bd022da425d03": {
+                    "symbol": "WBTC"
+                },
+                "0xc558dbdd856501fcd9aaf1e62eae57a9f0629a3c": {
+                    "symbol": "WETH"
+                }
+            },
+            "isolatedTokens": [
+                "0x6d906e526a4e2ca02097ba9d0caa3c382f52278e",
+                "0xaa8e23fb1079ea71e0a56f48a2aa51851d8433d0"
+            ]
+        },
+        "1300": {
+            "localName": "CompoundV3",
+            "lendborrowName": "CompoundV3",
+            "chainName": "Ethereum",
+            "chainId": "1",
+            "chainSymbol": "EVM",
+            "markets": [
+                "USDC",
+                "WETH"
+            ],
+            "USDC": {
+                "cometImplementation": "0xe27da8dd72C35C9016e72E7a6ABD7B6B71470d1F",
+                "comet": "0xc3d688B66703497DAA19211EEdff47f25384cdc3",
+                "cometExt": "0x285617313887d43256F852cAE0Ee4de4b68D45B0",
+                "configurator": "0x316f9708bB98af7dA9c68C1C3b5e79039cD336E3",
+                "compPriceFeedAddress": "0xdbd020CAeF83eFd542f4De03e3cF0C28A4428bd5",
+                "bulker": "0xa397a8C2086C554B531c02E29f3291c9704B00c7",
+                "reward": "0x1B0e765F6224C21223AeA2af16c1C46E38885a40",
+                "bundleActionsFunctions": {
+                    "ACTION_SUPPLY_ASSET": [
+                        "address",
+                        "address",
+                        "address",
+                        "uint"
+                    ],
+                    "ACTION_SUPPLY_NATIVE_TOKEN": [
+                        "address",
+                        "address",
+                        "uint"
+                    ],
+                    "ACTION_TRANSFER_ASSET": [
+                        "address",
+                        "address",
+                        "address",
+                        "uint"
+                    ],
+                    "ACTION_WITHDRAW_ASSET": [
+                        "address",
+                        "address",
+                        "address",
+                        "uint"
+                    ],
+                    "ACTION_WITHDRAW_NATIVE_TOKEN": [
+                        "address",
+                        "address",
+                        "uint"
+                    ],
+                    "ACTION_CLAIM_REWARD": [
+                        "address",
+                        "address",
+                        "address",
+                        "bool"
+                    ],
+                    "ACTION_SUPPLY_STETH": [
+                        "address",
+                        "address",
+                        "uint"
+                    ],
+                    "ACTION_WITHDRAW_STETH": [
+                        "address",
+                        "address",
+                        "uint"
+                    ]
+                },
+                "assets": {
+                    "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48": {
+                        "decimals": 6,
+                        "native": false
+                    },
+                    "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2": {
+                        "decimals": 18,
+                        "native": true
+                    },
+                    "0xc00e94Cb662C3520282E6f5717214004A7f26888": {
+                        "decimals": 18,
+                        "native": false
+                    },
+                    "0x2260FAC5E5542a773Aa44fBCfeDf7C193bc2C599": {
+                        "decimals": 8,
+                        "native": false
+                    },
+                    "0x1f9840a85d5aF5bf1D1762F925BDADdC4201F984": {
+                        "decimals": 18,
+                        "native": false
+                    },
+                    "0x514910771AF9Ca656af840dff83E8264EcF986CA": {
+                        "decimals": 18,
+                        "native": false
+                    }
+                }
+            },
+            "WETH": {
+                "cometImplementation": "0x2dc23f58736724C40b1168d05ddAE37d45A99F87",
+                "comet": "0xA17581A9E3356d9A858b789D68B4d866e593aE94",
+                "cometExt": "0xe2C1F54aFF6b38fD9DF7a69F22cB5fd3ba09F030",
+                "configurator": "0x316f9708bB98af7dA9c68C1C3b5e79039cD336E3",
+                "compPriceFeedAddress": "0xdbd020CAeF83eFd542f4De03e3cF0C28A4428bd5",
+                "bulker": "0xa397a8C2086C554B531c02E29f3291c9704B00c7",
+                "reward": "0x1B0e765F6224C21223AeA2af16c1C46E38885a40",
+                "bundleActionsFunctions": {
+                    "ACTION_SUPPLY_ASSET": [
+                        "address",
+                        "address",
+                        "address",
+                        "uint"
+                    ],
+                    "ACTION_SUPPLY_NATIVE_TOKEN": [
+                        "address",
+                        "address",
+                        "uint"
+                    ],
+                    "ACTION_TRANSFER_ASSET": [
+                        "address",
+                        "address",
+                        "address",
+                        "uint"
+                    ],
+                    "ACTION_WITHDRAW_ASSET": [
+                        "address",
+                        "address",
+                        "address",
+                        "uint"
+                    ],
+                    "ACTION_WITHDRAW_NATIVE_TOKEN": [
+                        "address",
+                        "address",
+                        "uint"
+                    ],
+                    "ACTION_CLAIM_REWARD": [
+                        "address",
+                        "address",
+                        "address",
+                        "bool"
+                    ],
+                    "ACTION_SUPPLY_STETH": [
+                        "address",
+                        "address",
+                        "uint"
+                    ],
+                    "ACTION_WITHDRAW_STETH": [
+                        "address",
+                        "address",
+                        "uint"
+                    ]
+                },
+                "assets": {
+                    "0xBe9895146f7AF43049ca1c1AE358B0541Ea49704": {
+                        "decimals": 18,
+                        "native": false
+                    },
+                    "0xae78736Cd615f374D3085123A210448E74Fc6393": {
+                        "decimals": 18,
+                        "native": false
+                    },
+                    "0x7f39C581F595B53c5cb19bD0b3f8dA6c935E2Ca0": {
+                        "decimals": 18,
+                        "native": false
+                    },
+                    "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2": {
+                        "decimals": 18,
+                        "native": true
+                    }
+                }
+            }
+        },
+        "1301": {
+            "localName": "CompoundV3Testnet",
+            "lendborrowName": "CompoundV3",
+            "chainName": "Ethereum",
+            "chainId": "5",
+            "chainSymbol": "EVM",
+            "markets": [
+                "USDC",
+                "WETH"
+            ],
+            "USDC": {
+                "cometImplementation": "0x528c57A87706C31765001779168b42f24c694E1b",
+                "comet": "0x3EE77595A8459e93C2888b13aDB354017B198188",
+                "cometExt": "0x7c7586C868FD81A7F496f09375df70E5A96aE7b1",
+                "configurator": "0xB28495db3eC65A0e3558F040BC4f98A0d588Ae60",
+                "compPriceFeedAddress": "0x54a06047087927D9B0fb21c1cf0ebd792764dDB8",
+                "bulker": "0x69dD076105977c55dC2835951d287f82D54606b4",
+                "reward": "0xef9e070044d62C38D2e316146dDe92AD02CF2c2c",
+                "bundleActionsFunctions": {
+                    "ACTION_SUPPLY_ASSET": [
+                        "address",
+                        "address",
+                        "address",
+                        "uint"
+                    ],
+                    "ACTION_SUPPLY_NATIVE_TOKEN": [
+                        "address",
+                        "address",
+                        "uint"
+                    ],
+                    "ACTION_TRANSFER_ASSET": [
+                        "address",
+                        "address",
+                        "address",
+                        "uint"
+                    ],
+                    "ACTION_WITHDRAW_ASSET": [
+                        "address",
+                        "address",
+                        "address",
+                        "uint"
+                    ],
+                    "ACTION_WITHDRAW_NATIVE_TOKEN": [
+                        "address",
+                        "address",
+                        "uint"
+                    ],
+                    "ACTION_CLAIM_REWARD": [
+                        "address",
+                        "address",
+                        "address",
+                        "bool"
+                    ],
+                    "ACTION_SUPPLY_STETH": [
+                        "address",
+                        "address",
+                        "uint"
+                    ],
+                    "ACTION_WITHDRAW_STETH": [
+                        "address",
+                        "address",
+                        "uint"
+                    ]
+                },
+                "assets": {
+                    "0x07865c6E87B9F70255377e024ace6630C1Eaa37F": {
+                        "decimals": 6,
+                        "native": false
+                    },
+                    "0x3587b2F7E0E2D6166d6C14230e7Fe160252B0ba4": {
+                        "decimals": 18,
+                        "native": false
+                    },
+                    "0x42a71137C09AE83D8d05974960fd607d40033499": {
+                        "decimals": 18,
+                        "native": true
+                    },
+                    "0xAAD4992D949f9214458594dF92B44165Fb84dC19": {
+                        "decimals": 8,
+                        "native": false
+                    }
+                }
+            },
+            "WETH": {
+                "cometImplementation": "0x1a7E64b593a9B8796e88a7489a2CEb6d079C850d",
+                "comet": "0x9A539EEc489AAA03D588212a164d0abdB5F08F5F",
+                "cometExt": "0x58753122C7dC72a6e223818719AFbf26f324ce84",
+                "configurator": "0xB28495db3eC65A0e3558F040BC4f98A0d588Ae60",
+                "compPriceFeedAddress": "0xdbd020CAeF83eFd542f4De03e3cF0C28A4428bd5",
+                "bulker": "0x69dD076105977c55dC2835951d287f82D54606b4",
+                "reward": "0xef9e070044d62C38D2e316146dDe92AD02CF2c2c",
+                "bundleActionsFunctions": {
+                    "ACTION_SUPPLY_ASSET": [
+                        "address",
+                        "address",
+                        "address",
+                        "uint"
+                    ],
+                    "ACTION_SUPPLY_NATIVE_TOKEN": [
+                        "address",
+                        "address",
+                        "uint"
+                    ],
+                    "ACTION_TRANSFER_ASSET": [
+                        "address",
+                        "address",
+                        "address",
+                        "uint"
+                    ],
+                    "ACTION_WITHDRAW_ASSET": [
+                        "address",
+                        "address",
+                        "address",
+                        "uint"
+                    ],
+                    "ACTION_WITHDRAW_NATIVE_TOKEN": [
+                        "address",
+                        "address",
+                        "uint"
+                    ],
+                    "ACTION_CLAIM_REWARD": [
+                        "address",
+                        "address",
+                        "address",
+                        "bool"
+                    ],
+                    "ACTION_SUPPLY_STETH": [
+                        "address",
+                        "address",
+                        "uint"
+                    ],
+                    "ACTION_WITHDRAW_STETH": [
+                        "address",
+                        "address",
+                        "uint"
+                    ]
+                },
+                "assets": {
+                    "0x2459f06a13ea0997d623224F362519bE71507258": {
+                        "decimals": 18,
+                        "native": false
+                    },
+                    "0x4942BBAf745f235e525BAff49D31450810EDed5b": {
+                        "decimals": 18,
+                        "native": false
+                    },
+                    "0x42a71137C09AE83D8d05974960fd607d40033499": {
+                        "decimals": 18,
+                        "native": true
+                    }
+                }
+            }
+        },
+        "1302": {
+            "localName": "CompoundV3Testnet",
+            "lendborrowName": "CompoundV3",
+            "chainName": "Ethereum",
+            "chainId": "11155111",
+            "chainSymbol": "EVM",
+            "markets": [
+                "USDC",
+                "WETH"
+            ],
+            "USDC": {
+                "cometImplementation": "0xE3E0106227181958aBfbA960C13d0Fe52c733265",
+                "comet": "0xAec1F48e02Cfb822Be958B68C7957156EB3F0b6e",
+                "cometExt": "0xdCbDb7306c6Ff46f77B349188dC18cEd9DF30299",
+                "configurator": "0xc28aD44975C614EaBe0Ed090207314549e1c6624",
+                "compPriceFeedAddress": "0x619db7F74C0061E2917D1D57f834D9D24C5529dA",
+                "bulker": "0xaD0C044425D81a2E223f4CE699156900fead2Aaa",
+                "reward": "0x8bF5b658bdF0388E8b482ED51B14aef58f90abfD",
+                "bundleActionsFunctions": {
+                    "ACTION_SUPPLY_ASSET": [
+                        "address",
+                        "address",
+                        "address",
+                        "uint"
+                    ],
+                    "ACTION_SUPPLY_NATIVE_TOKEN": [
+                        "address",
+                        "address",
+                        "uint"
+                    ],
+                    "ACTION_TRANSFER_ASSET": [
+                        "address",
+                        "address",
+                        "address",
+                        "uint"
+                    ],
+                    "ACTION_WITHDRAW_ASSET": [
+                        "address",
+                        "address",
+                        "address",
+                        "uint"
+                    ],
+                    "ACTION_WITHDRAW_NATIVE_TOKEN": [
+                        "address",
+                        "address",
+                        "uint"
+                    ],
+                    "ACTION_CLAIM_REWARD": [
+                        "address",
+                        "address",
+                        "address",
+                        "bool"
+                    ],
+                    "ACTION_SUPPLY_STETH": [
+                        "address",
+                        "address",
+                        "uint"
+                    ],
+                    "ACTION_WITHDRAW_STETH": [
+                        "address",
+                        "address",
+                        "uint"
+                    ]
+                },
+                "assets": {
+                    "0x1c7D4B196Cb0C7B01d743Fbc6116a902379C7238": {
+                        "decimals": 6,
+                        "native": false
+                    },
+                    "0xA6c8D1c55951e8AC44a0EaA959Be5Fd21cc07531": {
+                        "decimals": 18,
+                        "native": false
+                    },
+                    "0x2D5ee574e710219a521449679A4A7f2B43f046ad": {
+                        "decimals": 18,
+                        "native": true
+                    },
+                    "0xa035b9e130F2B1AedC733eEFb1C67Ba4c503491F": {
+                        "decimals": 8,
+                        "native": false
+                    }
+                }
+            },
+            "WETH": {
+                "cometImplementation": "0x149F2D15f3822C0C935a9c99ddfb804611586cAc",
+                "comet": "0x2943ac1216979aD8dB76D9147F64E61adc126e96",
+                "cometExt": "0xD0b7551E480c101fa9cf3fe0887cCBe59f16216B",
+                "configurator": "0xc28aD44975C614EaBe0Ed090207314549e1c6624",
+                "compPriceFeedAddress": "0x619db7F74C0061E2917D1D57f834D9D24C5529dA",
+                "bulker": "0xaD0C044425D81a2E223f4CE699156900fead2Aaa",
+                "reward": "0x8bF5b658bdF0388E8b482ED51B14aef58f90abfD",
+                "bundleActionsFunctions": {
+                    "ACTION_SUPPLY_ASSET": [
+                        "address",
+                        "address",
+                        "address",
+                        "uint"
+                    ],
+                    "ACTION_SUPPLY_NATIVE_TOKEN": [
+                        "address",
+                        "address",
+                        "uint"
+                    ],
+                    "ACTION_TRANSFER_ASSET": [
+                        "address",
+                        "address",
+                        "address",
+                        "uint"
+                    ],
+                    "ACTION_WITHDRAW_ASSET": [
+                        "address",
+                        "address",
+                        "address",
+                        "uint"
+                    ],
+                    "ACTION_WITHDRAW_NATIVE_TOKEN": [
+                        "address",
+                        "address",
+                        "uint"
+                    ],
+                    "ACTION_CLAIM_REWARD": [
+                        "address",
+                        "address",
+                        "address",
+                        "bool"
+                    ],
+                    "ACTION_SUPPLY_STETH": [
+                        "address",
+                        "address",
+                        "uint"
+                    ],
+                    "ACTION_WITHDRAW_STETH": [
+                        "address",
+                        "address",
+                        "uint"
+                    ]
+                },
+                "assets": {
+                    "0xB82381A3fBD3FaFA77B3a7bE693342618240067b": {
+                        "decimals": 18,
+                        "native": false
+                    },
+                    "0x2D5ee574e710219a521449679A4A7f2B43f046ad": {
+                        "decimals": 18,
+                        "native": true
+                    },
+                    "0xb9fa8F5eC3Da13B508F462243Ad0555B46E028df": {
+                        "decimals": 18,
+                        "native": false
+                    }
+                }
+            }
+        }
+    },
+    "oracle": {
+        "1000": {
+            "oracleName": "ChainLink",
+            "chainName": "Ethereum",
+            "chainId": "1",
+            "chainSymbol": "EVM",
+            "tokens": {
+                "AMPL": "0xe20CA8D7546932360e37E9D72c1a47334af57706",
+                "ANKR": "0x7eed379bf00005CfeD29feD4009669dE9Bcc21ce",
+                "APE": "0xD10aBbC76679a20055E167BB80A24ac851b37056",
+                "ARB": "0x31697852a68433DbCc2Ff612c516d69E3D9bd08F",
+                "AUD": "0x77F9710E7d0A19669A13c055F62cd80d313dF022",
+                "BAL": "0xdF2917806E30300537aEB49A7663062F4d1F2b5F",
+                "CAD": "0xa34317DB73e77d453b1B8d04550c44D10e981C8e",
+                "CAKE": "0xEb0adf5C06861d6c07174288ce4D0a8128164003",
+                "CHF": "0x449d117117838fFA61263B61dA6301AA2a88B13A",
+                "CNY": "0xeF8A4aF35cd47424672E3C590aBD37FBB7A7759a",
+                "CRV": "0xCd627aA160A6fA45Eb793D19Ef54f5062F20f33f",
+                "CRVUSD": "0xEEf0C605546958c1f899b6fB336C20671f9cD49F",
+                "CVX": "0xd962fC30A72A84cE50161031391756Bf2876Af5D",
+                "ENS": "0x5C00128d4d1c2F4f652C267d7bcdD7aC99C16E16",
+                "EUR": "0xb49f677943BC038e9857d61E7d053CaA2C1734C1",
+                "FDUSD": "0xfAA9147190c2C2cc5B8387B4f49016bDB3380572",
+                "FXS": "0x6Ebc52C8C1089be9eB3945C4350B68B8E4C2233f",
+                "GBP": "0x5c0Ab2d9b5a7ed9f470386e82BB36A3613cDd4b5",
+                "GHO": "0x3f12643D3f6f874d39C2a4c9f2Cd6f2DbAC877FC",
+                "GRT": "0x86cF33a451dE9dc61a2862FD94FF4ad4Bd65A5d2",
+                "GUSD": "0xa89f5d2365ce98B3cD68012b6f503ab1416245Fc",
+                "HIGH": "0x5C8D8AaB4ffa4652753Df94f299330Bb4479bF85",
+                "IMX": "0xBAEbEFc1D023c0feCcc047Bff42E75F15Ff213E6",
+                "JPY": "0xBcE206caE7f0ec07b545EddE332A47C2F75bbeb3",
+                "KNC": "0xf8fF43E991A81e6eC886a3D281A2C6cC19aE70Fc",
+                "KRW": "0x01435677FB11763550905594A16B645847C1d0F3",
+                "LTC": "0x6AF09DF7563C363B5763b9102712EbeD3b9e859B",
+                "LUSD": "0x3D7aE7E594f2f2091Ad8798313450130d0Aba3a0",
+                "MIM": "0x7A364e8770418566e3eb2001A96116E6138Eb32F",
+                "NZD": "0x3977CFc9e4f29C184D4675f4EB8e0013236e5f3e",
+                "PYUSD": "0x8f1dF6D7F2db73eECE86a18b4381F4707b918FB1",
+                "RDNT": "0x393CC05baD439c9B36489384F11487d9C8410471",
+                "RPL": "0x4E155eD98aFE9034b7A5962f6C84c86d869daA9d",
+                "RSR": "0x759bBC1be8F90eE6457C44abc7d443842a976d02",
+                "SAND": "0x35E3f7E558C04cE7eEE1629258EcbbA03B36Ec56",
+                "SGD": "0xe25277fF4bbF9081C75Ab0EB13B4A13a721f3E13",
+                "SNX": "0xDC3EA94CD0AC27d9A86C180091e7f78C683d3699",
+                "SPELL": "0x8c110B94C5f1d347fAcF5E1E938AB2db60E3c9a8",
+                "STETH": "0xCfE54B5cD566aB89272946F602D76Ea879CAb4a8",
+                "STG": "0x7A9f34a0Aa917D438e9b6E630067062B7F8f6f3d",
+                "SUSD": "0x8e0b7e6062272B5eF4524250bFFF8e5Bd3497757",
+                "SXP": "0xFb0CfD6c19e25DB4a08D8a204a387cEa48Cc138f",
+                "TRY": "0xB09fC5fD3f11Cf9eb5E1C5Dba43114e3C9f477b5",
+                "USDD": "0x0ed39A19D2a68b722408d84e4d970827f61E6c0A",
+                "WING": "0x134fE0a225Fb8e6683617C13cEB6B3319fB4fb82",
+                "XAG": "0x379589227b15F1a12195D3f2d90bBc9F31f95235",
+                "XAU": "0x214eD9Da11D2fbe465a6fc601a91E62EbEc1a0D6",
+                "XCN": "0xeb988B77b94C186053282BfcD8B7ED55142D3cAB",
+                "BTC": "0xF4030086522a5bEEa4988F8cA5B36dbC97BeE88c",
+                "FEI": "0x31e0a88fecB6eC0a411DBe0e9E76391498296EE9",
+                "TUSD": "0xec746eCF986E2927Abd291a2A1716c940100f8Ba",
+                "MKR": "0xec1D1B3b0443256cc3860e24a46F108e699484Aa",
+                "SUSHI": "0xCc70F09A6CC17553b2E31954cD36E4A2d89501f7",
+                "USDP": "0x09023c0DA49Aaf8fc3fA3ADF34C6A7016D38D5e3",
+                "YFI": "0xA027702dbb89fbd58938e4324ac03B58d812b0E1",
+                "ZRX": "0x2885d15b8Af22648b98B122b22FDF4D2a56c6023",
+                "ETH": "0x5f4eC3Df9cbd43714FE2740f5E3616155c5b8419",
+                "DAI": "0xAed0c38402a5d19df6E4c03F4E2DceD6e29c1ee9",
+                "MANA": "0x56a4857acbcfe3a66965c251628B1c9f1c408C19",
+                "AAVE": "0x547a514d5e3769680Ce22B2361c10Ea13619e8a9",
+                "FRAX": "0xB9E1E3A9feFf48998E45Fa90847ed4D467E8BcfD",
+                "COMP": "0xdbd020CAeF83eFd542f4De03e3cF0C28A4428bd5",
+                "1INCH": "0xc929ad75B72593967DE83E7F7Cda0493458261D9",
+                "BNB": "0x14e613AC84a31f709eadbdF89C6CC390fDc9540A",
+                "XRP": "0xCed2660c6Dd1Ffd856A5A82C67f3482d88C50b12",
+                "ADA": "0xAE48c91dF1fE419994FFDa27da09D5aC69c30f55",
+                "SOL": "0x4ffC43a60e009B551865A93d232E33Fce9f01507",
+                "DOT": "0x1C07AFb8E2B827c5A4739C6d59Ae3A5035f28734",
+                "DOGE": "0x2465CefD3b488BE410b941b1d4b2767088e2A028",
+                "AVAX": "0xFF3EEb22B5E3dE6e705b44749C2559d704923FD7",
+                "MATIC": "0x7bAC85A8a13A4BcD8abb3eB7d6b4d632c5a57676",
+                "UNI": "0x553303d460EE0afB37EdFf9bE42922D8FF63220e",
+                "TRX": "0xacD0D1A29759CC01E8D925371B72cb2b5610EA25",
+                "ETC": "0xaEA2808407B7319A31A383B6F8B60f04BCa23cE2",
+                "USDT": "0x3E7d1eAB13ad0104d2750B8863b489D65364e32D",
+                "USDC": "0x8fFfFfd4AfB6115b954Bd326cbe7B4BA576818f6",
+                "LINK": "0x2c1d072e956AFFC0D435Cb7AC38EF18d24d9127c"
+            }
+        },
+        "1100": {
+            "oracleName": "WinkLink",
+            "chainName": "Tron",
+            "chainId": "1000",
+            "chainSymbol": "TRO",
+            "tronscanApi":{
+                "baseUrl":"https://apilist.tronscanapi.com/api/block?start=0&limit=1"
+            },
+            "tokens": {
+                "BTC": "TQoijQ1iZKRgJsAAWNPMu6amgtCJ3WMUV7",
+                "ETH": "TR2yWYWovJaSM7TfZq7L7sT7ZRugdJJQmL",
+                "TRX": "TR5HtpPK4gX4RFC4DCBUHfFgsGkGFEzSAb",
+                "USDT": "TKePc46n5CiUCR8LL788TFeKA4kjvNnuem",
+                "WIN": "TSCef3LT3jpLwwXCWhZe3hZoMsYk1ZLif2",
+                "BTT": "TBAAW545oJ6iTxqzezGvagrSUzCpz1S8eR",
+                "BTTOLD": "TEEnwU47Fgx4Ehii7Xs9bLWK3XKo4fs6sV",
+                "JST": "TE5rKoDzKmpVAQp1sn7x6V8biivR3d5r47",
+                "LIVE": "TNdLmxVhdj1H1yGjhhSp33cMaAJKjyTAM4",
+                "LTC": "TGxGL85kN3W5sGdBiobgWabWFcMEtoqRJJ",
+                "NFT": "TEC8b2oL6sAQFMiea73tTgjtTLwyV1GuZU",
+                "SUN": "TRMgzSPsuWEcVpd5hv19XtLeCk8Z799sZa",
+                "SUNOLD": "TEEuSdqyv2NFREtNoUXMTDSmJVK3KCuLac",
+                "TUSD": "TBc3yBP8xcyQ1E3hDTUhRxToMrgekLH2kh",
+                "USDC": "TNu3zS55MP4KnBBP6Maw1nHSzRpc3CXAxm",
+                "USDD": "TJ7jEgoYVaeymVfYZ3bS57dYArwVDS1mhW",
+                "USDJ": "TB1MyT7pDCNg8w7cSW1QvYKs4WPzErzP5k"
+            }
+        },
+        "1200": {
+            "oracleName": "Pyth",
+            "chainName": "Solana",
+            "chainId": "900",
+            "chainSymbol": "SOL",
+            "pythProgramAddress": "FsJ3A3u2vn5cTVofAjvy6y5kwABJAqYWpe4975bi2epH",
+            "pythPriceFeedAddress":"https://benchmarks.pyth.network/v1/price_feeds/?query=",
+            "pythPriceFeedEnd":"&asset_type=crypto",
+            "pythTimestampPriceFeed":"https://benchmarks.pyth.network/v1/updates/price/",
+            "pythTimestampEnd":"&encoding=hex&parsed=true"
+        }
+    },
+    "yieldAggregator": {
+        "5000": {
+            "yieldAggregatorName": "YearnFinance",
+            "chainName": "Ethereum",
+            "chainId": "1",
+            "chainSymbol": "EVM",
+            "yearnFinanceRegisteryAddress": "0x50c1a2eA0a861A967D9d0FFE2AE4012c2E053804"
+        },
+        "5100": {
+            "yieldAggregatorName": "HarvestFinance",
+            "chainName": "Ethereum",
+            "chainId": "1",
+            "chainSymbol": "EVM",
+            "harvestVaults": [
+                {
+                    "vaultAddress": "0xFE09e53A81Fe2808bc493ea64319109B5bAa573e",
+                    "tokenAddress": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+                    "poolAddress": "0x3DA9D911301f8144bdF5c3c67886e5373DCdff8e",
+                    "vaultName": "WETH"
+                },
+                {
+                    "vaultAddress": "0x81Dd77E2a1d4E63A29343AF304d69b8b91395c54",
+                    "tokenAddress": "0x6EbcE2453398af200c688C7c4eBD479171231818",
+                    "poolAddress": "0x8027847Df28493ac68d27B5fb30221533185d942",
+                    "vaultName": "notional_DAI"
+                },
+                {
+                    "vaultAddress": "0x248333eFdcD024165517953aC437259635a5a38f",
+                    "tokenAddress": "0xabc07BF91469C5450D6941dD0770E6E6761B90d6",
+                    "poolAddress": "0x5A71096f39d02d29DdAF870A845017C421E69144",
+                    "vaultName": "notional_ETH"
+                },
+                {
+                    "vaultAddress": "0xcec2936F04dF7E33015c4661C17d82e035D2C642",
+                    "tokenAddress": "0x18b0Fc5A233acF1586Da7C199Ca9E3f486305A29",
+                    "poolAddress": "0x83B70Dcea43772d2525C93619706715fD65d0966",
+                    "vaultName": "notional_USDC"
+                },
+                {
+                    "vaultAddress": "0xf0edB7568fdF1F617e15f2F1a2B9696258D38547",
+                    "tokenAddress": "0x0Ace2DC3995aCD739aE5e0599E71A5524b93b886",
+                    "poolAddress": "0x4C7b528E249544442F88745ecC9Df82031Ad8DDF",
+                    "vaultName": "notional_BTC"
+                },
+                {
+                    "vaultAddress": "0xBd3f00330d75883e3395AD443161CB0D5b3C1605",
+                    "tokenAddress": "0x62B9c7356A2Dc64a1969e19C23e4f579F9810Aa7",
+                    "poolAddress": "0x8002BD329b69802dBf7d7587C94a4b8D101FE7F0",
+                    "vaultName": "convex_cvxCRV"
+                },
+                {
+                    "vaultAddress": "0x744F77705749541926294f7b35A63f8691374640",
+                    "tokenAddress": "0xf4d2888d29D722226FafA5d9B24F9164c092421E",
+                    "poolAddress": "0x2549A5195D069dBa83eFa28CF1C05059c005D169",
+                    "vaultName": "LOOKS"
+                },
+                {
+                    "vaultAddress": "0x81a276Cc1323A76ad0C71657139e6bCdC3C52b30",
+                    "tokenAddress": "0xc83cE8612164eF7A13d17DDea4271DD8e8EEbE5d",
+                    "poolAddress": "0x54941AF9Eff1484DF58e250fE2FD3d79054ba269",
+                    "vaultName": "sushi_YEL_ETH"
+                },
+                {
+                    "vaultAddress": "0x33ED34dD7C40EF807356316B484d595dDDA832ab",
+                    "tokenAddress": "0xc4AD29ba4B3c580e6D59105FFf484999997675Ff",
+                    "poolAddress": "0xfbFBE380489882831DAD5258cFD2e29307E23B82",
+                    "vaultName": "crvTriCrypto"
+                },
+                {
+                    "vaultAddress": "0xf0358e8c3CD5Fa238a29301d0bEa3D63A17bEdBE",
+                    "tokenAddress": "0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48",
+                    "poolAddress": "0x4F7c28cCb0F1Dbd1388209C67eEc234273C878Bd",
+                    "vaultName": "USDC"
+                },
+                {
+                    "vaultAddress": "0xab7fa2b2985bccfc13c6d86b1d5a17486ab1e04c",
+                    "tokenAddress": "0x6b175474e89094c44da98b954eedeac495271d0f",
+                    "poolAddress": "0x15d3A64B2d5ab9E152F16593Cdebc4bB165B5B4A",
+                    "vaultName": "DAI"
+                },
+                {
+                    "vaultAddress": "0x683E683fBE6Cf9b635539712c999f3B3EdCB8664",
+                    "tokenAddress": "0x4f3E8F405CF5aFC05D68142F3783bDfE13811522",
+                    "poolAddress": "0xef4Da1CE3f487DA2Ed0BE23173F76274E0D47579",
+                    "vaultName": "crvUSDN"
+                },
+                {
+                    "vaultAddress": "0x053c80eA73Dc6941F518a68E2FC52Ac45BDE7c9C",
+                    "tokenAddress": "0xdac17f958d2ee523a2206206994597c13d831ec7",
+                    "poolAddress": "0x6ac4a7AB91E6fD098E13B7d347c6d4d1494994a2",
+                    "vaultName": "USDT"
+                }
+            ],
+            "harvestFinancePoolsUrl": "https://api.harvest.finance/pools?key=41e90ced-d559-4433-b390-af424fdc76d6",
+            "harvestFinanceVaultsUrl": "https://api.harvest.finance/vaults?key=41e90ced-d559-4433-b390-af424fdc76d6"
+        }
+    },
+    "stableCoin": {
+        "700": {
+            "stableCoinName": "USDT",
+            "chainName": "Ethereum",
+            "chainId": "1",
+            "chainSymbol": "EVM"
+        },
+        "800": {
+            "stableCoinName": "USDC",
+            "chainName": "Ethereum",
+            "chainId": "1",
+            "chainSymbol": "EVM"
+        }
+    },
+    "synthetic": {
+        "6000": {
+            "localName": "Synthetix",
+            "syntheticName": "Synthetix",
+            "chainName": "Ethereum",
+            "chainId": "1",
+            "chainSymbol": "ETH",
+            "protocolToken": "SNX",
+            "address": {
+                "proxyErc20": "0xC011a73ee8576Fb46F5E1c5751cA3B9Fe0af2a6F",
+                "depot": "0xE1f64079aDa6Ef07b03982Ca34f1dD7152AA3b86",
+                "sythnetixNetworkToken": "0x931933807c4c808657b6016f9e539486e7B5d374"
+            }
+        },
+        "6001": {
+            "localName": "SynthetixTestnet",
+            "syntheticName": "Synthetix",
+            "chainName": "Ethereum",
+            "chainId": "5",
+            "chainSymbol": "TETHGRL",
+            "protocolToken": "SNX",
+            "address": {
+                "proxyErc20": "0x51f44ca59b867e005e48fa573cb8df83fc7f7597",
+                "depot": "0x9B79D6dFe4650d70f35dbb80f7d1EC0Cf7f823Fd",
+                "sythnetixNetworkToken": "0x4187a6CecB490F5154c04514410a928191830443"
+            }
+        }
+    },
+    "derivative": {
+        "1000": {
+            "localName": "DYDXV4Goerli",
+            "derivativeName": "DYDXV4",
+            "baseUrl": "https://indexer.v4testnet.dydx.exchange/v4/"
+        }
+    },
+    "liquidStaking": {
+        "1": {
+            "localName": "Lido",
+            "stakeProtocolName": "Lido",
+            "contractAddress": "0xae7ab96520DE3A18E5e111B5EaAb095312D7fE84",
+            "withdrawQueue": "0x889edC2eDab5f40e902b864aD4d7AdE8E412F9B1",
+            "aprURL": "https://eth-api.lido.fi/v1/protocol/steth/apr/",
+            "rewardsURL": "https://reward-history-backend.lido.fi/?",
+            "aprData": true,
+            "rewardsData": true,
+            "chainId": "1",
+            "wstETHAddress": "0x7f39C581F595B53c5cb19bD0b3f8dA6c935E2Ca0",
+            "stTokens": ["0x7f39C581F595B53c5cb19bD0b3f8dA6c935E2Ca0", "0xae7ab96520DE3A18E5e111B5EaAb095312D7fE84"]
+        },
+        "11155111": {
+            "localName": "Lido",
+            "stakeProtocolName": "Lido",
+            "contractAddress": "0x3e3FE7dBc6B4C189E7128855dD526361c49b40Af",
+            "withdrawQueue": "0x0220A1cF6C3a548BE75aEabCdA509CaB08CDe063",
+            "chainId": "11155111",
+            "wstETHAddress": "0xB82381A3fBD3FaFA77B3a7bE693342618240067b",
+            "aprData": false,
+            "stTokens": ["0xB82381A3fBD3FaFA77B3a7bE693342618240067b", "0x3e3FE7dBc6B4C189E7128855dD526361c49b40Af"]
+        },
+        "200": {
+            "localName": "ChorusOne",
+            "stakeProtocolName": "ChorusOne",
+            "opusPool": "0xe6d8d8aC54461b1C5eD15740EEe322043F696C08",
+            "chainId": "1",
+            "ChainSymbol": "ETH",
+            "rewardsDataSource": "https://mainnet-api.stakewise.io/graphql",
+            "APRDataSource": "https://mainnet-graph.stakewise.io/subgraphs/name/stakewise/stakewise",
+            "defaultBlockRange": 400000
+        },
+        "201": {
+            "localName": "ChorusOneTestnet",
+            "stakeProtocolName": "ChorusOne",
+            "opusPool": "0x95D0Db03d59658E1Af0D977ECFE142f178930AC5",
+            "chainId": "17000",
+            "ChainSymbol": "ETH",
+            "rewardsDataSource": "https://holesky-api.stakewise.io/graphql",
+            "APRDataSource": "https://holesky-graph.stakewise.io/subgraphs/name/stakewise/stakewise",
+            "defaultBlockRange": 400000
+        }
+    }
+}

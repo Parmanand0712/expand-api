@@ -1,0 +1,3497 @@
+{
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "type": "object",
+    "properties": {
+        "getTransaction()": {
+            "type": "object",
+            "properties": {
+                "transactionHash": {
+                    "type": "string"
+                },
+                "chainId": {
+                    "type": "string"
+                },
+                "chainSymbol": {
+                    "type": "string",
+                    "maxLength": 7,
+                    "minLength": 3
+                }
+            },
+            "required": [
+                "transactionHash"
+            ],
+            "additionalProperties": true
+        },
+        "getBlock()": {
+            "type": "object",
+            "properties": {
+                "blockNumber": {
+                    "type": "string"
+                },
+                "chainId": {
+                    "type": "string"
+                },
+                "chainSymbol": {
+                    "type": "string",
+                    "maxLength": 7,
+                    "minLength": 3
+                }
+            },
+            "required": [
+                "blockNumber"
+            ],
+            "additionalProperties": true
+        },
+        "postGeneric()": {
+            "type": "object",
+            "properties": {
+                "contractAddress": {
+                    "type": "string"
+                },
+                "chainId": {
+                    "type": "string"
+                },
+                "chainSymbol": {
+                    "type": "string",
+                    "maxLength": 7,
+                    "minLength": 3
+                },
+                "parameters": {
+                    "type": "array"
+                },
+                "methodName": {
+                    "type": "string"
+                },
+                "abi": {
+                    "type": "array"
+                },
+                "blockNumber": {
+                    "type": "string",
+                    "pattern": "^0*([1-9][1-9][0-9]{6,})$"
+                }
+            },
+            "required": [
+                "contractAddress",
+                "methodName"
+            ],
+            "additionalProperties": true
+        },
+        "getPublicRpc()": {
+            "type": "object",
+            "properties": {
+                "chainId": {
+                    "type": "string"
+                },
+                "chainSymbol": {
+                    "type": "string",
+                    "maxLength": 7,
+                    "minLength": 3
+                }
+            },
+            "required": [],
+            "additionalProperties": true
+        },
+        "getBalance()": {
+            "type": "object",
+            "properties": {
+                "address": {
+                    "type": "string"
+                },
+                "chainId": {
+                    "type": "string"
+                },
+                "chainSymbol": {
+                    "type": "string",
+                    "maxLength": 7,
+                    "minLength": 3
+                },
+                "tokenAddress": {
+                    "type": "string"
+                }
+            },
+            "required": [
+                "address"
+            ],
+            "additionalProperties": true
+        },
+        "getStorage()": {
+            "type": "object",
+            "properties": {
+                "address": {
+                    "type": "string"
+                },
+                "index": {
+                    "type": "string"
+                },
+                "chainId": {
+                    "type": "string"
+                },
+                "chainSymbol": {
+                    "type": "string",
+                    "maxLength": 7,
+                    "minLength": 3
+                }
+            },
+            "required": [
+                "address"
+            ],
+            "additionalProperties": true
+        },
+        "getGasPrice()": {
+            "type": "object",
+            "properties": {
+                "chainId": {
+                    "type": "string"
+                },
+                "chainSymbol": {
+                    "type": "string",
+                    "maxLength": 7,
+                    "minLength": 3
+                },
+                "from": {
+                    "type": "string"
+                },
+                "to": {
+                    "type": "string"
+                },
+                "data": {
+                    "type": "string"
+                }
+            },
+            "required": [],
+            "additionalProperties": true
+        },
+        "getGasFees()": {
+            "type": "object",
+            "properties": {
+                "chainId": {
+                    "type": "string"
+                },
+                "chainSymbol": {
+                    "type": "string",
+                    "maxLength": 7,
+                    "minLength": 3
+                },
+                "startBlock": {
+                    "type": "string"
+                },
+                "endBlock": {
+                    "type": "string"
+                },
+                "address": {
+                    "type": "string"
+                }
+            },
+            "required": [
+                "address"
+            ],
+            "additionalProperties": true
+        },
+        "sendTransaction()": {
+            "type": "object",
+            "properties": {
+                "chainId": {
+                    "type": "string"
+                },
+                "chainSymbol": {
+                    "type": "string",
+                    "maxLength": 7,
+                    "minLength": 3
+                },
+                "rawTransaction": {
+                    "type": "string"
+                }
+            },
+            "required": [
+                "rawTransaction"
+            ],
+            "additionalProperties": true
+        },
+        "getLiquidityUniswapV2()": {
+            "type": "object",
+            "properties": {
+                "dexId": {
+                    "type": "string"
+                },
+                "tokenA": {
+                    "type": "string"
+                },
+                "tokenB": {
+                    "type": "string"
+                },
+                "address": {
+                    "type": "string"
+                }
+            },
+            "required": [
+                "dexId",
+                "tokenA",
+                "tokenB",
+                "address"
+            ],
+            "additionalProperties": true
+        },
+        "getLiquidityUniswapV3()": {
+            "type": "object",
+            "properties": {
+                "dexId": {
+                    "type": "string"
+                },
+                "tokenId": {
+                    "type": "string"
+                }
+            },
+            "required": [
+                "dexId",
+                "tokenId"
+            ],
+            "additionalProperties": true
+        },
+        "getLiquiditySushiswapV2()": {
+            "type": "object",
+            "properties": {
+                "dexId": {
+                    "type": "string"
+                },
+                "tokenA": {
+                    "type": "string"
+                },
+                "tokenB": {
+                    "type": "string"
+                },
+                "address": {
+                    "type": "string"
+                }
+            },
+            "required": [
+                "dexId",
+                "tokenA",
+                "tokenB",
+                "address"
+            ],
+            "additionalProperties": true
+        },
+        "getLiquidityPancakeswapV2()": {
+            "type": "object",
+            "properties": {
+                "dexId": {
+                    "type": "string"
+                },
+                "tokenA": {
+                    "type": "string"
+                },
+                "tokenB": {
+                    "type": "string"
+                },
+                "address": {
+                    "type": "string"
+                }
+            },
+            "required": [
+                "dexId",
+                "tokenA",
+                "tokenB",
+                "address"
+            ],
+            "additionalProperties": true
+        },
+        "getLiquidityBalancerV2()": {
+            "type": "object",
+            "properties": {
+                "dexId": {
+                    "type": "string"
+                },
+                "tokenA": {
+                    "type": "string"
+                },
+                "tokenB": {
+                    "type": "string"
+                },
+                "tokenC": {
+                    "type": "string"
+                },
+                "address": {
+                    "type": "string"
+                }
+            },
+            "required": [
+                "dexId",
+                "tokenA",
+                "tokenB",
+                "address"
+            ],
+            "additionalProperties": true
+        },
+        "getLiquidityCurveV2()": {
+            "type": "object",
+            "properties": {
+                "dexId": {
+                    "type": "string"
+                },
+                "tokenA": {
+                    "type": "string"
+                },
+                "tokenB": {
+                    "type": "string"
+                },
+                "tokenC": {
+                    "type": "string"
+                },
+                "tokenD": {
+                    "type": "string"
+                },
+                "address": {
+                    "type": "string"
+                }
+            },
+            "required": [
+                "dexId",
+                "tokenA",
+                "tokenB",
+                "address"
+            ],
+            "additionalProperties": true
+        },
+        "getPoolDex()": {
+            "type": "object",
+            "properties": {
+                "dexId": {
+                    "type": "array",
+                    "minItems": 1
+                },
+                "path": {
+                    "type": "array",
+                    "minItems": 2
+                },
+                "amountIn": {
+                    "type": "string"
+                }
+            },
+            "required": [
+                "path",
+                "amountIn",
+                "dexId"
+            ],
+            "additionalProperties": true
+        },
+        "getPriceUniswapV2()": {
+            "type": "object",
+            "properties": {
+                "dexId": {
+                    "type": "string"
+                },
+                "path": {
+                    "type": "array",
+                    "minItems": 2
+                },
+                "amountIn": {
+                    "type": "string"
+                }
+            },
+            "required": [
+                "path",
+                "amountIn"
+            ],
+            "additionalProperties": true
+        },
+        "getPriceUniswapV3()": {
+            "type": "object",
+            "properties": {
+                "dexId": {
+                    "type": "string"
+                },
+                "path": {
+                    "type": "array",
+                    "minItems": 2
+                },
+                "amountIn": {
+                    "type": "string"
+                },
+                "poolFees": {
+                    "type": "string",
+                    "default": "3000"
+                }
+            },
+            "required": [
+                "path",
+                "amountIn"
+            ],
+            "additionalProperties": true
+        },
+        "getPriceBalancerV2()": {
+            "type": "object",
+            "properties": {
+                "dexId": {
+                    "type": "string"
+                },
+                "path": {
+                    "type": "array",
+                    "minItems": 2
+                },
+                "amountIn": {
+                    "type": "string"
+                }
+            },
+            "required": [
+                "path",
+                "amountIn"
+            ],
+            "additionalProperties": true
+        },
+        "addLiquidityBalancerV2()": {
+            "type": "object",
+            "properties": {
+                "dexId": {
+                    "type": "string"
+                },
+                "path": {
+                    "type": "array",
+                    "minItems": 2
+                },
+                "amountIn": {
+                    "type": "array",
+                    "minItems": 2
+                },
+                "amountOut": {
+                    "type": "string"
+                },
+                "fromInternalBalance": {
+                    "type": "boolean"
+                },
+                "from": {
+                    "type": "string"
+                },
+                "to": {
+                    "type": "string"
+                },
+                "gas": {
+                    "type": "string"
+                },
+                "privateKey": {
+                    "type": "string"
+                }
+            },
+            "required": [
+                "path",
+                "amountIn",
+                "amountOut",
+                "fromInternalBalance",
+                "gas",
+                "from",
+                "to"
+            ],
+            "additionalProperties": true
+        },
+        "removeLiquidityBalancerV2()": {
+            "type": "object",
+            "properties": {
+                "dexId": {
+                    "type": "string"
+                },
+                "path": {
+                    "type": "array",
+                    "minItems": 2
+                },
+                "amountOut": {
+                    "type": "array",
+                    "minItems": 2
+                },
+                "amountIn": {
+                    "type": "string"
+                },
+                "toInternalBalance": {
+                    "type": "boolean"
+                },
+                "gas": {
+                    "type": "string"
+                },
+                "from": {
+                    "type": "string"
+                },
+                "to": {
+                    "type": "string"
+                },
+                "privateKey": {
+                    "type": "string"
+                }
+            },
+            "required": [
+                "path",
+                "amountOut",
+                "amountIn",
+                "toInternalBalance",
+                "gas",
+                "from",
+                "to"
+            ],
+            "additionalProperties": true
+        },
+        "swapBalancerV2()": {
+            "type": "object",
+            "properties": {
+                "dexId": {
+                    "type": "string"
+                },
+                "swapKind": {
+                    "type": "string"
+                },
+                "path": {
+                    "type": "array",
+                    "minItems": 2
+                },
+                "amountIn": {
+                    "type": "string"
+                },
+                "from": {
+                    "type": "string"
+                },
+                "deadline": {
+                    "type": "string"
+                },
+                "gas": {
+                    "type": "string"
+                },
+                "privateKey": {
+                    "type": "string"
+                }
+            },
+            "required": [
+                "swapKind",
+                "path",
+                "amountIn",
+                "from",
+                "deadline",
+                "gas"
+            ],
+            "additionalProperties": true
+        },
+        "addLiquidityCurveV2()": {
+            "type": "object",
+            "properties": {
+                "dexId": {
+                    "type": "string"
+                },
+                "path": {
+                    "type": "array",
+                    "minItems": 2
+                },
+                "amountIn": {
+                    "type": "array",
+                    "minItems": 2
+                },
+                "amountOut": {
+                    "type": "string"
+                },
+                "from": {
+                    "type": "string"
+                },
+                "gas": {
+                    "type": "string"
+                },
+                "privateKey": {
+                    "type": "string"
+                }
+            },
+            "required": [
+                "path",
+                "amountIn",
+                "amountOut",
+                "gas",
+                "from",
+                "dexId"
+            ],
+            "additionalProperties": true
+        },
+        "removeLiquidityCurveV2()": {
+            "type": "object",
+            "properties": {
+                "dexId": {
+                    "type": "string"
+                },
+                "path": {
+                    "type": "array",
+                    "minItems": 2
+                },
+                "amountOut": {
+                    "type": "array",
+                    "minItems": 2
+                },
+                "amountIn": {
+                    "type": "string"
+                },
+                "from": {
+                    "type": "string"
+                },
+                "gas": {
+                    "type": "string"
+                },
+                "privateKey": {
+                    "type": "string"
+                }
+            },
+            "required": [
+                "path",
+                "amountIn",
+                "amountOut",
+                "gas",
+                "from",
+                "dexId"
+            ],
+            "additionalProperties": true
+        },
+        "getPriceCurveV2()": {
+            "type": "object",
+            "properties": {
+                "dexId": {
+                    "type": "string"
+                },
+                "path": {
+                    "type": "array",
+                    "minItems": 2
+                },
+                "amountIn": {
+                    "type": "string"
+                }
+            },
+            "required": [
+                "path",
+                "amountIn"
+            ],
+            "additionalProperties": true
+        },
+        "swapCurveV2()": {
+            "type": "object",
+            "properties": {
+                "dexId": {
+                    "type": "string"
+                },
+                "path": {
+                    "type": "array",
+                    "minItems": 2
+                },
+                "amountIn": {
+                    "type": "string"
+                },
+                "from": {
+                    "type": "string"
+                },
+                "amountOutMin": {
+                    "type": "string"
+                },
+                "gas": {
+                    "type": "string"
+                },
+                "privateKey": {
+                    "type": "string"
+                }
+            },
+            "required": [
+                "dexId",
+                "path",
+                "amountIn",
+                "from",
+                "amountOutMin",
+                "gas"
+            ],
+            "additionalProperties": true
+        },
+        "swapUniswapV2()": {
+            "type": "object",
+            "properties": {
+                "dexId": {
+                    "type": "string"
+                },
+                "path": {
+                    "type": "array",
+                    "minItems": 2
+                },
+                "amountIn": {
+                    "type": "string"
+                },
+                "amountOutMin": {
+                    "type": "string"
+                },
+                "to": {
+                    "type": "string"
+                },
+                "involveBaseToken": {
+                    "type": "string",
+                    "enum": [
+                        "0",
+                        "1",
+                        "2"
+                    ],
+                    "default": "0"
+                },
+                "deadline": {
+                    "type": "string"
+                },
+                "from": {
+                    "type": "string"
+                },
+                "gas": {
+                    "type": "string"
+                },
+                "privateKey": {
+                    "type": "string"
+                }
+            },
+            "required": [
+                "path",
+                "amountIn",
+                "amountOutMin",
+                "to",
+                "deadline",
+                "from",
+                "gas"
+            ],
+            "additionalProperties": true
+        },
+        "swapUniswapV3()": {
+            "type": "object",
+            "properties": {
+                "dexId": {
+                    "type": "string"
+                },
+                "path": {
+                    "type": "array",
+                    "minItems": 2
+                },
+                "amountIn": {
+                    "type": "string"
+                },
+                "amountOutMin": {
+                    "type": "string"
+                },
+                "to": {
+                    "type": "string"
+                },
+                "from": {
+                    "type": "string"
+                },
+                "gas": {
+                    "type": "string"
+                },
+                "privateKey": {
+                    "type": "string"
+                },
+                "poolFees": {
+                    "type": "string",
+                    "default": "3000"
+                }
+            },
+            "required": [
+                "amountIn",
+                "amountOutMin",
+                "path",
+                "to",
+                "from",
+                "gas"
+            ],
+            "additionalProperties": true
+        },
+        "addLiquidityUniswapV2()": {
+            "type": "object",
+            "properties": {
+                "dexId": {
+                    "type": "string"
+                },
+                "tokenA": {
+                    "type": "string"
+                },
+                "tokenB": {
+                    "type": "string"
+                },
+                "amountADesired": {
+                    "type": "string"
+                },
+                "amountBDesired": {
+                    "type": "string"
+                },
+                "amountAMin": {
+                    "type": "string"
+                },
+                "amountBMin": {
+                    "type": "string"
+                },
+                "to": {
+                    "type": "string"
+                },
+                "deadline": {
+                    "type": "string"
+                },
+                "from": {
+                    "type": "string"
+                },
+                "gas": {
+                    "type": "string"
+                },
+                "privateKey": {
+                    "type": "string"
+                }
+            },
+            "required": [
+                "tokenA",
+                "tokenB",
+                "amountADesired",
+                "amountBDesired",
+                "amountAMin",
+                "amountBMin",
+                "to",
+                "deadline",
+                "from",
+                "gas"
+            ],
+            "additionalProperties": true
+        },
+        "addLiquidityUniswapV3()": {
+            "type": "object",
+            "properties": {
+                "dexId": {
+                    "type": "string"
+                },
+                "tokenId": {
+                    "type": "string"
+                },
+                "tokenA": {
+                    "type": "string"
+                },
+                "tokenB": {
+                    "type": "string"
+                },
+                "poolFees": {
+                    "type": "string"
+                },
+                "amountADesired": {
+                    "type": "string"
+                },
+                "amountBDesired": {
+                    "type": "string"
+                },
+                "amountAMin": {
+                    "type": "string"
+                },
+                "amountBMin": {
+                    "type": "string"
+                },
+                "to": {
+                    "type": "string"
+                },
+                "deadline": {
+                    "type": "string"
+                },
+                "from": {
+                    "type": "string"
+                },
+                "gas": {
+                    "type": "string"
+                },
+                "privateKey": {
+                    "type": "string"
+                }
+            },
+            "required": [
+                "tokenA",
+                "tokenB",
+                "poolFees",
+                "amountADesired",
+                "amountBDesired",
+                "amountAMin",
+                "amountBMin",
+                "to",
+                "deadline",
+                "from",
+                "gas"
+            ],
+            "additionalProperties": true
+        },
+        "removeLiquidityUniswapV2()": {
+            "type": "object",
+            "properties": {
+                "dexId": {
+                    "type": "string"
+                },
+                "tokenA": {
+                    "type": "string"
+                },
+                "tokenB": {
+                    "type": "string"
+                },
+                "liquidity": {
+                    "type": "string"
+                },
+                "amountAMin": {
+                    "type": "string"
+                },
+                "amountBMin": {
+                    "type": "string"
+                },
+                "to": {
+                    "type": "string"
+                },
+                "deadline": {
+                    "type": "string"
+                },
+                "from": {
+                    "type": "string"
+                },
+                "gas": {
+                    "type": "string"
+                },
+                "privateKey": {
+                    "type": "string"
+                }
+            },
+            "required": [
+                "tokenA",
+                "tokenB",
+                "liquidity",
+                "amountAMin",
+                "amountBMin",
+                "to",
+                "deadline",
+                "from",
+                "gas"
+            ],
+            "additionalProperties": true
+        },
+        "removeLiquidityUniswapV3()": {
+            "type": "object",
+            "properties": {
+                "dexId": {
+                    "type": "string"
+                },
+                "tokenA": {
+                    "type": "string"
+                },
+                "tokenB": {
+                    "type": "string"
+                },
+                "poolFees": {
+                    "type": "string"
+                },
+                "liquidity": {
+                    "type": "string"
+                },
+                "tokenId": {
+                    "type": "string"
+                },
+                "deadline": {
+                    "type": "string"
+                },
+                "from": {
+                    "type": "string"
+                },
+                "gas": {
+                    "type": "string"
+                },
+                "amountAMin": {
+                    "type": "string",
+                    "default": "0"
+                },
+                "recipient": {
+                    "type": "string",
+                    "default": "0x0000000000000000000000000000000000000000"
+                },
+                "amountAMax": {
+                    "type": "string",
+                    "default": "340282366920938463463374607431768211455"
+                },
+                "amountBMax": {
+                    "type": "string",
+                    "default": "340282366920938463463374607431768211455"
+                }
+            },
+            "required": [
+                "tokenA",
+                "poolFees",
+                "liquidity",
+                "tokenId",
+                "deadline",
+                "from",
+                "gas"
+            ],
+            "additionalProperties": true
+        },
+        "getPoolAave()": {
+            "type": "object",
+            "properties": {
+                "lendborrowId": {
+                    "type": "string"
+                },
+                "asset": {
+                    "type": "string"
+                }
+            },
+            "required": [
+                "asset"
+            ],
+            "additionalProperties": true
+        },
+        "getPoolsAave()": {
+            "type": "object",
+            "properties": {
+                "lendborrowId": {
+                    "type": "string"
+                },
+                "assets": {
+                    "type": "array",
+                    "minItems": 1
+                },
+                "user": {
+                    "type": "string"
+                }
+            },
+            "required": [
+                "assets"
+            ],
+            "additionalProperties": true
+        },
+        "getPoolsCompound()": {
+            "type": "object",
+            "properties": {
+                "lendborrowId": {
+                    "type": "string"
+                },
+                "assets": {
+                    "type": "array",
+                    "minItems": 1
+                },
+                "user": {
+                    "type": "string"
+                }
+            },
+            "required": [
+                "assets"
+            ],
+            "additionalProperties": true
+        },
+        "getPoolCompound()": {
+            "type": "object",
+            "properties": {
+                "lendborrowId": {
+                    "type": "string"
+                },
+                "asset": {
+                    "type": "string"
+                }
+            },
+            "required": [
+                "asset"
+            ],
+            "additionalProperties": true
+        },
+        "enterMarketStatus()": {
+            "type": "object",
+            "properties": {
+                "lendborrowId": {
+                    "type": "string"
+                },
+                "account": {
+                    "type": "string"
+                }
+            },
+            "required": [
+                "account"
+            ],
+            "additionalProperties": true
+        },
+        "enterMarketAave()": {
+            "type": "object",
+            "properties": {
+                "lendborrowId": {
+                    "type": "string"
+                },
+                "asset": {
+                    "type": "string"
+                },
+                "from": {
+                    "type": "string"
+                },
+                "gas": {
+                    "type": "string"
+                }
+            },
+            "required": [
+                "asset",
+                "from",
+                "gas"
+            ],
+            "additionalProperties": true
+        },
+        "enterMarketCompound()": {
+            "type": "object",
+            "properties": {
+                "lendborrowId": {
+                    "type": "string"
+                },
+                "asset": {
+                    "type": "string"
+                },
+                "from": {
+                    "type": "string"
+                },
+                "gas": {
+                    "type": "string"
+                }
+            },
+            "required": [
+                "asset",
+                "from",
+                "gas"
+            ],
+            "additionalProperties": true
+        },
+        "exitMarketCompound()": {
+            "type": "object",
+            "properties": {
+                "lendborrowId": {
+                    "type": "string"
+                },
+                "asset": {
+                    "type": "string"
+                },
+                "from": {
+                    "type": "string"
+                },
+                "gas": {
+                    "type": "string"
+                }
+            },
+            "required": [
+                "asset",
+                "from",
+                "gas"
+            ],
+            "additionalProperties": true
+        },
+        "borrowAave()": {
+            "type": "object",
+            "properties": {
+                "lendborrowId": {
+                    "type": "string"
+                },
+                "asset": {
+                    "type": "string"
+                },
+                "amount": {
+                    "type": "string"
+                },
+                "interestRateMode": {
+                    "type": "string",
+                    "default": "1"
+                },
+                "referralCode": {
+                    "type": "string",
+                    "default": "0"
+                },
+                "onBehalfOf": {
+                    "type": "string"
+                },
+                "from": {
+                    "type": "string"
+                },
+                "gas": {
+                    "type": "string"
+                },
+                "privateKey": {
+                    "type": "string"
+                }
+            },
+            "required": [
+                "asset",
+                "amount",
+                "onBehalfOf",
+                "from",
+                "gas"
+            ],
+            "additionalProperties": true
+        },
+        "borrowCompound()": {
+            "type": "object",
+            "properties": {
+                "lendborrowId": {
+                    "type": "string"
+                },
+                "asset": {
+                    "type": "string"
+                },
+                "amount": {
+                    "type": "string"
+                },
+                "from": {
+                    "type": "string"
+                },
+                "gas": {
+                    "type": "string"
+                },
+                "privateKey": {
+                    "type": "string"
+                }
+            },
+            "required": [
+                "asset",
+                "amount",
+                "from",
+                "gas"
+            ],
+            "additionalProperties": true
+        },
+        "depositAave()": {
+            "type": "object",
+            "properties": {
+                "involveBaseToken": {
+                    "type": "string",
+                    "default": "0"
+                },
+                "lendborrowId": {
+                    "type": "string"
+                },
+                "asset": {
+                    "type": "string"
+                },
+                "amount": {
+                    "type": "string"
+                },
+                "referralCode": {
+                    "type": "string",
+                    "default": "0"
+                },
+                "onBehalfOf": {
+                    "type": "string"
+                },
+                "from": {
+                    "type": "string"
+                },
+                "gas": {
+                    "type": "string"
+                },
+                "privateKey": {
+                    "type": "string"
+                }
+            },
+            "required": [
+                "asset",
+                "amount",
+                "onBehalfOf",
+                "from",
+                "gas"
+            ],
+            "additionalProperties": true
+        },
+        "depositCompound()": {
+            "type": "object",
+            "properties": {
+                "lendborrowId": {
+                    "type": "string"
+                },
+                "asset": {
+                    "type": "string"
+                },
+                "amount": {
+                    "type": "string"
+                },
+                "from": {
+                    "type": "string"
+                },
+                "gas": {
+                    "type": "string"
+                },
+                "privateKey": {
+                    "type": "string"
+                }
+            },
+            "required": [
+                "asset",
+                "amount",
+                "from",
+                "gas"
+            ],
+            "additionalProperties": true
+        },
+        "liquidateAave()": {
+            "type": "object",
+            "properties": {
+                "lendborrowId": {
+                    "type": "string"
+                },
+                "collateralAsset": {
+                    "type": "string"
+                },
+                "debtAsset": {
+                    "type": "string"
+                },
+                "user": {
+                    "type": "string"
+                },
+                "debtToCover": {
+                    "type": "string"
+                },
+                "recieveAToken": {
+                    "type": "string"
+                },
+                "from": {
+                    "type": "string"
+                },
+                "gas": {
+                    "type": "string"
+                },
+                "privateKey": {
+                    "type": "string"
+                }
+            },
+            "required": [
+                "collateralAsset",
+                "debtAsset",
+                "user",
+                "debtToCover",
+                "recieveAToken",
+                "from",
+                "gas"
+            ],
+            "additionalProperties": true
+        },
+        "liquidateCompound()": {
+            "type": "object",
+            "properties": {
+                "lendborrowId": {
+                    "type": "string"
+                },
+                "collateralAsset": {
+                    "type": "string"
+                },
+                "debtAsset": {
+                    "type": "string"
+                },
+                "user": {
+                    "type": "string"
+                },
+                "debtToCover": {
+                    "type": "string"
+                },
+                "from": {
+                    "type": "string"
+                },
+                "gas": {
+                    "type": "string"
+                },
+                "privateKey": {
+                    "type": "string"
+                }
+            },
+            "required": [
+                "collateralAsset",
+                "debtAsset",
+                "user",
+                "debtToCover",
+                "from",
+                "gas"
+            ],
+            "additionalProperties": true
+        },
+        "repayAave()": {
+            "type": "object",
+            "properties": {
+                "lendborrowId": {
+                    "type": "string"
+                },
+                "asset": {
+                    "type": "string"
+                },
+                "amount": {
+                    "type": "string"
+                },
+                "interestRateMode": {
+                    "type": "string",
+                    "default": "1"
+                },
+                "onBehalfOf": {
+                    "type": "string"
+                },
+                "from": {
+                    "type": "string"
+                },
+                "gas": {
+                    "type": "string"
+                },
+                "privateKey": {
+                    "type": "string"
+                }
+            },
+            "required": [
+                "asset",
+                "amount",
+                "onBehalfOf",
+                "from",
+                "gas"
+            ],
+            "additionalProperties": true
+        },
+        "getRepayAmountAave()": {
+            "type": "object",
+            "properties": {
+                "lendborrowId": {
+                    "type": "string"
+                },
+                "asset": {
+                    "type": "string"
+                },
+                "user": {
+                    "type": "string"
+                }
+            },
+            "required": [
+                "asset",
+                "user"
+            ],
+            "additionalProperties": true
+        },
+        "getUserAccountDataAaveV2()": {
+            "type": "object",
+            "properties": {
+                "lendborrowId": {
+                    "type": "string"
+                },
+                "asset": {
+                    "type": "string"
+                },
+                "user": {
+                    "type": "string"
+                },
+                "interestRateMode": {
+                    "type": "string",
+                    "default": "1"
+                }
+            },
+            "required": [
+                "asset",
+                "user",
+                "interestRateMode"
+            ],
+            "additionalProperties": true
+        },
+        "getUserAccountDataCompound()": {
+            "type": "object",
+            "properties": {
+                "lendborrowId": {
+                    "type": "string"
+                },
+                "asset": {
+                    "type": "string"
+                },
+                "user": {
+                    "type": "string"
+                }
+            },
+            "required": [
+                "asset",
+                "user"
+            ],
+            "additionalProperties": true
+        },
+        "repayCompound()": {
+            "type": "object",
+            "properties": {
+                "lendborrowId": {
+                    "type": "string"
+                },
+                "asset": {
+                    "type": "string"
+                },
+                "amount": {
+                    "type": "string"
+                },
+                "from": {
+                    "type": "string"
+                },
+                "gas": {
+                    "type": "string"
+                },
+                "privateKey": {
+                    "type": "string"
+                }
+            },
+            "required": [
+                "asset",
+                "amount",
+                "from",
+                "gas"
+            ],
+            "additionalProperties": true
+        },
+        "withdrawAave()": {
+            "type": "object",
+            "properties": {
+                "lendborrowId": {
+                    "type": "string"
+                },
+                "asset": {
+                    "type": "string"
+                },
+                "amount": {
+                    "type": "string"
+                },
+                "to": {
+                    "type": "string"
+                },
+                "from": {
+                    "type": "string"
+                },
+                "gas": {
+                    "type": "string"
+                },
+                "privateKey": {
+                    "type": "string"
+                }
+            },
+            "required": [
+                "asset",
+                "amount",
+                "to",
+                "from",
+                "gas"
+            ],
+            "additionalProperties": true
+        },
+        "withdrawCompound()": {
+            "type": "object",
+            "properties": {
+                "lendborrowId": {
+                    "type": "string"
+                },
+                "asset": {
+                    "type": "string"
+                },
+                "amount": {
+                    "type": "string"
+                },
+                "from": {
+                    "type": "string"
+                },
+                "gas": {
+                    "type": "string"
+                },
+                "privateKey": {
+                    "type": "string"
+                }
+            },
+            "required": [
+                "asset",
+                "amount",
+                "from",
+                "gas"
+            ],
+            "additionalProperties": true
+        },
+        "getRepayAmountCompound()": {
+            "type": "object",
+            "properties": {
+                "lendborrowId": {
+                    "type": "string"
+                },
+                "user": {
+                    "type": "string"
+                },
+                "asset": {
+                    "type": "string"
+                }
+            },
+            "required": [
+                "asset",
+                "user"
+            ],
+            "additionalProperties": true
+        },
+        "getBorrowAmountCompound()": {
+            "type": "object",
+            "properties": {
+                "lendborrowId": {
+                    "type": "string"
+                },
+                "user": {
+                    "type": "string"
+                },
+                "asset": {
+                    "type": "string"
+                }
+            },
+            "required": [
+                "asset",
+                "user"
+            ],
+            "additionalProperties": true
+        },
+        "getPriceChainLink()": {
+            "type": "object",
+            "properties": {
+                "oracleId": {
+                    "type": "string"
+                },
+                "asset": {
+                    "type": "string",
+                    "maxLength": 5,
+                    "minLength": 3
+                }
+            },
+            "required": [
+                "asset"
+            ],
+            "additionalProperties": true
+        },
+        "getPriceWinkLink()": {
+            "type": "object",
+            "properties": {
+                "oracleId": {
+                    "type": "string"
+                },
+                "asset": {
+                    "type": "string",
+                    "maxLength": 5,
+                    "minLength": 3
+                }
+            },
+            "required": [
+                "asset"
+            ],
+            "additionalProperties": true
+        },
+        "getBalanceYearnFinance()": {
+            "type": "object",
+            "oneOf": [
+                {
+                    "properties": {
+                        "address": {
+                            "type": "string"
+                        },
+                        "tokenAddress": {
+                            "type": "string"
+                        },
+                        "vaultNumber": {
+                            "type": "string"
+                        },
+                        "yieldAggregatorId": {
+                            "type": "string"
+                        }
+                    },
+                    "required": [
+                        "address",
+                        "yieldAggregatorId",
+                        "tokenAddress"
+                    ]
+                },
+                {
+                    "properties": {
+                        "address": {
+                            "type": "string"
+                        },
+                        "vaultAddress": {
+                            "type": "string"
+                        },
+                        "yieldAggregatorId": {
+                            "type": "string"
+                        }
+                    },
+                    "required": [
+                        "address",
+                        "yieldAggregatorId",
+                        "vaultAddress"
+                    ]
+                }
+            ],
+            "additionalProperties": true
+        },
+        "getVaultsYearnFinance()": {
+            "type": "object",
+            "properties": {
+                "tokenAddress": {
+                    "type": "string"
+                },
+                "yieldAggregatorId": {
+                    "type": "string"
+                }
+            },
+            "required": [
+                "yieldAggregatorId"
+            ],
+            "additionalProperties": true
+        },
+        "getVaultsHarvestFinance()": {
+            "type": "object",
+            "properties": {
+                "tokenAddress": {
+                    "type": "string"
+                },
+                "yieldAggregatorId": {
+                    "type": "string"
+                }
+            },
+            "required": [
+                "yieldAggregatorId"
+            ],
+            "additionalProperties": true
+        },
+        "depositVaultYearnFinance()": {
+            "type": "object",
+            "oneOf": [
+                {
+                    "properties": {
+                        "amount": {
+                            "type": "string"
+                        },
+                        "from": {
+                            "type": "string"
+                        },
+                        "gas": {
+                            "type": "string"
+                        },
+                        "tokenAddress": {
+                            "type": "string"
+                        },
+                        "vaultNumber": {
+                            "type": "string"
+                        },
+                        "privateKey": {
+                            "type": "string"
+                        }
+                    },
+                    "required": [
+                        "amount",
+                        "from",
+                        "gas",
+                        "tokenAddress"
+                    ]
+                },
+                {
+                    "properties": {
+                        "amount": {
+                            "type": "string"
+                        },
+                        "from": {
+                            "type": "string"
+                        },
+                        "gas": {
+                            "type": "string"
+                        },
+                        "vaultAddress": {
+                            "type": "string"
+                        },
+                        "privateKey": {
+                            "type": "string"
+                        }
+                    },
+                    "required": [
+                        "amount",
+                        "from",
+                        "gas",
+                        "vaultAddress"
+                    ]
+                }
+            ],
+            "additionalProperties": true
+        },
+        "withdrawVaultYearnFinance()": {
+            "type": "object",
+            "oneOf": [
+                {
+                    "properties": {
+                        "amount": {
+                            "type": "string"
+                        },
+                        "from": {
+                            "type": "string"
+                        },
+                        "gas": {
+                            "type": "string"
+                        },
+                        "tokenAddress": {
+                            "type": "string"
+                        },
+                        "vaultNumber": {
+                            "type": "string"
+                        },
+                        "privateKey": {
+                            "type": "string"
+                        }
+                    },
+                    "required": [
+                        "amount",
+                        "from",
+                        "gas",
+                        "tokenAddress"
+                    ]
+                },
+                {
+                    "properties": {
+                        "amount": {
+                            "type": "string"
+                        },
+                        "from": {
+                            "type": "string"
+                        },
+                        "gas": {
+                            "type": "string"
+                        },
+                        "vaultAddress": {
+                            "type": "string"
+                        },
+                        "privateKey": {
+                            "type": "string"
+                        }
+                    },
+                    "required": [
+                        "amount",
+                        "from",
+                        "gas",
+                        "vaultAddress"
+                    ]
+                }
+            ],
+            "additionalProperties": true
+        },
+        "withdrawVaultHarvestFinance()": {
+            "type": "object",
+            "oneOf": [
+                {
+                    "properties": {
+                        "amount": {
+                            "type": "string"
+                        },
+                        "from": {
+                            "type": "string"
+                        },
+                        "gas": {
+                            "type": "string"
+                        },
+                        "tokenAddress": {
+                            "type": "string"
+                        },
+                        "yieldAggregatorId": {
+                            "type": "string"
+                        },
+                        "privateKey": {
+                            "type": "string"
+                        }
+                    },
+                    "required": [
+                        "amount",
+                        "from",
+                        "gas",
+                        "tokenAddress",
+                        "yieldAggregatorId"
+                    ]
+                },
+                {
+                    "properties": {
+                        "amount": {
+                            "type": "string"
+                        },
+                        "from": {
+                            "type": "string"
+                        },
+                        "gas": {
+                            "type": "string"
+                        },
+                        "vaultAddress": {
+                            "type": "string"
+                        },
+                        "yieldAggregatorId": {
+                            "type": "string"
+                        },
+                        "privateKey": {
+                            "type": "string"
+                        }
+                    },
+                    "required": [
+                        "amount",
+                        "from",
+                        "gas",
+                        "vaultAddress",
+                        "yieldAggregatorId"
+                    ]
+                }
+            ],
+            "additionalProperties": true
+        },
+        "withdrawPoolHarvestFinance()": {
+            "type": "object",
+            "oneOf": [
+                {
+                    "properties": {
+                        "amount": {
+                            "type": "string"
+                        },
+                        "from": {
+                            "type": "string"
+                        },
+                        "gas": {
+                            "type": "string"
+                        },
+                        "tokenAddress": {
+                            "type": "string"
+                        },
+                        "yieldAggregatorId": {
+                            "type": "string"
+                        },
+                        "privateKey": {
+                            "type": "string"
+                        }
+                    },
+                    "required": [
+                        "amount",
+                        "from",
+                        "gas",
+                        "tokenAddress",
+                        "yieldAggregatorId"
+                    ]
+                },
+                {
+                    "properties": {
+                        "amount": {
+                            "type": "string"
+                        },
+                        "from": {
+                            "type": "string"
+                        },
+                        "gas": {
+                            "type": "string"
+                        },
+                        "poolAddress": {
+                            "type": "string"
+                        },
+                        "yieldAggregatorId": {
+                            "type": "string"
+                        },
+                        "privateKey": {
+                            "type": "string"
+                        }
+                    },
+                    "required": [
+                        "amount",
+                        "from",
+                        "gas",
+                        "poolAddress",
+                        "yieldAggregatorId"
+                    ]
+                }
+            ],
+            "additionalProperties": true
+        },
+        "getBalanceHarvestFinance()": {
+            "type": "object",
+            "oneOf": [
+                {
+                    "properties": {
+                        "address": {
+                            "type": "string"
+                        },
+                        "tokenAddress": {
+                            "type": "string"
+                        },
+                        "yieldAggregatorId": {
+                            "type": "string"
+                        }
+                    },
+                    "required": [
+                        "address",
+                        "tokenAddress",
+                        "yieldAggregatorId"
+                    ]
+                },
+                {
+                    "properties": {
+                        "address": {
+                            "type": "string"
+                        },
+                        "vaultAddress": {
+                            "type": "string"
+                        },
+                        "poolAddress": {
+                            "type": "string"
+                        },
+                        "yieldAggregatorId": {
+                            "type": "string"
+                        }
+                    },
+                    "required": [
+                        "address",
+                        "vaultAddress",
+                        "poolAddress",
+                        "yieldAggregatorId"
+                    ]
+                }
+            ],
+            "additionalProperties": true
+        },
+        "depositVaultHarvestFinance()": {
+            "type": "object",
+            "oneOf": [
+                {
+                    "properties": {
+                        "amount": {
+                            "type": "string"
+                        },
+                        "from": {
+                            "type": "string"
+                        },
+                        "gas": {
+                            "type": "string"
+                        },
+                        "tokenAddress": {
+                            "type": "string"
+                        },
+                        "yieldAggregatorId": {
+                            "type": "string"
+                        },
+                        "privateKey": {
+                            "type": "string"
+                        }
+                    },
+                    "required": [
+                        "amount",
+                        "from",
+                        "gas",
+                        "tokenAddress",
+                        "yieldAggregatorId"
+                    ]
+                },
+                {
+                    "properties": {
+                        "amount": {
+                            "type": "string"
+                        },
+                        "from": {
+                            "type": "string"
+                        },
+                        "gas": {
+                            "type": "string"
+                        },
+                        "vaultAddress": {
+                            "type": "string"
+                        },
+                        "yieldAggregatorId": {
+                            "type": "string"
+                        },
+                        "privateKey": {
+                            "type": "string"
+                        }
+                    },
+                    "required": [
+                        "amount",
+                        "from",
+                        "gas",
+                        "vaultAddress",
+                        "yieldAggregatorId"
+                    ]
+                }
+            ],
+            "additionalProperties": true
+        },
+        "depositPoolHarvestFinance()": {
+            "type": "object",
+            "oneOf": [
+                {
+                    "properties": {
+                        "amount": {
+                            "type": "string"
+                        },
+                        "from": {
+                            "type": "string"
+                        },
+                        "gas": {
+                            "type": "string"
+                        },
+                        "tokenAddress": {
+                            "type": "string"
+                        },
+                        "yieldAggregatorId": {
+                            "type": "string"
+                        },
+                        "privateKey": {
+                            "type": "string"
+                        }
+                    },
+                    "required": [
+                        "amount",
+                        "from",
+                        "gas",
+                        "tokenAddress",
+                        "yieldAggregatorId"
+                    ]
+                },
+                {
+                    "properties": {
+                        "amount": {
+                            "type": "string"
+                        },
+                        "from": {
+                            "type": "string"
+                        },
+                        "gas": {
+                            "type": "string"
+                        },
+                        "poolAddress": {
+                            "type": "string"
+                        },
+                        "yieldAggregatorId": {
+                            "type": "string"
+                        },
+                        "privateKey": {
+                            "type": "string"
+                        }
+                    },
+                    "required": [
+                        "amount",
+                        "from",
+                        "gas",
+                        "poolAddress",
+                        "yieldAggregatorId"
+                    ]
+                }
+            ],
+            "additionalProperties": true
+        },
+        "approveEvm()": {
+            "type": "object",
+            "properties": {
+                "amount": {
+                    "type": "string"
+                },
+                "from": {
+                    "type": "string"
+                },
+                "gas": {
+                    "type": "string"
+                },
+                "to": {
+                    "type": "string"
+                },
+                "tokenAddress": {
+                    "type": "string"
+                },
+                "privateKey": {
+                    "type": "string"
+                }
+            },
+            "required": [
+                "amount",
+                "from",
+                "gas",
+                "to",
+                "tokenAddress"
+            ],
+            "additionalProperties": true
+        },
+        "transferFromEvm()": {
+            "type": "object",
+            "properties": {
+                "amount": {
+                    "type": "string"
+                },
+                "from": {
+                    "type": "string"
+                },
+                "gas": {
+                    "type": "string"
+                },
+                "to": {
+                    "type": "string"
+                },
+                "tokenAddress": {
+                    "type": "string"
+                },
+                "reciever": {
+                    "type": "string"
+                },
+                "privateKey": {
+                    "type": "string"
+                }
+            },
+            "required": [
+                "amount",
+                "from",
+                "gas",
+                "to",
+                "tokenAddress",
+                "reciever"
+            ],
+            "additionalProperties": true
+        },
+        "transferEvm()": {
+            "type": "object",
+            "properties": {
+                "amount": {
+                    "type": "string"
+                },
+                "from": {
+                    "type": "string"
+                },
+                "gas": {
+                    "type": "string"
+                },
+                "to": {
+                    "type": "string"
+                },
+                "tokenAddress": {
+                    "type": "string"
+                },
+                "privateKey": {
+                    "type": "string"
+                }
+            },
+            "required": [
+                "amount",
+                "from",
+                "gas",
+                "to",
+                "tokenAddress"
+            ],
+            "additionalProperties": true
+        },
+        "getNameEvm()": {
+            "type": "object",
+            "properties": {
+                "tokenAddress": {
+                    "type": "string"
+                }
+            },
+            "required": [
+                "tokenAddress"
+            ],
+            "additionalProperties": true
+        },
+        "getSymbolEvm()": {
+            "type": "object",
+            "properties": {
+                "tokenAddress": {
+                    "type": "string"
+                }
+            },
+            "required": [
+                "tokenAddress"
+            ],
+            "additionalProperties": true
+        },
+        "getDecimalsEvm()": {
+            "type": "object",
+            "properties": {
+                "tokenAddress": {
+                    "type": "string"
+                }
+            },
+            "required": [
+                "tokenAddress"
+            ],
+            "additionalProperties": true
+        },
+        "getTokenDetailsEvm()": {
+            "type": "object",
+            "properties": {
+                "tokenAddress": {
+                    "type": "string"
+                }
+            },
+            "required": [
+                "tokenAddress"
+            ],
+            "additionalProperties": true
+        },
+        "getUserBalance()": {
+            "type": "object",
+            "properties": {
+                "tokenAddress": {
+                    "type": "string"
+                },
+                "address": {
+                    "type": "string"
+                }
+            },
+            "required": [
+                "tokenAddress",
+                "address"
+            ],
+            "additionalProperties": true
+        },
+        "getWethBalance()": {
+            "type": "object",
+            "properties": {
+                "user": {
+                    "type": "string"
+                }
+            },
+            "required": [
+                "user"
+            ],
+            "additionalProperties": true
+        },
+        "getUserAllowanceEvm()": {
+            "type": "object",
+            "properties": {
+                "tokenAddress": {
+                    "type": "string"
+                },
+                "owner": {
+                    "type": "string"
+                },
+                "spender": {
+                    "type": "string"
+                }
+            },
+            "required": [
+                "tokenAddress",
+                "owner",
+                "spender"
+            ],
+            "additionalProperties": true
+        },
+        "convertBaseTokenToWrapTokenEvm()": {
+            "type": "object",
+            "properties": {
+                "amount": {
+                    "type": "string"
+                },
+                "from": {
+                    "type": "string"
+                },
+                "gas": {
+                    "type": "string"
+                },
+                "tokenAddress": {
+                    "type": "string"
+                },
+                "privateKey": {
+                    "type": "string"
+                }
+            },
+            "required": [
+                "amount",
+                "from",
+                "gas",
+                "tokenAddress"
+            ],
+            "additionalProperties": true
+        },
+        "convertWrapTokenToBaseTokenEvm()": {
+            "type": "object",
+            "properties": {
+                "amount": {
+                    "type": "string"
+                },
+                "from": {
+                    "type": "string"
+                },
+                "gas": {
+                    "type": "string"
+                },
+                "tokenAddress": {
+                    "type": "string"
+                },
+                "privateKey": {
+                    "type": "string"
+                }
+            },
+            "required": [
+                "amount",
+                "from",
+                "gas",
+                "tokenAddress"
+            ],
+            "additionalProperties": true
+        },
+        "getNameSolana()": {
+            "type": "object",
+            "properties": {
+                "publickey": {
+                    "type": "string"
+                },
+                "token": {
+                    "type": "string"
+                },
+                "chainName": {
+                    "type": "string"
+                },
+                "chainId": {
+                    "type": "string"
+                }
+            },
+            "required": [
+                "publickey",
+                "token"
+            ],
+            "additionalProperties": true
+        },
+        "getSymbolSolana()": {
+            "type": "object",
+            "properties": {
+                "publickey": {
+                    "type": "string"
+                },
+                "token": {
+                    "type": "string"
+                },
+                "chainName": {
+                    "type": "string"
+                },
+                "chainId": {
+                    "type": "string"
+                }
+            },
+            "required": [
+                "publickey",
+                "token"
+            ],
+            "additionalProperties": true
+        },
+        "getDecimalsSolana()": {
+            "type": "object",
+            "properties": {
+                "token": {
+                    "type": "string"
+                },
+                "chainName": {
+                    "type": "string"
+                },
+                "chainId": {
+                    "type": "string"
+                }
+            },
+            "required": [
+                "token"
+            ],
+            "additionalProperties": true
+        },
+        "approveSolana()": {
+            "type": "object",
+            "properties": {
+                "delegate": {
+                    "type": "string"
+                },
+                "token": {
+                    "type": "string"
+                },
+                "owner": {
+                    "type": "string"
+                },
+                "chainName": {
+                    "type": "string"
+                },
+                "chainId": {
+                    "type": "string"
+                },
+                "amount": {
+                    "type": "string"
+                }
+            },
+            "required": [
+                "delegate",
+                "token",
+                "owner"
+            ],
+            "additionalProperties": true
+        },
+        "transferSolana()": {
+            "type": "object",
+            "properties": {
+                "token": {
+                    "type": "string"
+                },
+                "feePayer": {
+                    "type": "string"
+                },
+                "destination": {
+                    "type": "string"
+                },
+                "sender": {
+                    "type": "string"
+                },
+                "amount": {
+                    "type": "number",
+                    "default": 1
+                },
+                "chainName": {
+                    "type": "string"
+                },
+                "chainId": {
+                    "type": "string"
+                },
+                "decimals": {
+                    "type": "string"
+                }
+            },
+            "required": [
+                "token",
+                "feePayer",
+                "destination",
+                "sender",
+                "amount",
+                "decimals"
+            ],
+            "additionalProperties": true
+        },
+        "getPriceEvm()": {
+            "type": "object",
+            "properties": {
+                "chainId": {
+                    "type": "string"
+                },
+                "asset": {
+                    "type": "string",
+                    "enum": [
+                        "USDC",
+                        "USDT"
+                    ]
+                }
+            },
+            "required": [
+                "asset"
+            ],
+            "additionalProperties": true
+        },
+        "getPriceSynthetix()": {
+            "type": "object",
+            "properties": {
+                "syntheticId": {
+                    "type": "string",
+                    "default": "6000"
+                },
+                "amount": {
+                    "type": "string"
+                }
+            },
+            "required": [
+                "amount"
+            ],
+            "additionalProperties": true
+        },
+        "convertBaseToPeggedToken()": {
+            "type": "object",
+            "properties": {
+                "syntheticId": {
+                    "type": "string",
+                    "default": "6000"
+                },
+                "amount": {
+                    "type": "string"
+                },
+                "from": {
+                    "type": "string"
+                },
+                "gas": {
+                    "type": "string"
+                }
+            },
+            "required": [
+                "amount",
+                "from",
+                "gas"
+            ],
+            "additionalProperties": true
+        },
+        "convertPeggedToBaseToken()": {
+            "type": "object",
+            "properties": {
+                "syntheticId": {
+                    "type": "string",
+                    "default": "6000"
+                },
+                "amount": {
+                    "type": "string"
+                },
+                "from": {
+                    "type": "string"
+                },
+                "gas": {
+                    "type": "string"
+                }
+            },
+            "required": [
+                "amount",
+                "from",
+                "gas"
+            ],
+            "additionalProperties": true
+        },
+        "convertPeggedToProtocolToken()": {
+            "type": "object",
+            "properties": {
+                "syntheticId": {
+                    "type": "string",
+                    "default": "6000"
+                },
+                "amount": {
+                    "type": "string"
+                },
+                "from": {
+                    "type": "string"
+                },
+                "gas": {
+                    "type": "string"
+                }
+            },
+            "required": [
+                "amount",
+                "from",
+                "gas"
+            ],
+            "additionalProperties": true
+        },
+        "convertProtocolToBaseToken()": {
+            "type": "object",
+            "properties": {
+                "syntheticId": {
+                    "type": "string",
+                    "default": "6000"
+                },
+                "amount": {
+                    "type": "string"
+                },
+                "from": {
+                    "type": "string"
+                },
+                "gas": {
+                    "type": "string"
+                }
+            },
+            "required": [
+                "amount",
+                "from",
+                "gas"
+            ],
+            "additionalProperties": true
+        },
+        "liquidateSynthetix()": {
+            "type": "object",
+            "properties": {
+                "blockNumber": {
+                    "type": "string"
+                },
+                "chainId": {
+                    "type": "string"
+                },
+                "chainSymbol": {
+                    "type": "string",
+                    "maxLength": 7,
+                    "minLength": 3
+                }
+            },
+            "required": [
+                "blockNumber"
+            ],
+            "additionalProperties": true
+        },
+        "depositPeggedTokenSynthetix()": {
+            "type": "object",
+            "properties": {
+                "syntheticId": {
+                    "type": "string",
+                    "default": "6000"
+                },
+                "amount": {
+                    "type": "string"
+                },
+                "from": {
+                    "type": "string"
+                },
+                "gas": {
+                    "type": "string"
+                }
+            },
+            "required": [
+                "amount",
+                "from",
+                "gas"
+            ],
+            "additionalProperties": true
+        },
+        "withdrawPeggedTokenSynthetix()": {
+            "type": "object",
+            "properties": {
+                "syntheticId": {
+                    "type": "string",
+                    "default": "6000"
+                },
+                "from": {
+                    "type": "string"
+                },
+                "gas": {
+                    "type": "string"
+                }
+            },
+            "required": [
+                "from",
+                "gas"
+            ],
+            "additionalProperties": true
+        },
+        "getNFTNameSolana()": {
+            "type": "object",
+            "properties": {
+                "publickey": {
+                    "type": "string"
+                },
+                "token": {
+                    "type": "string"
+                },
+                "chainName": {
+                    "type": "string"
+                },
+                "chainId": {
+                    "type": "string"
+                }
+            },
+            "required": [
+                "publickey",
+                "token"
+            ],
+            "additionalProperties": true
+        },
+        "getNFTSymbolSolana()": {
+            "type": "object",
+            "properties": {
+                "publickey": {
+                    "type": "string"
+                },
+                "token": {
+                    "type": "string"
+                },
+                "chainName": {
+                    "type": "string"
+                },
+                "chainId": {
+                    "type": "string"
+                }
+            },
+            "required": [
+                "publickey",
+                "token"
+            ],
+            "additionalProperties": true
+        },
+        "getNFTOwnerSolana()": {
+            "type": "object",
+            "properties": {
+                "token": {
+                    "type": "string"
+                },
+                "chainName": {
+                    "type": "string"
+                },
+                "chainId": {
+                    "type": "string"
+                }
+            },
+            "required": [
+                "token"
+            ],
+            "additionalProperties": true
+        },
+        "mintNFTSolana()": {
+            "type": "object",
+            "properties": {
+                "publickey": {
+                    "type": "string"
+                },
+                "tokenAddress": {
+                    "type": "string"
+                },
+                "name": {
+                    "type": "string"
+                },
+                "symbol": {
+                    "type": "string"
+                },
+                "uri": {
+                    "type": "string"
+                },
+                "chainName": {
+                    "type": "string"
+                },
+                "chainId": {
+                    "type": "string"
+                }
+            },
+            "required": [
+                "publickey",
+                "tokenAddress",
+                "name",
+                "symbol"
+            ],
+            "additionalProperties": true
+        },
+        "transferNFTSolana()": {
+            "type": "object",
+            "properties": {
+                "token": {
+                    "type": "string"
+                },
+                "feePayer": {
+                    "type": "string"
+                },
+                "destination": {
+                    "type": "string"
+                },
+                "sender": {
+                    "type": "string"
+                },
+                "amount": {
+                    "type": "number",
+                    "default": 1
+                },
+                "chainName": {
+                    "type": "string"
+                },
+                "chainId": {
+                    "type": "string"
+                }
+            },
+            "required": [
+                "token",
+                "feePayer",
+                "destination",
+                "sender",
+                "amount"
+            ],
+            "additionalProperties": true
+        },
+        "burnNFTSolana()": {
+            "type": "object",
+            "properties": {
+                "account": {
+                    "type": "string"
+                },
+                "mint": {
+                    "type": "string"
+                },
+                "owner": {
+                    "type": "string"
+                },
+                "chainName": {
+                    "type": "string"
+                },
+                "chainId": {
+                    "type": "string"
+                }
+            },
+            "required": [
+                "account",
+                "mint",
+                "owner"
+            ],
+            "additionalProperties": true
+        },
+        "approveNFTSolana()": {
+            "type": "object",
+            "properties": {
+                "delegate": {
+                    "type": "string"
+                },
+                "token": {
+                    "type": "string"
+                },
+                "owner": {
+                    "type": "string"
+                },
+                "chainName": {
+                    "type": "string"
+                },
+                "chainId": {
+                    "type": "string"
+                }
+            },
+            "required": [
+                "delegate",
+                "token",
+                "owner"
+            ],
+            "additionalProperties": true
+        },
+        "getHistoricalTransactionsNFTEvm()": {
+            "type": "object",
+            "properties": {
+                "nftCollection": {
+                    "type": "string"
+                },
+                "address": {
+                    "type": "string"
+                },
+                "page": {
+                    "type": "string",
+                    "default": "1",
+                    "pattern": "^[1-9][0-9]*$"
+                },
+                "chainId": {
+                    "type": "string"
+                },
+                "nftProtocolId": {
+                    "type": "string"
+                },
+                "startBlock": {
+                    "type": "string",
+                    "pattern": "^[0-9][0-9]*$"
+                },
+                "endBlock": {
+                    "type": "string",
+                    "pattern": "^[1-9][0-9]*$"
+                },
+                "sort": {
+                    "type": "string",
+                    "enum": [
+                        "asc",
+                        "desc"
+                    ],
+                    "default": "desc"
+                }
+            },
+            "required": [
+                "nftCollection",
+                "page",
+                "sort"
+            ],
+            "additionalProperties": true
+        },
+        "getHistoricalTransactionsEvm()": {
+            "type": "object",
+            "properties": {
+                "tokenAddress": {
+                    "type": "string"
+                },
+                "address": {
+                    "type": "string"
+                },
+                "page": {
+                    "type": "string",
+                    "default": "1",
+                    "pattern": "^[1-9][0-9]*$"
+                },
+                "chainId": {
+                    "type": "string"
+                },
+                "startBlock": {
+                    "type": "string",
+                    "pattern": "^[0-9][0-9]*$"
+                },
+                "endBlock": {
+                    "type": "string",
+                    "pattern": "^[1-9][0-9]*$"
+                },
+                "sort": {
+                    "type": "string",
+                    "enum": [
+                        "asc",
+                        "desc"
+                    ],
+                    "default": "desc"
+                }
+            },
+            "required": [
+                "tokenAddress",
+                "page",
+                "sort"
+            ],
+            "additionalProperties": true
+        },
+        "balanceOfEvm1155()": {
+            "type": "object",
+            "properties": {
+                "nftCollection": {
+                    "type": "string"
+                },
+                "address": {
+                    "type": "string"
+                },
+                "chainId": {
+                    "type": "string"
+                },
+                "tokenId": {
+                    "type": "string",
+                    "pattern": "^[0-9][0-9]*$"
+                },
+                "nftProtocolId": {
+                    "type": "string"
+                }
+            },
+            "required": [
+                "nftCollection",
+                "address",
+                "tokenId"
+            ],
+            "additionalProperties": true
+        },
+        "getHistoricalLogsEvm()": {
+            "type": "object",
+            "properties": {
+                "tokenAddress": {
+                    "type": "string"
+                },
+                "page": {
+                    "type": "string",
+                    "default": "1",
+                    "pattern": "^[1-9][0-9]*$"
+                },
+                "chainId": {
+                    "type": "string"
+                },
+                "startBlock": {
+                    "type": "string",
+                    "pattern": "^[0-9][0-9]*$"
+                },
+                "endBlock": {
+                    "type": "string",
+                    "pattern": "^[1-9][0-9]*$"
+                },
+                "type": {
+                    "type": "string",
+                    "enum": [
+                        "Transfer",
+                        "Approval"
+                    ]
+                }
+            },
+            "required": [
+                "tokenAddress",
+                "page",
+                "type"
+            ],
+            "additionalProperties": true
+        },
+        "getHistoricalLogsWeth()": {
+            "type": "object",
+            "properties": {
+                "page": {
+                    "type": "string",
+                    "default": "1",
+                    "pattern": "^[1-9][0-9]*$"
+                },
+                "chainId": {
+                    "type": "string"
+                },
+                "startBlock": {
+                    "type": "string",
+                    "pattern": "^[0-9][0-9]*$"
+                },
+                "endBlock": {
+                    "type": "string",
+                    "pattern": "^[1-9][0-9]*$"
+                },
+                "type": {
+                    "type": "string",
+                    "enum": [
+                        "Deposit",
+                        "Withdrawal"
+                    ]
+                }
+            },
+            "required": [
+                "page",
+                "type"
+            ],
+            "additionalProperties": true
+        },
+        "getHistoricalLogsNFT721Evm()": {
+            "type": "object",
+            "properties": {
+                "nftCollection": {
+                    "type": "string"
+                },
+                "page": {
+                    "type": "string",
+                    "default": "1",
+                    "pattern": "^[1-9][0-9]*$"
+                },
+                "chainId": {
+                    "type": "string"
+                },
+                "nftProtocolId": {
+                    "type": "string"
+                },
+                "startBlock": {
+                    "type": "string",
+                    "pattern": "^[0-9][0-9]*$"
+                },
+                "endBlock": {
+                    "type": "string",
+                    "pattern": "^[1-9][0-9]*$"
+                },
+                "type": {
+                    "type": "string",
+                    "enum": [
+                        "Transfer",
+                        "Approval"
+                    ]
+                }
+            },
+            "required": [
+                "nftCollection",
+                "page",
+                "type"
+            ],
+            "additionalProperties": true
+        },
+        "getHistoricalLogsNFT1155Evm()": {
+            "type": "object",
+            "properties": {
+                "nftCollection": {
+                    "type": "string"
+                },
+                "page": {
+                    "type": "string",
+                    "default": "1",
+                    "pattern": "^[1-9][0-9]*$"
+                },
+                "chainId": {
+                    "type": "string"
+                },
+                "nftProtocolId": {
+                    "type": "string"
+                },
+                "startBlock": {
+                    "type": "string",
+                    "pattern": "^[0-9][0-9]*$"
+                },
+                "endBlock": {
+                    "type": "string",
+                    "pattern": "^[1-9][0-9]*$"
+                },
+                "type": {
+                    "type": "string",
+                    "enum": [
+                        "TransferSingle",
+                        "ApprovalForAll"
+                    ]
+                }
+            },
+            "required": [
+                "nftCollection",
+                "page",
+                "type"
+            ],
+            "additionalProperties": true
+        },
+        "ownerOfEvmNFT721()": {
+            "type": "object",
+            "properties": {
+                "nftCollection": {
+                    "type": "string"
+                },
+                "nftIndex": {
+                    "type": "string",
+                    "pattern": "^[0-9][0-9]*$"
+                },
+                "chainId": {
+                    "type": "string"
+                },
+                "nftProtocolId": {
+                    "type": "string"
+                }
+            },
+            "required": [
+                "nftCollection",
+                "nftIndex"
+            ],
+            "additionalProperties": true
+        },
+        "balanceOfEvm721()": {
+            "type": "object",
+            "properties": {
+                "nftCollection": {
+                    "type": "string"
+                },
+                "address": {
+                    "type": "string"
+                },
+                "chainId": {
+                    "type": "string"
+                },
+                "nftProtocolId": {
+                    "type": "string"
+                }
+            },
+            "required": [
+                "nftCollection",
+                "address"
+            ],
+            "additionalProperties": true
+        },
+        "getTransactionSui()": {
+            "type": "object",
+            "properties": {
+                "transactionHash": {
+                    "type": "string"
+                },
+                "chainId": {
+                    "type": "string",
+                    "enum": ["101", "102","103"]
+                },
+                "chainSymbol": {
+                    "type": "string",
+                    "maxLength": 7,
+                    "minLength": 3
+                }
+            },
+            "required": [
+                "transactionHash"
+            ],
+            "additionalProperties": true
+        },
+        "getBlockSui()": {
+            "type": "object",
+            "properties": {
+                "blockNumber": {
+                    "type": "string"
+                },
+                "chainId": {
+                    "type": "string",
+                    "enum": ["101","102","103"]
+                },
+                "chainSymbol": {
+                    "type": "string",
+                    "maxLength": 7,
+                    "minLength": 3
+                }
+            },
+            "required": [
+                "blockNumber"
+            ],
+            "additionalProperties": true
+        },
+        "getPublicRpcSui()": {
+            "type": "object",
+            "properties": {
+                "chainId": {
+                    "type": "string",
+                    "enum": ["101" ,"102","103"]
+                },
+                "chainSymbol": {
+                    "type": "string",
+                    "maxLength": 7,
+                    "minLength": 3
+                }
+            },
+            "required": [],
+            "additionalProperties": true
+        },
+        "getBalanceSui()": {
+            "type": "object",
+            "properties": {
+                "address": {
+                    "type": "string"
+                },
+                "chainId": {
+                    "type": "string",
+                    "enum": ["101" ,"102","103"]
+                },
+                "chainSymbol": {
+                    "type": "string",
+                    "maxLength": 7,
+                    "minLength": 3
+                },
+                "tokenAddress": {
+                    "type": "string"
+                }
+            },
+            "required": [
+                "address"
+            ],
+            "additionalProperties": true
+        },
+        "getGasPriceSui()": {
+            "type": "object",
+            "properties": {
+                "chainId": {
+                    "type": "string",
+                    "enum": ["101" ,"102","103"]  
+                 },
+                "chainSymbol": {
+                    "type": "string",
+                    "maxLength": 7,
+                    "minLength": 3
+                },
+                "from": {
+                    "type": "string"
+                },
+                "to": {
+                    "type": "string"
+                },
+                "data": {
+                    "type": "string"
+                }
+            },
+            "required": [],
+            "additionalProperties": true
+        },
+        "getStorageSui()": {
+            "type": "object",
+            "properties": {
+                "address": {
+                    "type": "string"
+                },
+                "chainId": {
+                    "type": "string",
+                    "enum": ["101" ,"102","103"] 
+                },
+                "chainSymbol": {
+                    "type": "string",
+                    "maxLength": 7,
+                    "minLength": 3
+                }
+            },
+            "required": [
+                "address"
+            ],
+            "additionalProperties": true
+        },
+        "sendTransactionSui()": {
+            "type": "object",
+            "properties": {
+                "chainId": {
+                    "type": "string",
+                    "enum": ["101" ,"102","103"]  
+                },
+                "chainSymbol": {
+                    "type": "string",
+                    "maxLength": 7,
+                    "minLength": 3
+                },
+                "rawTransaction": {
+                    "type": "string"
+                },
+                "signature":{
+                    "type":"string"
+                }
+            },
+            "required": [
+                "rawTransaction",
+                "signature"
+            ],
+            "additionalProperties": true
+        },
+        "getTransactionAptos()": {
+            "type": "object",
+            "properties": {
+                "transactionHash": {
+                    "type": "string"
+                },
+                "chainId": {
+                    "type": "string",
+                    "enum": ["1400" , "1401"]
+                },
+                "chainSymbol": {
+                    "type": "string",
+                    "maxLength": 7,
+                    "minLength": 3
+                }
+            },
+            "required": [
+                "transactionHash"
+            ],
+            "additionalProperties": true
+        },
+        "getBlockAptos()": {
+            "type": "object",
+            "properties": {
+                "blockNumber": {
+                    "type": "string"
+                },
+                "chainId": {
+                    "type": "string",
+                    "enum": ["1400" , "1401"]
+                },
+                "chainSymbol": {
+                    "type": "string",
+                    "maxLength": 7,
+                    "minLength": 3
+                }
+            },
+            "required": [
+                "blockNumber"
+            ],
+            "additionalProperties": true
+        },
+        "getPublicRpcAptos()": {
+            "type": "object",
+            "properties": {
+                "chainId": {
+                    "type": "string",
+                    "enum": ["1400" , "1401"]
+                },
+                "chainSymbol": {
+                    "type": "string",
+                    "maxLength": 7,
+                    "minLength": 3
+                }
+            },
+            "required": [],
+            "additionalProperties": true
+        },
+        "getBalanceAptos()": {
+            "type": "object",
+            "properties": {
+                "address": {
+                    "type": "string"
+                },
+                "chainId": {
+                    "type": "string",
+                    "enum": ["1400" , "1401"]
+                },
+                "chainSymbol": {
+                    "type": "string",
+                    "maxLength": 7,
+                    "minLength": 3
+                },
+                "tokenAddress": {
+                    "type": "string"
+                }
+            },
+            "required": [
+                "address"
+            ],
+            "additionalProperties": true
+        },
+        "getGasPriceAptos()": {
+            "type": "object",
+            "properties": {
+                "chainId": {
+                    "type": "string",
+                    "enum": ["1400" , "1401"]
+                },
+                "chainSymbol": {
+                    "type": "string",
+                    "maxLength": 7,
+                    "minLength": 3
+                },
+                "from": {
+                    "type": "string"
+                },
+                "to": {
+                    "type": "string"
+                },
+                "data": {
+                    "type": "string"
+                }
+            },
+            "required": [],
+            "additionalProperties": true
+        },
+        "sendTransactionAptos()": {
+            "type": "object",
+            "properties": {
+                "chainId": {
+                    "type": "string",
+                    "enum": ["1400" , "1401"]
+                },
+                "chainSymbol": {
+                    "type": "string",
+                    "maxLength": 7,
+                    "minLength": 3
+                },
+                "rawTransaction": {
+                    "type": "string"
+                }
+            },
+            "required": [
+                "rawTransaction"
+            ],
+            "additionalProperties": true
+        }
+    
+    }
+}
