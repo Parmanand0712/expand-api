@@ -1,0 +1,71 @@
+name: Automatic Code Checker & JSON Schema Validation at develop branch
+
+on:
+  pull_request:
+    branches: [ "develop" ]
+
+jobs:
+  setup:
+    runs-on: ubuntu-latest
+    outputs:
+      cache-hit: ${{ steps.cache.outputs.cache-hit }}
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v2
+      
+      - name: Set up Node.js
+        uses: actions/setup-node@v2
+        with:
+          node-version: 16
+      
+      - name: Cache Node.js modules
+        id: cache
+        uses: actions/cache@v2
+        with:
+          path: node_modules
+          key: ${{ runner.os }}-node-${{ hashFiles('package-lock.json') }}
+          restore-keys: |
+            ${{ runner.os }}-node-
+      
+      - name: Install dependencies
+        run: npm install --force
+        if: steps.cache.outputs.cache-hit != 'true'
+  
+  lint-and-validate:
+    needs: setup
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        task: [lint, validate-json]
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v2
+      
+      - name: Set up Node.js
+        uses: actions/setup-node@v2
+        with:
+          node-version: 16
+
+      - name: Cache Node.js modules
+        uses: actions/cache@v2
+        with:
+          path: node_modules
+          key: ${{ needs.setup.outputs.cache-key }}
+          restore-keys: |
+            ${{ runner.os }}-node-
+        
+      - name: Install dependencies
+        run: npm install --force
+        if: needs.setup.outputs.cache-hit != 'true'
+
+      - name: Run ESLint
+        if: matrix.task == 'lint'
+        run: npx eslint .
+
+      - name: Install AJV globally
+        if: matrix.task == 'validate-json'
+        run: npm install -g ajv-cli
+      
+      - name: Validate JSON schema
+        if: matrix.task == 'validate-json'
+        run: ajv validate -s schema.json -d data.json
