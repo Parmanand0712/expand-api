@@ -2,7 +2,8 @@ name: Automatic Code Checker & JSON Schema Validation at develop branch
 
 on:
   pull_request:
-    branches: [ "develop" ]
+    branches: 
+      - develop
 
 jobs:
   lint:
@@ -10,29 +11,26 @@ jobs:
     steps:
       - name: Checkout code
         uses: actions/checkout@v2
-        with:
-          node-version: 16
-      
+
       - name: Set up Node.js
-        uses: actions/setup-node@v2
+        uses: actions/setup-node@v3
         with:
-          node-version: 16
-      
+          node-version: 20
+
       - name: Cache Node.js modules
         uses: actions/cache@v2
         with:
-          node-version: 16
           path: node_modules
           key: ${{ runner.os }}-node-${{ hashFiles('package-lock.json') }}
           restore-keys: |
             ${{ runner.os }}-node-
-      
+
       - name: Install dependencies
         run: npm install --force
-      
+
       - name: Run npm audit and show vulnerabilities
         run: npm audit --audit-level=high || exit 0  # Continue even if npm audit fails
-      
+
       - name: Run ESLint
         run: npx eslint .
 
@@ -41,25 +39,22 @@ jobs:
     steps:
       - name: Checkout code
         uses: actions/checkout@v2
-        with:
-          node-version: 16
-      
+
       - name: Set up Node.js
-        uses: actions/setup-node@v2
+        uses: actions/setup-node@v3
         with:
-          node-version: 16
-      
+          node-version: 20
+
       - name: Cache Node.js modules
         uses: actions/cache@v2
         with:
-          node-version: 16
           path: node_modules
           key: ${{ runner.os }}-node-${{ hashFiles('package-lock.json') }}
           restore-keys: |
             ${{ runner.os }}-node-
-      
+
       - name: Install AJV globally
         run: npm install -g ajv-cli
-      
+
       - name: Validate JSON schema
         run: ajv validate -s schema.json -d data.json
