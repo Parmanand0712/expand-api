@@ -35,7 +35,7 @@
     "@orca-so/whirlpools-sdk": "0.8.2",
     "@project-serum/anchor": "0.26.0",
     "@solana/spl-token": "0.3.7",
-    "@solana/web3.js": "1.78.5",
+    "@solana/web3.js": "1.91.8",
     "@ston-fi/sdk": "0.4.0",
     "@tegro/ton3-client": "0.0.17",
     "@terra-money/terra.js": "3.0.11",
