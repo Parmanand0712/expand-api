@@ -1,5 +1,8 @@
 name: Example workflow for Node using Snyk
-on: push
+on:
+  pull_request:
+    branches:
+      - develop
 
 permissions:
   contents: read
