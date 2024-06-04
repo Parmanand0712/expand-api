@@ -22,7 +22,7 @@
   "homepage": "https://github.com/4cmlab/expand#readme",
   "dependencies": {
     "@aave/contract-helpers": "1.13.3",
-    "@aave/math-utils": "1.13.3",
+    "@aave/math-utils": "1.28.1",
     "@balancer-labs/sdk": "1.1.5",
     "@dydxprotocol/v4-client-js": "^1.0.0",
     "@ethersproject/abi": "5.7.0",
