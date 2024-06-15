@@ -39,7 +39,7 @@
     "@ston-fi/sdk": "0.4.0",
     "@tegro/ton3-client": "0.0.17",
     "@terra-money/terra.js": "3.0.11",
-    "@ton/ton": "^13.9.0",
+    "@ton/ton": "^13.11.1",
     "@uniswap/uniswapx-sdk": "1.4.0",
     "abi-decoder": "2.4.0",
     "ajv": "8.11.0",
